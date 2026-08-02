@@ -1,0 +1,797 @@
+{
+  "politico": [
+    {
+      "doc_id": "CGV_Encadenamientos_Derrames",
+      "tipo": "informe_tecnico",
+      "fecha": "2022-08-17",
+      "fuente": "CGR",
+      "intensidad": 0.65
+    },
+    {
+      "doc_id": "CGV_Encadenamientos_Derrames",
+      "tipo": "audiencias",
+      "fecha": "2022-01-07",
+      "fuente": "Consejo de Gobierno",
+      "intensidad": 0.98
+    },
+    {
+      "doc_id": "CGV_Encadenamientos_Derrames",
+      "tipo": "informe_tecnico",
+      "fecha": "2024-10-22",
+      "fuente": "CGR",
+      "intensidad": 0.88
+    },
+    {
+      "doc_id": "Fortaleciendo-el-Ecosistema-Emprendedor-de-Costa-Rica-",
+      "tipo": "informe_tecnico",
+      "fecha": "2022-09-20",
+      "fuente": "Ministerio de Hacienda",
+      "intensidad": 0.83
+    },
+    {
+      "doc_id": "Fortaleciendo-el-Ecosistema-Emprendedor-de-Costa-Rica-",
+      "tipo": "informe_tecnico",
+      "fecha": "2023-06-27",
+      "fuente": "Ministerio de Hacienda",
+      "intensidad": 0.76
+    },
+    {
+      "doc_id": "Fortaleciendo-el-Ecosistema-Emprendedor-de-Costa-Rica-",
+      "tipo": "informe_tecnico",
+      "fecha": "2023-03-10",
+      "fuente": "MEIC",
+      "intensidad": 0.96
+    },
+    {
+      "doc_id": "Fortaleciendo-el-Ecosistema-Emprendedor-de-Costa-Rica-",
+      "tipo": "informe_tecnico",
+      "fecha": "2025-12-31",
+      "fuente": "Ministerio de Hacienda",
+      "intensidad": 0.66
+    },
+    {
+      "doc_id": "20_Politica-fiscal-en-Costa-Rica-2021",
+      "tipo": "informe_tecnico",
+      "fecha": "2023-07-25",
+      "fuente": "Ministerio de Hacienda",
+      "intensidad": 0.83
+    },
+    {
+      "doc_id": "20_Politica-fiscal-en-Costa-Rica-2021",
+      "tipo": "audiencias",
+      "fecha": "2022-09-28",
+      "fuente": "Comisión Permanente Especial",
+      "intensidad": 0.86
+    },
+    {
+      "doc_id": "20_Politica-fiscal-en-Costa-Rica-2021",
+      "tipo": "informe_tecnico",
+      "fecha": "2024-08-26",
+      "fuente": "MIDEPLAN",
+      "intensidad": 0.62
+    },
+    {
+      "doc_id": "20_Politica-fiscal-en-Costa-Rica-2021",
+      "tipo": "citacion_oficial",
+      "fecha": "2023-01-25",
+      "fuente": "Reforma Legal",
+      "intensidad": 0.55
+    },
+    {
+      "doc_id": "20_Politica-fiscal-en-Costa-Rica-2021",
+      "tipo": "informe_tecnico",
+      "fecha": "2023-12-27",
+      "fuente": "MEIC",
+      "intensidad": 0.71
+    },
+    {
+      "doc_id": "20_Politica-fiscal-en-Costa-Rica-2021",
+      "tipo": "citacion_oficial",
+      "fecha": "2025-10-11",
+      "fuente": "Proyecto de Ley",
+      "intensidad": 0.83
+    },
+    {
+      "doc_id": "Cargas-sobre-el-trabajo-parafiscalidad-y-seguridad-social",
+      "tipo": "citacion_oficial",
+      "fecha": "2022-12-04",
+      "fuente": "Proyecto de Ley",
+      "intensidad": 0.69
+    },
+    {
+      "doc_id": "Cargas-sobre-el-trabajo-parafiscalidad-y-seguridad-social",
+      "tipo": "citacion_oficial",
+      "fecha": "2024-07-20",
+      "fuente": "Voto Constitucional",
+      "intensidad": 0.64
+    },
+    {
+      "doc_id": "Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo",
+      "tipo": "audiencias",
+      "fecha": "2025-05-02",
+      "fuente": "Comisión Permanente Especial",
+      "intensidad": 0.52
+    },
+    {
+      "doc_id": "Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo",
+      "tipo": "audiencias",
+      "fecha": "2025-09-08",
+      "fuente": "Consejo de Gobierno",
+      "intensidad": 0.79
+    },
+    {
+      "doc_id": "Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo",
+      "tipo": "informe_tecnico",
+      "fecha": "2023-06-19",
+      "fuente": "CGR",
+      "intensidad": 0.6
+    },
+    {
+      "doc_id": "Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo",
+      "tipo": "informe_tecnico",
+      "fecha": "2023-05-04",
+      "fuente": "CGR",
+      "intensidad": 0.63
+    },
+    {
+      "doc_id": "Propuestas-para-un-mejor-futuro",
+      "tipo": "citacion_oficial",
+      "fecha": "2025-09-29",
+      "fuente": "Proyecto de Ley",
+      "intensidad": 0.91
+    },
+    {
+      "doc_id": "Propuestas-para-un-mejor-futuro",
+      "tipo": "citacion_oficial",
+      "fecha": "2022-10-03",
+      "fuente": "Proyecto de Ley",
+      "intensidad": 0.63
+    },
+    {
+      "doc_id": "Propuestas-para-un-mejor-futuro",
+      "tipo": "audiencias",
+      "fecha": "2025-02-07",
+      "fuente": "Comisión Permanente Especial",
+      "intensidad": 0.58
+    },
+    {
+      "doc_id": "Propuestas-para-un-mejor-futuro",
+      "tipo": "citacion_oficial",
+      "fecha": "2026-01-09",
+      "fuente": "Decreto Ejecutivo",
+      "intensidad": 0.67
+    },
+    {
+      "doc_id": "Propuestas-para-un-mejor-futuro",
+      "tipo": "informe_tecnico",
+      "fecha": "2024-11-01",
+      "fuente": "CGR",
+      "intensidad": 0.74
+    },
+    {
+      "doc_id": "Propuestas-para-un-mejor-futuro",
+      "tipo": "audiencias",
+      "fecha": "2025-07-23",
+      "fuente": "Asamblea Legislativa",
+      "intensidad": 0.71
+    },
+    {
+      "doc_id": "Hacia políticas públicas a favor de la competencia y la protección del consumidor",
+      "tipo": "informe_tecnico",
+      "fecha": "2025-06-25",
+      "fuente": "MEIC",
+      "intensidad": 0.87
+    },
+    {
+      "doc_id": "Hacia políticas públicas a favor de la competencia y la protección del consumidor",
+      "tipo": "audiencias",
+      "fecha": "2022-12-29",
+      "fuente": "Asamblea Legislativa",
+      "intensidad": 0.94
+    },
+    {
+      "doc_id": "Hacia políticas públicas a favor de la competencia y la protección del consumidor",
+      "tipo": "audiencias",
+      "fecha": "2023-11-12",
+      "fuente": "Asamblea Legislativa",
+      "intensidad": 0.89
+    },
+    {
+      "doc_id": "Hacia políticas públicas a favor de la competencia y la protección del consumidor",
+      "tipo": "citacion_oficial",
+      "fecha": "2023-07-01",
+      "fuente": "Decreto Ejecutivo",
+      "intensidad": 0.58
+    },
+    {
+      "doc_id": "Despues-de-la-pandemia_una-vision-de-largo-plazo-002",
+      "tipo": "citacion_oficial",
+      "fecha": "2025-04-04",
+      "fuente": "Decreto Ejecutivo",
+      "intensidad": 0.98
+    },
+    {
+      "doc_id": "Despues-de-la-pandemia_una-vision-de-largo-plazo-002",
+      "tipo": "citacion_oficial",
+      "fecha": "2022-08-11",
+      "fuente": "Proyecto de Ley",
+      "intensidad": 0.8
+    },
+    {
+      "doc_id": "Despues-de-la-pandemia_una-vision-de-largo-plazo-002",
+      "tipo": "citacion_oficial",
+      "fecha": "2024-06-12",
+      "fuente": "Voto Constitucional",
+      "intensidad": 0.8
+    },
+    {
+      "doc_id": "Despues-de-la-pandemia_una-vision-de-largo-plazo-002",
+      "tipo": "informe_tecnico",
+      "fecha": "2024-02-28",
+      "fuente": "BCCR",
+      "intensidad": 0.95
+    },
+    {
+      "doc_id": "Despues-de-la-pandemia_una-vision-de-largo-plazo-002",
+      "tipo": "audiencias",
+      "fecha": "2022-04-01",
+      "fuente": "Consejo de Gobierno",
+      "intensidad": 0.85
+    },
+    {
+      "doc_id": "Estudio sobre la implementación de la nueva ley del INA",
+      "tipo": "citacion_oficial",
+      "fecha": "2025-10-19",
+      "fuente": "Reforma Legal",
+      "intensidad": 0.87
+    },
+    {
+      "doc_id": "Estudio sobre la implementación de la nueva ley del INA",
+      "tipo": "audiencias",
+      "fecha": "2025-03-11",
+      "fuente": "Comisión Permanente Especial",
+      "intensidad": 0.65
+    },
+    {
+      "doc_id": "Estudio sobre la implementación de la nueva ley del INA",
+      "tipo": "informe_tecnico",
+      "fecha": "2023-09-15",
+      "fuente": "BCCR",
+      "intensidad": 0.64
+    },
+    {
+      "doc_id": "Transitando-a-la-circularidad",
+      "tipo": "audiencias",
+      "fecha": "2024-04-28",
+      "fuente": "Consejo de Gobierno",
+      "intensidad": 0.94
+    },
+    {
+      "doc_id": "Transitando-a-la-circularidad",
+      "tipo": "informe_tecnico",
+      "fecha": "2026-01-11",
+      "fuente": "Ministerio de Hacienda",
+      "intensidad": 0.85
+    },
+    {
+      "doc_id": "Acción Humana Eficaz",
+      "tipo": "citacion_oficial",
+      "fecha": "2023-10-17",
+      "fuente": "Voto Constitucional",
+      "intensidad": 0.95
+    },
+    {
+      "doc_id": "Acción Humana Eficaz",
+      "tipo": "audiencias",
+      "fecha": "2022-11-05",
+      "fuente": "Asamblea Legislativa",
+      "intensidad": 0.62
+    },
+    {
+      "doc_id": "Regulacion-a-las-comisiones-de-tarjetas-de-pago",
+      "tipo": "informe_tecnico",
+      "fecha": "2025-05-20",
+      "fuente": "MIDEPLAN",
+      "intensidad": 0.95
+    },
+    {
+      "doc_id": "Regulacion-a-las-comisiones-de-tarjetas-de-pago",
+      "tipo": "citacion_oficial",
+      "fecha": "2023-07-13",
+      "fuente": "Decreto Ejecutivo",
+      "intensidad": 0.72
+    },
+    {
+      "doc_id": "10 propuestas para mayor bienestar",
+      "tipo": "audiencias",
+      "fecha": "2025-08-09",
+      "fuente": "Asamblea Legislativa",
+      "intensidad": 0.71
+    },
+    {
+      "doc_id": "10 propuestas para mayor bienestar",
+      "tipo": "citacion_oficial",
+      "fecha": "2022-04-13",
+      "fuente": "Decreto Ejecutivo",
+      "intensidad": 0.63
+    },
+    {
+      "doc_id": "10 propuestas para mayor bienestar",
+      "tipo": "citacion_oficial",
+      "fecha": "2024-07-20",
+      "fuente": "Decreto Ejecutivo",
+      "intensidad": 0.66
+    },
+    {
+      "doc_id": "10 propuestas para mayor bienestar",
+      "tipo": "citacion_oficial",
+      "fecha": "2024-05-13",
+      "fuente": "Voto Constitucional",
+      "intensidad": 0.63
+    },
+    {
+      "doc_id": "Integridad_365",
+      "tipo": "informe_tecnico",
+      "fecha": "2024-01-26",
+      "fuente": "CGR",
+      "intensidad": 0.58
+    },
+    {
+      "doc_id": "Integridad_365",
+      "tipo": "informe_tecnico",
+      "fecha": "2022-12-02",
+      "fuente": "BCCR",
+      "intensidad": 0.98
+    },
+    {
+      "doc_id": "Desempleo, pobreza y desigualdad en Costa Rica durante la pandemia por el COVID-19_Informe completo",
+      "tipo": "citacion_oficial",
+      "fecha": "2024-06-06",
+      "fuente": "Proyecto de Ley",
+      "intensidad": 0.98
+    },
+    {
+      "doc_id": "Desempleo, pobreza y desigualdad en Costa Rica durante la pandemia por el COVID-19_Informe completo",
+      "tipo": "informe_tecnico",
+      "fecha": "2025-12-19",
+      "fuente": "MEIC",
+      "intensidad": 0.58
+    },
+    {
+      "doc_id": "Promoción-de-la-competencia-en-beneficio-del-consumidor_avances-y-retos-en-Costa-Rica",
+      "tipo": "audiencias",
+      "fecha": "2024-07-12",
+      "fuente": "Consejo de Gobierno",
+      "intensidad": 0.62
+    },
+    {
+      "doc_id": "El-efecto-de-la-regulacion-sobre-comisiones",
+      "tipo": "audiencias",
+      "fecha": "2023-05-10",
+      "fuente": "Asamblea Legislativa",
+      "intensidad": 0.86
+    },
+    {
+      "doc_id": "Ideas-y-personajes-de-Costa-Rica-durante-el-periodo-de-la-Independencia",
+      "tipo": "audiencias",
+      "fecha": "2024-09-18",
+      "fuente": "Asamblea Legislativa",
+      "intensidad": 0.64
+    },
+    {
+      "doc_id": "en-busca-de-una-productividad-inclusiva",
+      "tipo": "audiencias",
+      "fecha": "2022-11-02",
+      "fuente": "Asamblea Legislativa",
+      "intensidad": 0.91
+    },
+    {
+      "doc_id": "en-busca-de-una-productividad-inclusiva",
+      "tipo": "citacion_oficial",
+      "fecha": "2023-05-24",
+      "fuente": "Proyecto de Ley",
+      "intensidad": 0.56
+    },
+    {
+      "doc_id": "La-reforma-del-sistema-bancario-en-Costa-Rica.-Acontecimientos-en-las-ultimas-dos-decadas",
+      "tipo": "informe_tecnico",
+      "fecha": "2025-12-10",
+      "fuente": "CGR",
+      "intensidad": 0.93
+    },
+    {
+      "doc_id": "La-reforma-del-sistema-bancario-en-Costa-Rica.-Acontecimientos-en-las-ultimas-dos-decadas",
+      "tipo": "audiencias",
+      "fecha": "2023-04-24",
+      "fuente": "Comisión Permanente Especial",
+      "intensidad": 0.96
+    },
+    {
+      "doc_id": "La-reforma-del-sistema-bancario-en-Costa-Rica.-Acontecimientos-en-las-ultimas-dos-decadas",
+      "tipo": "informe_tecnico",
+      "fecha": "2025-09-16",
+      "fuente": "MIDEPLAN",
+      "intensidad": 0.9
+    },
+    {
+      "doc_id": "Ensayos-en-honor-a-Miguel-Angel-Rodriguez-Echeverria_web",
+      "tipo": "informe_tecnico",
+      "fecha": "2023-07-12",
+      "fuente": "MEIC",
+      "intensidad": 0.75
+    },
+    {
+      "doc_id": "Ensayos-en-honor-a-Miguel-Angel-Rodriguez-Echeverria_web",
+      "tipo": "citacion_oficial",
+      "fecha": "2022-06-14",
+      "fuente": "Reforma Legal",
+      "intensidad": 0.8
+    },
+    {
+      "doc_id": "Impactos-economicos-y-sociales-de-la-fijacion-de-topes-maximos-a-las-tasas-de-interes-en-costa-rica-1",
+      "tipo": "informe_tecnico",
+      "fecha": "2023-07-24",
+      "fuente": "MEIC",
+      "intensidad": 0.59
+    },
+    {
+      "doc_id": "Empleo-y-la-desigualdad-salarial-Academia",
+      "tipo": "citacion_oficial",
+      "fecha": "2022-08-26",
+      "fuente": "Voto Constitucional",
+      "intensidad": 0.99
+    },
+    {
+      "doc_id": "Empleo-y-la-desigualdad-salarial-Academia",
+      "tipo": "citacion_oficial",
+      "fecha": "2025-09-08",
+      "fuente": "Proyecto de Ley",
+      "intensidad": 0.93
+    },
+    {
+      "doc_id": "SFC_7",
+      "tipo": "audiencias",
+      "fecha": "2025-02-02",
+      "fuente": "Consejo de Gobierno",
+      "intensidad": 0.57
+    }
+  ],
+  "medios": [
+    {
+      "doc_id": "CGV_Encadenamientos_Derrames",
+      "tipo": "menciones_medios",
+      "fecha": "2025-08-01",
+      "fuente": "Semanario Universidad",
+      "intensidad": 0.75
+    },
+    {
+      "doc_id": "CGV_Encadenamientos_Derrames",
+      "tipo": "menciones_medios",
+      "fecha": "2024-02-05",
+      "fuente": "La República",
+      "intensidad": 0.88
+    },
+    {
+      "doc_id": "CGV_Encadenamientos_Derrames",
+      "tipo": "menciones_medios",
+      "fecha": "2023-10-26",
+      "fuente": "Amelia Rueda",
+      "intensidad": 0.74
+    },
+    {
+      "doc_id": "Fortaleciendo-el-Ecosistema-Emprendedor-de-Costa-Rica-",
+      "tipo": "espacio_opinion",
+      "fecha": "2024-11-25",
+      "fuente": "Podcast",
+      "intensidad": 0.73
+    },
+    {
+      "doc_id": "20_Politica-fiscal-en-Costa-Rica-2021",
+      "tipo": "menciones_medios",
+      "fecha": "2024-04-04",
+      "fuente": "La Nación",
+      "intensidad": 0.86
+    },
+    {
+      "doc_id": "20_Politica-fiscal-en-Costa-Rica-2021",
+      "tipo": "menciones_medios",
+      "fecha": "2023-01-28",
+      "fuente": "La República",
+      "intensidad": 0.6
+    },
+    {
+      "doc_id": "20_Politica-fiscal-en-Costa-Rica-2021",
+      "tipo": "espacio_opinion",
+      "fecha": "2024-05-14",
+      "fuente": "Editorial",
+      "intensidad": 0.59
+    },
+    {
+      "doc_id": "20_Politica-fiscal-en-Costa-Rica-2021",
+      "tipo": "espacio_opinion",
+      "fecha": "2022-06-04",
+      "fuente": "Editorial",
+      "intensidad": 0.72
+    },
+    {
+      "doc_id": "Cargas-sobre-el-trabajo-parafiscalidad-y-seguridad-social",
+      "tipo": "espacio_opinion",
+      "fecha": "2023-01-24",
+      "fuente": "Editorial",
+      "intensidad": 0.65
+    },
+    {
+      "doc_id": "Cargas-sobre-el-trabajo-parafiscalidad-y-seguridad-social",
+      "tipo": "menciones_medios",
+      "fecha": "2025-01-15",
+      "fuente": "Amelia Rueda",
+      "intensidad": 0.53
+    },
+    {
+      "doc_id": "Cargas-sobre-el-trabajo-parafiscalidad-y-seguridad-social",
+      "tipo": "espacio_opinion",
+      "fecha": "2022-04-13",
+      "fuente": "Columna de Opinión",
+      "intensidad": 0.79
+    },
+    {
+      "doc_id": "Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo",
+      "tipo": "menciones_medios",
+      "fecha": "2024-07-25",
+      "fuente": "Semanario Universidad",
+      "intensidad": 0.66
+    },
+    {
+      "doc_id": "Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo",
+      "tipo": "menciones_medios",
+      "fecha": "2024-07-27",
+      "fuente": "La Nación",
+      "intensidad": 0.81
+    },
+    {
+      "doc_id": "Propuestas-para-un-mejor-futuro",
+      "tipo": "espacio_opinion",
+      "fecha": "2022-01-08",
+      "fuente": "Columna de Opinión",
+      "intensidad": 0.67
+    },
+    {
+      "doc_id": "Propuestas-para-un-mejor-futuro",
+      "tipo": "menciones_medios",
+      "fecha": "2022-11-27",
+      "fuente": "Semanario Universidad",
+      "intensidad": 0.87
+    },
+    {
+      "doc_id": "Propuestas-para-un-mejor-futuro",
+      "tipo": "espacio_opinion",
+      "fecha": "2022-01-20",
+      "fuente": "Foro Económico",
+      "intensidad": 0.56
+    },
+    {
+      "doc_id": "Propuestas-para-un-mejor-futuro",
+      "tipo": "menciones_medios",
+      "fecha": "2022-03-15",
+      "fuente": "Amelia Rueda",
+      "intensidad": 0.92
+    },
+    {
+      "doc_id": "Hacia políticas públicas a favor de la competencia y la protección del consumidor",
+      "tipo": "menciones_medios",
+      "fecha": "2022-03-21",
+      "fuente": "CRHoy",
+      "intensidad": 0.93
+    },
+    {
+      "doc_id": "Hacia políticas públicas a favor de la competencia y la protección del consumidor",
+      "tipo": "menciones_medios",
+      "fecha": "2024-07-31",
+      "fuente": "La República",
+      "intensidad": 0.67
+    },
+    {
+      "doc_id": "Hacia políticas públicas a favor de la competencia y la protección del consumidor",
+      "tipo": "menciones_medios",
+      "fecha": "2022-02-18",
+      "fuente": "La República",
+      "intensidad": 0.83
+    },
+    {
+      "doc_id": "Despues-de-la-pandemia_una-vision-de-largo-plazo-002",
+      "tipo": "menciones_medios",
+      "fecha": "2025-01-07",
+      "fuente": "Amelia Rueda",
+      "intensidad": 0.84
+    },
+    {
+      "doc_id": "Despues-de-la-pandemia_una-vision-de-largo-plazo-002",
+      "tipo": "menciones_medios",
+      "fecha": "2024-06-02",
+      "fuente": "Semanario Universidad",
+      "intensidad": 0.53
+    },
+    {
+      "doc_id": "Estudio sobre la implementación de la nueva ley del INA",
+      "tipo": "espacio_opinion",
+      "fecha": "2025-05-27",
+      "fuente": "Foro Económico",
+      "intensidad": 0.83
+    },
+    {
+      "doc_id": "Estudio sobre la implementación de la nueva ley del INA",
+      "tipo": "espacio_opinion",
+      "fecha": "2024-06-24",
+      "fuente": "Podcast",
+      "intensidad": 0.84
+    },
+    {
+      "doc_id": "Estudio sobre la implementación de la nueva ley del INA",
+      "tipo": "espacio_opinion",
+      "fecha": "2025-09-11",
+      "fuente": "Editorial",
+      "intensidad": 0.54
+    },
+    {
+      "doc_id": "Transitando-a-la-circularidad",
+      "tipo": "espacio_opinion",
+      "fecha": "2023-05-15",
+      "fuente": "Podcast",
+      "intensidad": 0.57
+    },
+    {
+      "doc_id": "Transitando-a-la-circularidad",
+      "tipo": "menciones_medios",
+      "fecha": "2024-05-20",
+      "fuente": "La Nación",
+      "intensidad": 0.61
+    },
+    {
+      "doc_id": "Transitando-a-la-circularidad",
+      "tipo": "espacio_opinion",
+      "fecha": "2025-02-15",
+      "fuente": "Columna de Opinión",
+      "intensidad": 0.62
+    },
+    {
+      "doc_id": "Transitando-a-la-circularidad",
+      "tipo": "menciones_medios",
+      "fecha": "2022-10-01",
+      "fuente": "CRHoy",
+      "intensidad": 0.9
+    },
+    {
+      "doc_id": "Acción Humana Eficaz",
+      "tipo": "menciones_medios",
+      "fecha": "2022-05-12",
+      "fuente": "La República",
+      "intensidad": 0.71
+    },
+    {
+      "doc_id": "Acción Humana Eficaz",
+      "tipo": "espacio_opinion",
+      "fecha": "2024-08-12",
+      "fuente": "Foro Económico",
+      "intensidad": 0.71
+    },
+    {
+      "doc_id": "Acción Humana Eficaz",
+      "tipo": "menciones_medios",
+      "fecha": "2024-03-08",
+      "fuente": "CRHoy",
+      "intensidad": 0.95
+    },
+    {
+      "doc_id": "10 propuestas para mayor bienestar",
+      "tipo": "menciones_medios",
+      "fecha": "2022-02-09",
+      "fuente": "CRHoy",
+      "intensidad": 0.87
+    },
+    {
+      "doc_id": "10 propuestas para mayor bienestar",
+      "tipo": "menciones_medios",
+      "fecha": "2023-04-05",
+      "fuente": "Semanario Universidad",
+      "intensidad": 0.83
+    },
+    {
+      "doc_id": "Integridad_365",
+      "tipo": "menciones_medios",
+      "fecha": "2022-02-22",
+      "fuente": "Amelia Rueda",
+      "intensidad": 0.96
+    },
+    {
+      "doc_id": "Integridad_365",
+      "tipo": "espacio_opinion",
+      "fecha": "2026-01-04",
+      "fuente": "Podcast",
+      "intensidad": 0.6
+    },
+    {
+      "doc_id": "Integridad_365",
+      "tipo": "menciones_medios",
+      "fecha": "2025-11-28",
+      "fuente": "La Nación",
+      "intensidad": 0.89
+    },
+    {
+      "doc_id": "Promoción-de-la-competencia-en-beneficio-del-consumidor_avances-y-retos-en-Costa-Rica",
+      "tipo": "espacio_opinion",
+      "fecha": "2025-06-03",
+      "fuente": "Foro Económico",
+      "intensidad": 0.83
+    },
+    {
+      "doc_id": "brechas-capital-humano-profesional",
+      "tipo": "espacio_opinion",
+      "fecha": "2024-12-23",
+      "fuente": "Foro Económico",
+      "intensidad": 0.67
+    },
+    {
+      "doc_id": "Realides embusteras_Un análisis crítico sobre la desinformación",
+      "tipo": "menciones_medios",
+      "fecha": "2023-08-22",
+      "fuente": "Amelia Rueda",
+      "intensidad": 0.85
+    },
+    {
+      "doc_id": "Realides embusteras_Un análisis crítico sobre la desinformación",
+      "tipo": "menciones_medios",
+      "fecha": "2022-07-30",
+      "fuente": "CRHoy",
+      "intensidad": 0.94
+    },
+    {
+      "doc_id": "en-busca-de-una-productividad-inclusiva",
+      "tipo": "espacio_opinion",
+      "fecha": "2025-05-05",
+      "fuente": "Foro Económico",
+      "intensidad": 0.9
+    },
+    {
+      "doc_id": "La-reforma-del-sistema-bancario-en-Costa-Rica.-Acontecimientos-en-las-ultimas-dos-decadas",
+      "tipo": "menciones_medios",
+      "fecha": "2022-08-24",
+      "fuente": "CRHoy",
+      "intensidad": 0.77
+    },
+    {
+      "doc_id": "Ensayos-en-honor-a-Miguel-Angel-Rodriguez-Echeverria_web",
+      "tipo": "espacio_opinion",
+      "fecha": "2025-05-21",
+      "fuente": "Entrevista TV",
+      "intensidad": 0.63
+    },
+    {
+      "doc_id": "Impactos-economicos-y-sociales-de-la-fijacion-de-topes-maximos-a-las-tasas-de-interes-en-costa-rica-1",
+      "tipo": "espacio_opinion",
+      "fecha": "2022-07-06",
+      "fuente": "Podcast",
+      "intensidad": 0.74
+    },
+    {
+      "doc_id": "Empleo-y-la-desigualdad-salarial-Academia",
+      "tipo": "espacio_opinion",
+      "fecha": "2022-04-22",
+      "fuente": "Podcast",
+      "intensidad": 0.59
+    },
+    {
+      "doc_id": "Empleo-y-la-desigualdad-salarial-Academia",
+      "tipo": "espacio_opinion",
+      "fecha": "2024-10-17",
+      "fuente": "Foro Económico",
+      "intensidad": 0.81
+    },
+    {
+      "doc_id": "ESTUDIOKAS_IA",
+      "tipo": "menciones_medios",
+      "fecha": "2024-04-15",
+      "fuente": "Amelia Rueda",
+      "intensidad": 0.55
+    }
+  ]
+}

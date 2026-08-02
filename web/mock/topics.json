@@ -1,0 +1,121 @@
+{
+  "topics": [
+    {
+      "tema": "Emprendimiento",
+      "iii_medio": 0.7198,
+      "iii_pct": 72.0,
+      "n_docs": 1,
+      "doc_ids": [
+        "Fortaleciendo-el-Ecosistema-Emprendedor-de-Costa-Rica-"
+      ]
+    },
+    {
+      "tema": "Salud",
+      "iii_medio": 0.7084,
+      "iii_pct": 70.8,
+      "n_docs": 1,
+      "doc_ids": [
+        "Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo"
+      ]
+    },
+    {
+      "tema": "Educación",
+      "iii_medio": 0.6959,
+      "iii_pct": 69.6,
+      "n_docs": 1,
+      "doc_ids": [
+        "Estudio sobre la implementación de la nueva ley del INA"
+      ]
+    },
+    {
+      "tema": "Ambiente y Energía",
+      "iii_medio": 0.6866,
+      "iii_pct": 68.7,
+      "n_docs": 4,
+      "doc_ids": [
+        "CGV_Encadenamientos_Derrames",
+        "Incentivos-y-obstaculos-para-la-implementacion-del-Hidrogeno-Verde-en-Costa-Rica",
+        "Reciclaje de activos públicos",
+        "Transitando-a-la-circularidad"
+      ]
+    },
+    {
+      "tema": "Desarrollo y Pobreza",
+      "iii_medio": 0.6842,
+      "iii_pct": 68.4,
+      "n_docs": 4,
+      "doc_ids": [
+        "10 propuestas para mayor bienestar",
+        "Despues-de-la-pandemia_una-vision-de-largo-plazo-002",
+        "Ideas-y-personajes-de-Costa-Rica-durante-el-periodo-de-la-Independencia",
+        "Propuestas-para-un-mejor-futuro"
+      ]
+    },
+    {
+      "tema": "Competencia y Consumo",
+      "iii_medio": 0.6766,
+      "iii_pct": 67.7,
+      "n_docs": 4,
+      "doc_ids": [
+        "El-efecto-de-la-regulacion-sobre-comisiones",
+        "Hacia políticas públicas a favor de la competencia y la protección del consumidor",
+        "Promoción-de-la-competencia-en-beneficio-del-consumidor_avances-y-retos-en-Costa-Rica",
+        "Regulacion-a-las-comisiones-de-tarjetas-de-pago"
+      ]
+    },
+    {
+      "tema": "Gobernanza y ética",
+      "iii_medio": 0.6597,
+      "iii_pct": 66.0,
+      "n_docs": 2,
+      "doc_ids": [
+        "Integridad_365",
+        "Realides embusteras_Un análisis crítico sobre la desinformación"
+      ]
+    },
+    {
+      "tema": "Fiscal y Tributario",
+      "iii_medio": 0.6561,
+      "iii_pct": 65.6,
+      "n_docs": 4,
+      "doc_ids": [
+        "20_Politica-fiscal-en-Costa-Rica-2021",
+        "Cargas-sobre-el-trabajo-parafiscalidad-y-seguridad-social",
+        "Impactos-economicos-y-sociales-de-la-fijacion-de-topes-maximos-a-las-tasas-de-interes-en-costa-rica-1",
+        "La-reforma-del-sistema-bancario-en-Costa-Rica.-Acontecimientos-en-las-ultimas-dos-decadas"
+      ]
+    },
+    {
+      "tema": "Empleo y Salarios",
+      "iii_medio": 0.6354,
+      "iii_pct": 63.5,
+      "n_docs": 4,
+      "doc_ids": [
+        "brechas-capital-humano-profesional",
+        "Desempleo, pobreza y desigualdad en Costa Rica durante la pandemia por el COVID-19_Informe completo",
+        "Empleo-y-la-desigualdad-salarial-Academia",
+        "en-busca-de-una-productividad-inclusiva"
+      ]
+    },
+    {
+      "tema": "Otros",
+      "iii_medio": 0.6133,
+      "iii_pct": 61.3,
+      "n_docs": 2,
+      "doc_ids": [
+        "Acción Humana Eficaz",
+        "SFC_7"
+      ]
+    },
+    {
+      "tema": "Tecnología",
+      "iii_medio": 0.5751,
+      "iii_pct": 57.5,
+      "n_docs": 2,
+      "doc_ids": [
+        "Ensayos-en-honor-a-Miguel-Angel-Rodriguez-Echeverria_web",
+        "ESTUDIOKAS_IA"
+      ]
+    }
+  ]
+}
