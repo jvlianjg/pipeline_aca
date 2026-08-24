@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "P",
+   "razon": "Acción regulatoria concreta sobre márgenes bancarios"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo vago sin mecanismo específico de implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional clara de supervisión financiera"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria específica de supervisión consolidada"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Creación de institución concreta de garantía de depósitos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Normativa legal específica para resolución bancaria"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional de independencia del Banco Central"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria sobre influencia fiscal en política monetaria"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo sin especificar mecanismos concretos de acción"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Criterio técnico vago sin sistema cambiario específico"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo sin medidas concretas identificables"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional específica de plazo de designación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional clara de independencia de nombramiento"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional específica de composición de junta"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sobre timing sin mecanismo claro"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo sin medidas concretas de implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional clara de responsabilidad de deuda"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria específica del sistema de bandas cambiarias"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Creación de mercado financiero específico a futuro"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Creación de mercado de dinero overnight específico"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: flexibilizar política cambiaria para mejorar percepción de riesgo"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: indexar deuda pública con inflación interna"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: adoptar medidas para facilitar competencia bancaria nacional-extranjera"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga: define qué tipo de metas pero sin acción concreta"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: avanzar hacia tipos de cambio flexibles con mínima intervención"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: desarrollar coberturas cambiarias para protección económica"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Normativo vago: mejorar transmisión monetaria sin especificar cómo"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo deseable pero sin medidas concretas identificables"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: minimizar intervención del Banco Central en mercado cambiario"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: introducir regulación y supervisión macroprudencial"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga: definir término flexible sin especificar implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: publicar informes, actas y documentos técnicos del Banco Central"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: desvincular nombramiento presidencial del ciclo político"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: eliminar voto del ministro hacienda en junta directiva"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: desarrollar mercado dinero overnight eficiente"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción con medidas específicas: reducir dolarización financiera mediante tres instrumentos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva normativa: definir tipo metas inflación sin acción concreta"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: reducir gradualmente intervención Banco Central en mercado cambiario"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: desarrollar sistema coberturas cambiarias para agentes económicos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: avanzar en regulación y supervisión macroprudencial"
+  }
+ ]
+}

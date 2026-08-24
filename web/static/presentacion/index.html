@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ACA · Del papel a la política pública</title>
+<style>
+  :root {
+    --dark: #22384d; --dark2: #2c4a63; --teal: #3a8b8c; --green: #1e7a5f;
+    --amber: #d4953a; --text: #1a1d23; --muted: #5c6370; --card: #f4f6f5;
+    --line: #e3e7ea; --ice: #c9dae4; --soft-t: #eaf4f4; --soft-g: #e9f4f0; --soft-a: #fbf3e6;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Calibri', 'Segoe UI', sans-serif; background: #0e1722; overflow: hidden; }
+  .deck { position: relative; width: 100vw; height: 100vh; }
+  .slide {
+    position: absolute; inset: 0; display: none; flex-direction: column;
+    padding: 3.2vh 4.5vw; background: #fff; color: var(--text);
+  }
+  .slide.active { display: flex; }
+  .slide.dark { background: radial-gradient(1200px 800px at 85% -10%, var(--dark2), var(--dark)); color: #fff; }
+  .kicker { font-size: .95rem; font-weight: 700; letter-spacing: .25em; color: var(--teal); text-transform: uppercase; margin-bottom: .6rem; }
+  .slide.dark .kicker { color: var(--ice); }
+  h1 { font-family: Cambria, Georgia, serif; font-size: 4.6rem; line-height: 1.08; font-weight: 700; }
+  h2 { font-family: Cambria, Georgia, serif; font-size: 2.5rem; font-weight: 700; margin-bottom: 2.2vh; }
+  .sub { font-size: 1.5rem; color: var(--ice); line-height: 1.5; max-width: 60ch; margin-top: 2.2vh; }
+  .rule { width: 120px; border-top: 3px solid var(--teal); margin: 2.4vh 0; }
+  .row { display: flex; gap: 2.2vw; flex: 1; min-height: 0; align-items: stretch; }
+  .col { flex: 1; display: flex; flex-direction: column; gap: 1.6vh; min-width: 0; }
+  .numdot {
+    flex: none; width: 2.6rem; height: 2.6rem; border-radius: 50%; color: #fff;
+    display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.05rem;
+  }
+  .item { display: flex; gap: 1.1rem; align-items: flex-start; }
+  .item h3 { font-size: 1.25rem; margin-bottom: .35rem; }
+  .item p { font-size: 1.02rem; color: var(--muted); line-height: 1.45; }
+  .card {
+    background: var(--card); border-radius: 14px; padding: 2.4vh 1.6vw;
+    display: flex; flex-direction: column; gap: .8vh;
+  }
+  .card.soft-t { background: var(--soft-t); } .card.soft-g { background: var(--soft-g); } .card.soft-a { background: var(--soft-a); }
+  .big { font-family: Cambria, Georgia, serif; font-size: 4.2rem; font-weight: 700; line-height: 1; }
+  .lbl { font-size: 1rem; color: var(--muted); line-height: 1.4; }
+  .quote-card {
+    background: var(--dark); color: #fff; border-radius: 16px; padding: 4vh 2vw;
+    display: flex; flex-direction: column; justify-content: center; gap: 2vh; box-shadow: 0 14px 34px rgba(26,43,60,.25);
+  }
+  .quote-card .q { font-family: Cambria, Georgia, serif; font-style: italic; font-size: 1.7rem; line-height: 1.45; }
+  .timeline { display: flex; gap: 0; margin: 3vh 0 2vh; }
+  .t-step { flex: 1; position: relative; padding-top: 1.6vh; }
+  .t-step::before { content: ""; position: absolute; top: 0; left: 0; right: 0; border-top: 3px solid var(--line); }
+  .t-step .dot { position: absolute; top: -8px; left: 1.2rem; width: 16px; height: 16px; border-radius: 50%; }
+  .t-step .f { font-weight: 700; font-size: 1.05rem; margin-bottom: .3rem; }
+  .t-step .t { font-size: .95rem; color: var(--muted); line-height: 1.4; padding-right: 1.4rem; }
+  .shot { border: 1.5px solid var(--line); border-radius: 10px; box-shadow: 0 12px 30px rgba(26,43,60,.14); overflow: hidden; background: #fff; display: flex; align-items: center; justify-content: center; }
+  .shot img { width: 100%; height: 100%; object-fit: contain; }
+  .cap { font-size: .88rem; font-style: italic; color: var(--muted); text-align: center; }
+  ul.clean { list-style: none; display: flex; flex-direction: column; gap: 1.4vh; }
+  ul.clean li { font-size: 1.05rem; line-height: 1.45; padding-left: 1.3rem; position: relative; }
+  ul.clean li::before { content: "▸"; position: absolute; left: 0; color: inherit; }
+  .foot { margin-top: auto; color: var(--ice); font-size: .95rem; }
+  .hud { position: fixed; bottom: 14px; right: 18px; z-index: 10; color: #9fb3c8; font-size: .85rem; user-select: none; }
+  .nav-zone { position: fixed; inset: 0; display: flex; z-index: 5; }
+  .nav-zone div { flex: 1; cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="deck" id="deck"></div>
+<div class="nav-zone"><div onclick="go(-1)"></div><div onclick="go(1)"></div></div>
+<div class="hud"><span id="pos">1 / 12</span> · ← → para navegar</div>
+<script>
+const S = [];
+
+/* 1 · Portada */
+S.push({ dark: true, html: `
+  <div style="margin:auto">
+    <div class="kicker">Academia de Centroamérica</div>
+    <h1>Del papel a la<br>política pública</h1>
+    <div class="rule"></div>
+    <div class="sub">Sistema de Inteligencia para medir el impacto de las ideas de ACA<br>en las leyes, decretos y estrategias del país.</div>
+    <div class="foot" style="margin-top:4vh">Presentación a la Junta Directiva · 2026</div>
+  </div>`});
+
+/* 2 · El problema */
+S.push({ html: `
+  <div class="kicker">El problema</div>
+  <h2>Influir no basta: hay que poder demostrarlo</h2>
+  <div class="row">
+    <div class="col" style="flex:1.3">
+      ${[["1","Influencia contada con anécdotas","Cuando ACA aporta a una política, la historia sobrevive en conversaciones — no en evidencia.","var(--teal)"],
+         ["2","Nadie conecta publicación → política","No existe un seguimiento sistemático entre lo que publicamos y lo que el Estado decide después.","var(--green)"],
+         ["3","Sin evidencia, el valor se subestima","Ante juntas, financiadores y socios, el impacto queda en palabras cuando podría estar en datos.","var(--amber)"]]
+        .map(([n,t,d,c])=>`<div class="item"><div class="numdot" style="background:${c}">${n}</div><div><h3>${t}</h3><p>${d}</p></div></div>`).join("")}
+    </div>
+    <div class="col">
+      <div class="quote-card">
+        <div style="font-family:Cambria;font-size:3.4rem;color:var(--teal);line-height:.6">“</div>
+        <div class="q">¿Nuestras recomendaciones aparecen en leyes, decretos y estrategias públicas?</div>
+        <div style="color:var(--ice);font-size:1rem">La pregunta que el sistema responde, publicación por publicación.</div>
+      </div>
+    </div>
+  </div>`});
+
+/* 3 · La idea */
+S.push({ html: `
+  <div class="kicker">La idea</div>
+  <h2>Un termómetro de influencia: el Índice de Impacto de Ideas</h2>
+  <p style="font-size:1.2rem;max-width:75ch;margin-bottom:2vh">Para cada publicación de ACA y cada política pública posterior, medimos <b style="color:var(--teal)">qué tan parecido dicen lo mismo</b>, con una regla de oro: la política tiene que ser <b style="color:var(--teal)">posterior</b> a la publicación.</p>
+  <div class="row">
+    ${[["1","Tema parecido","¿La política trata del mismo asunto que el estudio?","ALINEACIÓN","var(--teal)","soft-t"],
+       ["2","Propuestas coincidentes","¿Dice —con otras palabras— lo que ACA recomendó?","COINCIDENCIA","var(--green)","soft-g"],
+       ["3","Tiempo correcto","¿Se publicó después? Cuanto más cerca, más plausible la influencia.","TEMPORALIDAD","var(--amber)","soft-a"]]
+      .map(([n,t,d,tag,c,soft])=>`<div class="card ${soft}"><div class="numdot" style="background:${c};width:2.9rem;height:2.9rem;font-size:1.2rem">${n}</div>
+        <h3 style="font-size:1.4rem">${t}</h3><p class="lbl">${d}</p><div style="font-size:.8rem;font-weight:700;letter-spacing:.15em;color:${c}">${tag}</div></div>`).join("")}
+  </div>
+  <div style="text-align:center;font-family:Cambria;font-style:italic;font-size:1.4rem;margin-top:2vh">III = ⅓ Alineación + ⅓ Coincidencia + ⅓ Temporalidad</div>`});
+
+/* 4 · Cómo funciona */
+S.push({ html: `
+  <div class="kicker">Cómo funciona</div>
+  <h2>Tres pasos, sin intervención manual</h2>
+  <div class="row">
+    ${[["LEEMOS","24 estudios de ACA procesados: 1,554 páginas convertidas a texto legible por máquina.","var(--teal)"],
+       ["EXTRAEMOS","677 recomendaciones, copiadas palabra por palabra. El 96% se verifica automáticamente contra el PDF original.","var(--green)"],
+       ["COMPARAMOS","Cada recomendación se contrasta con las políticas oficiales publicadas después, y el sistema entrega la evidencia textual.","var(--amber)"]]
+      .map(([t,d,c],i)=>`<div class="card" style="border:1px solid var(--line);background:#fff;box-shadow:0 10px 26px rgba(26,43,60,.10)">
+        <div class="numdot" style="background:${c};width:3rem;height:3rem;font-size:1.25rem">${i+1}</div>
+        <h3 style="font-size:1.3rem;letter-spacing:.08em;color:${c}">${t}</h3><p class="lbl">${d}</p></div>`).join("")}
+  </div>
+  <p class="cap" style="margin-top:2.4vh;font-size:1.05rem">Todo el procesamiento pesado se hace una sola vez; cada política nueva que entra al sistema se compara en minutos.</p>`});
+
+/* 5 · Números */
+S.push({ html: `
+  <div class="kicker">Lo que ya existe</div>
+  <h2>El sistema está construido — y corriendo</h2>
+  <div class="row">
+    ${[["24","estudios del corpus procesados de punta a punta","var(--teal)"],
+       ["677","recomendaciones extraídas y catalogadas","var(--green)"],
+       ["96%","verificadas palabra por palabra contra el PDF original","var(--amber)"],
+       ["1","política real ya vinculada (NDC 2025–2035)","var(--dark)"]]
+      .map(([n,d,c])=>`<div class="card" style="align-items:center;text-align:center;justify-content:center"><div class="big" style="color:${c}">${n}</div><div class="lbl">${d}</div></div>`).join("")}
+  </div>
+  <p style="text-align:center;font-size:1.1rem;margin-top:2.2vh">Además: la plataforma web completa y el primer vínculo publicación→política calculado con evidencia textual.</p>`});
+
+/* 6 · Plataforma */
+S.push({ html: `
+  <div class="kicker">La plataforma</div>
+  <h2>El impacto, explorable en una pantalla</h2>
+  <div class="row" style="align-items:center">
+    <div class="shot"><img src="img/01_dashboard.png" alt="Dashboard"></div>
+  </div>
+  <p class="cap" style="margin-top:1.4vh">Panel ejecutivo con KPIs reales del corpus. Todo dato marcado “real” proviene del pipeline; lo ilustrativo se etiqueta “ejemplo”.</p>`});
+
+/* 7 · Hallazgo */
+S.push({ html: `
+  <div class="kicker">El primer hallazgo real</div>
+  <h2>Hidrógeno verde: del estudio de ACA a la política nacional</h2>
+  <div class="timeline">
+    <div class="t-step"><div class="dot" style="background:var(--green)"></div><div class="f" style="color:var(--green)">abr 2024</div><div class="t">ACA publica su estudio de hidrógeno verde</div></div>
+    <div class="t-step"><div class="dot" style="background:var(--teal)"></div><div class="f" style="color:var(--teal)">nov 2025</div><div class="t">Costa Rica presenta la NDC 2025–2035 ante la ONU</div></div>
+    <div class="t-step"><div class="dot" style="background:var(--amber)"></div><div class="f" style="color:var(--amber)">hoy</div><div class="t">El sistema encuentra, 19 meses después, la coincidencia más alta de las 24 publicaciones</div></div>
+  </div>
+  <div class="row">
+    <div class="card soft-g" style="flex:1">
+      <div class="big" style="color:var(--green)">III 70.4%</div>
+      <div class="lbl" style="font-size:1.1rem">El vínculo más alto del corpus — con la distancia temporal correcta.</div>
+    </div>
+    <div class="card" style="flex:1.2">
+      <ul class="clean" style="color:var(--text);gap:1.1vh">
+        <li><b>Alineación temática:</b> 86/100 en la escala del propio corpus</li>
+        <li><b>Propuestas coincidentes:</b> 79/100 contra las medidas de la NDC</li>
+        <li>Y el Congreso debate la <b style="color:var(--green)">ley de hidrógeno verde</b> que el estudio pidió explícitamente</li>
+      </ul>
+    </div>
+  </div>`});
+
+/* 8 · Evidencia */
+S.push({ html: `
+  <div class="kicker">La evidencia</div>
+  <h2>Cada coincidencia se lee — y se puede verificar</h2>
+  <div class="row">
+    <div style="flex:2.6;display:flex;flex-direction:column;min-width:0">
+      <div class="shot" style="flex:1"><img src="img/03_tarjeta_politica.png" alt="Tarjeta de política real"></div>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="card soft-t" style="flex:1">
+        <div style="font-weight:700;color:var(--teal)">Ejemplo del par #1</div>
+        <div style="font-style:italic;line-height:1.45"><b>ACA:</b> “…hoja de ruta que sugiere enfocarse inicialmente en el transporte…”</div>
+        <div style="font-style:italic;line-height:1.45"><b>NDC:</b> “Política de Incentivo al Transporte Público, que contemple subvenciones…”</div>
+        <div style="font-weight:700;color:var(--teal)">coincidencia semántica 0.63</div>
+      </div>
+      <p class="lbl">Con un clic, el PDF original se abre al lado para revisión humana.</p>
+    </div>
+  </div>`});
+
+/* 9 · Rigor */
+S.push({ html: `
+  <div class="kicker">Rigor</div>
+  <h2>Lo que el sistema se niega a hacer</h2>
+  <div class="row">
+    <div class="col" style="flex:1.2;justify-content:center">
+      ${[["Inventar causalidad","Si la política es anterior a la publicación, el índice es cero — automáticamente.","var(--teal)"],
+         ["Aceptarse la palabra","Toda recomendación se verifica palabra por palabra contra su PDF; la frase que no está, queda marcada.","var(--green)"],
+         ["Maquillar datos","La plataforma etiqueta cada dato como real o de ejemplo. Nada se presenta como medido si no lo fue.","var(--amber)"]]
+        .map(([t,d,c])=>`<div class="item"><div class="numdot" style="background:${c}">✓</div><div><h3>${t}</h3><p>${d}</p></div></div>`).join("")}
+    </div>
+    <div style="flex:1;display:flex;flex-direction:column;min-width:0">
+      <div class="shot" style="flex:1"><img src="img/04_auditoria.png" alt="Auditoría"></div>
+      <p class="cap" style="margin-top:1vh">Pantalla de auditoría: metodología y fórmulas abiertas.</p>
+    </div>
+  </div>`});
+
+/* 10 · Hoja de ruta */
+S.push({ html: `
+  <div class="kicker">Hoja de ruta</div>
+  <h2>De un piloto probado a un sistema de vigilancia continua</h2>
+  <div class="row">
+    ${[["YA ESTÁ","soft-g","var(--green)",["Cápsulas de conocimiento: qué recomendar, a quién, para qué","Verificación literal automática","Primer vínculo real con política (NDC)"]],
+       ["PRÓXIMO","soft-t","var(--teal)",["Ley de hidrógeno verde (exp. 22392) y más políticas","Fuentes sistemáticas: Asamblea, La Gaceta, ministerios","Cápsulas para las 24 publicaciones"]],
+       ["DESPUÉS","soft-a","var(--amber)",["ICI: índice de canales de influencia","Alertas automáticas de nuevas coincidencias","Informe trimestral de impacto para la Junta"]]]
+      .map(([t,bg,c,items])=>`<div class="card ${bg}"><div style="font-weight:700;letter-spacing:.15em;font-size:1rem;color:${c}">${t}</div>
+        <ul class="clean" style="color:var(--text)">${items.map(i=>`<li>${i}</li>`).join("")}</ul></div>`).join("")}
+  </div>`});
+
+/* 11 · Decisiones */
+S.push({ html: `
+  <div class="kicker">Decisiones</div>
+  <h2>Qué necesitamos de esta Junta</h2>
+  <div class="row">
+    <div class="col">
+      ${[["1","Validar las prioridades","Confirmar las políticas e instituciones a vigilar — partimos del plan de 14 instituciones ya definido.","var(--teal)","var(--card)"],
+         ["2","Abrir las puertas oficiales","Cartas o contactos para acceso sistemático a Asamblea Legislativa, La Gaceta y ministerios.","var(--teal)","var(--card)"]]
+        .map(([n,t,d,c,bg])=>`<div class="card" style="background:${bg};flex:1;flex-direction:row;align-items:center;gap:1rem">
+          <div class="numdot" style="background:${c};width:2.9rem;height:2.9rem">${n}</div>
+          <div><h3 style="font-size:1.25rem">${t}</h3><p class="lbl">${d}</p></div></div>`).join("")}
+    </div>
+    <div class="col">
+      ${[["3","Presupuesto operacional","Procesamiento con IA del orden de US$10–15 al mes. El desarrollo pesado ya está pagado.","var(--teal)","var(--card)"],
+         ["4","Mandato para la fase 2","Medición trimestral con informe de impacto a la Junta — la materia prima ya se produce.","var(--green)","var(--soft-g)"]]
+        .map(([n,t,d,c,bg])=>`<div class="card" style="background:${bg};flex:1;flex-direction:row;align-items:center;gap:1rem">
+          <div class="numdot" style="background:${c};width:2.9rem;height:2.9rem">${n}</div>
+          <div><h3 style="font-size:1.25rem">${t}</h3><p class="lbl">${d}</p></div></div>`).join("")}
+    </div>
+  </div>`});
+
+/* 12 · Cierre */
+S.push({ dark: true, html: `
+  <div style="margin:auto">
+    <h1>Las ideas de ACA ya influyen<br>en la política pública.</h1>
+    <div class="rule"></div>
+    <div class="sub">Ahora podemos demostrarlo — propuesta por propuesta, política por política.</div>
+    <div class="foot" style="margin-top:4vh">Sistema de Inteligencia ACA · Demo en vivo disponible · Metodología documentada</div>
+  </div>`});
+
+const deck = document.getElementById("deck"), pos = document.getElementById("pos");
+let i = 0;
+function render() {
+  deck.innerHTML = "";
+  S.forEach((s, j) => {
+    const d = document.createElement("div");
+    d.className = "slide" + (s.dark ? " dark" : "") + (j === i ? " active" : "");
+    d.innerHTML = s.html;
+    deck.appendChild(d);
+  });
+  pos.textContent = `${i + 1} / ${S.length}`;
+}
+function go(d) { i = Math.max(0, Math.min(S.length - 1, i + d)); render(); }
+addEventListener("keydown", (e) => {
+  if (["ArrowRight", " ", "PageDown"].includes(e.key)) go(1);
+  if (["ArrowLeft", "PageUp"].includes(e.key)) go(-1);
+  if (e.key === "Home") { i = 0; render(); }
+  if (e.key === "End") { i = S.length - 1; render(); }
+  if (e.key === "f") document.documentElement.requestFullscreen?.();
+});
+render();
+</script>
+</body>
+</html>

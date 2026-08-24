@@ -1,0 +1,141 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: eliminar barreras, becas, capacitación especializada"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Múltiples acciones: igualdad salarial, licencias, seguridad, flexibilidad"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Programas específicos: mentoría, liderazgo, financiamiento emprendimiento"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acciones concretas: campañas, servicios cuidado, reducir informalidad"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Incentivos fiscales, datos desagregados, mecanismos evaluación"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin mecanismo claro de implementación"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sin especificar qué prestaciones mejorar"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Propuesta vaga sobre sistemas negociación sin detalles"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva general sin acciones concretas identificables"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: invertir en capacitación laboral tecnológica"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo sin mecanismos específicos de implementación"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Recomendación normativa sin acciones concretas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo vago sin acciones específicas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo general sin mecanismos de implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acciones concretas: eliminar barreras, educación básica técnica"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Programas específicos: becas, formación, alianzas productivas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Programas concretos: capacitación liderazgo, negociación, decisiones"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: implementar normativas igualdad salarial"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado incompleto sin detalles de política integral"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforzar normativa seguridad laboral, especialmente informalidad"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: adoptar políticas empresariales de igualdad de género."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: establecer redes de mentoría y coaching profesional."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta clara: expandir financiamiento y eliminar barreras de crédito."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: impulsar participación femenina en sectores masculinizados."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: reducir informalidad laboral femenina con protecciones."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta concreta: ampliar servicios de cuidado infantil accesibles."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: implementar esquemas de trabajo flexible y teletrabajo."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo vago sin acciones concretas identificables."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta clara: establecer incentivos fiscales para equidad de género."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: facilitar acceso a inclusión financiera y microcréditos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: promover alfabetización digital y conectividad rural."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Intención normativa vaga sin mecanismos concretos de implementación."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta clara: fortalecer recopilación de datos desagregados por género."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: establecer mecanismos de evaluación y ajuste continuo."
+  }
+ ]
+}

@@ -44,7 +44,7 @@ def get_embedder() -> Embedder:
     """Factory: devuelve el embedder configurado (local por defecto)."""
     from .. import config
 
-    if config.is_commercial_enabled():
+    if config.LLM_PROVIDER == "openai" and config.is_commercial_enabled():
         try:
             from . import openai_adapter
 
@@ -63,10 +63,36 @@ def get_embedder() -> Embedder:
 
 
 def get_proposal_extractor() -> ProposalExtractor:
-    """Factory: extractor heurístico por defecto; LLM si hay proveedor."""
+    """Factory: extractor LLM si hay proveedor comercial; heurística si no.
+
+    Si el extractor LLM se activa, la heurística queda como fallback por
+    documento ante fallos de API (ver ``src/extraction/proposals.py``).
+    """
     from .. import config
 
-    # El extractor heurístico siempre es la base; el LLM es un refinamiento.
+    if config.is_commercial_enabled():
+        try:
+            if config.LLM_PROVIDER == "gemini":
+                from .gemini_extractor import GeminiProposalExtractor
+
+                return GeminiProposalExtractor(
+                    model=config.PROPOSAL_MODEL, rpm=config.GEMINI_RPM
+                )
+            if config.LLM_PROVIDER == "anthropic":
+                from .anthropic_extractor import AnthropicProposalExtractor
+
+                return AnthropicProposalExtractor(model=config.PROPOSAL_MODEL)
+            from .openai_extractor import OpenAIProposalExtractor
+
+            return OpenAIProposalExtractor(model=config.PROPOSAL_MODEL)
+        except Exception as exc:  # pragma: no cover - fallback defensivo
+            from ..utils import logger
+
+            logger.warning(
+                "No se pudo inicializar el extractor LLM (%s). "
+                "Se usa el extractor heurístico local.", exc
+            )
+
     from . import local
 
     return local.HeuristicProposalExtractor()

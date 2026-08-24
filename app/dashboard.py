@@ -269,9 +269,9 @@ def view_metodologia() -> None:
 III(f,b) = 1/3·Alineación + 1/3·Coincidencia + 1/3·Temporalidad
 ```
 
-- **Alineación temática:** similitud coseno (reescalada a 0–1) entre el documento fuente y el blanco.
-- **Coincidencia de propuestas:** media de los máximos de similitud entre las propuestas de la fuente y las del blanco.
-- **Temporalidad:** decaimiento lineal dentro de una ventana de **36 meses**; 0 fuera de ella.
+- **Alineación temática:** similitud coseno entre el documento fuente y el blanco (embedding promedio de fragmentos de todo el cuerpo), reescalada de forma empírica (min-max dentro del corpus).
+- **Coincidencia de propuestas:** media de los máximos de similitud entre las propuestas de la fuente y las del blanco (mismo reescalado empírico).
+- **Temporalidad:** decaimiento lineal dentro de una ventana de **36 meses**; **asimétrica**: si el blanco es anterior a la fuente, es 0 (influencia imposible).
 
 **Índice de Canales de Influencia (ICI)** — evidencia observable:
 

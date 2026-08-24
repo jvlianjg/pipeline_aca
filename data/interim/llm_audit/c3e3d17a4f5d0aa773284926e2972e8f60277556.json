@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin mecanismo concreto de implementación identificable"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Mandato normativo sin especificar acciones o reformas concretas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enfoque metodológico sin recomendación accionable específica"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Principio normativo sin mecanismo o instrumento concreto propuesto"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Hallazgo empírico o narrativa sobre acciones pasadas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sobre potenciar avances sin acción específica"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Identificar e integrar indicadores y sistemas de datos para decisiones"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Incluir variables en encuestas periódicas como instrumento existente"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Principio normativo sin mecanismo concreto de implementación"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva normativa sin instrumento o reforma específica propuesta"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Adelantarse a regulaciones comerciales mediante etiquetados ecológicos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fortalecer Sistema de Gestión de Riesgos para eventos extremos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reformar plataformas públicas para planificación urbana y movilidad"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Actualizar normas de construcción de vivienda y materiales"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fortalecer responsabilidades municipales en ordenamiento territorial"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Desfase gradual de combustibles fósiles hacia electrificación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Adoptar e invertir en movilidad sostenible e infraestructura"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Eliminar sectores exentos de ley de competencia"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sobre contrapesos sin mecanismo específico"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Promover regulación pro competencia en sectores concentrados"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar esquema regulatorio de precios máximos con reducción gradual"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sobre rol de empresas estatales sin acciones concretas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reformar currículum, capacitar docentes, integrar tecnología y alianzas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Expandir educación técnica, fortalecer INA, crear redes mentorías"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Mejorar cobertura educativa rural y crear programas profesionales cortos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar conectividad banda ancha universal a hogares y negocios"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Entrenar y desplegar fuerza laboral para instalación de banda ancha"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Capacitar instaladores en INA, UTN y colegios técnicos en semanas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Separar constructores-operadores de proveedores servicios internet"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar separación infraestructura-servicios de Ley Telecomunicaciones"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Desplegar red fibra óptica compartida para desagregación bucle local"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Establecer interconexiones locales tipo IXP permanentes"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Emitir política Micitt obligando interconexión local de tráfico"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Adoptar estrategia no discriminatoria para instalación acceso internet"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Opciones alternativas sin decisión clara sobre responsable ejecución"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Subsidiar demanda internet para ciudadanos vulnerables vía Fonatel"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar peaje operador para financiar acceso universal internet"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Priorizar mantenimiento activos existentes y presupuestar operación nuevas obras"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva genérica sobre alianzas público-privadas sin especificidad"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reciclar infraestructura mediante concesiones APP con mejora y mantenimiento"
+  }
+ ]
+}

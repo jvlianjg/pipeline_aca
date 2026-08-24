@@ -1,0 +1,137 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "P",
+   "razon": "Divulgar resultados a instituciones para decisiones sobre formaciones estratégicas."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Flexibilizar creación de formaciones y contenidos en planes de estudio."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Asignar gasto privado educativo basado en información de calidad."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Diseñar estrategias formación vinculando clústeres ocupacionales con industriales."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Monitorear anualmente demanda y oferta de capital humano."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Crear sinergias entre instituciones IED y desarrollo capital humano."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fomentar alianzas entre Zonas Francas y educación superior."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar bachilleratos universitarios duales con trabajo simultáneo."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Promover desarrollo formaciones sin especificar mecanismos concretos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Disponer información consistente periódica sobre brecha capital humano."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Reasignar recursos sin especificar mecanismos o instituciones responsables."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Utilizar enfoque clústeres vinculando formaciones con ocupaciones industriales."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Utilizar ferias reclutamiento para precisar requerimientos capital humano."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Actualizar demanda laboral anualmente por clústeres ocupacionales."
+  },
+  {
+   "veredicto": "N",
+   "razon": "Sugiere líneas investigación futuras, no propuesta accionable."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Ampliar base datos CONARE con todos graduados profesionales."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Desarrollar políticas públicas sin especificar contenido o mecanismos."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Incrementar capital humano sin especificar acciones concretas."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Monitorear anualmente demanda capital humano con información actualizada."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar monitoreo oferta formaciones ampliando metodología HIPATIA."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Establece sistema de monitoreo continuo de brechas profesionales"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago sobre cómo promover sinergias sin mecanismo específico"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Diseñar mecanismo identificación brechas en áreas clave económicas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Crear sinergias institucionales para evaluación anual de brechas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Adoptar política migratoria selectiva para capital humano avanzado"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fortalecer alianzas empresa-educación superior para alineación curricular"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Promover pasantías estudiantiles en empresas alta tecnología"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Obtener retroalimentación egresados sobre pertinencia formativa"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar formación universitaria dual trabajo-estudio"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Aplicar metodología sin especificar acciones concretas implementación"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Aplicar metodología sin detallar proceso ni responsables"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Aplicar metodología sin especificar acciones derivadas análisis"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Aplicar metodología sin indicar implementación ni responsabilidades"
+  }
+ ]
+}

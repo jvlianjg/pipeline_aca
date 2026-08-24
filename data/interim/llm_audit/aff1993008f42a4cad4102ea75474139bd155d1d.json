@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin especificar acciones concretas o responsables"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sin mecanismos específicos de implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acompañar BRETE con políticas productivas específicas identificables"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Pregunta de investigación, no recomendación de acción"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Asignar recursos a institución específica: Coprocom"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Conformar equipo interministerial con objetivo claro definido"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Modificar metodología CNS incorporando medida de productividad"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Solicitud de investigación empírica, no propuesta de política"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva genérica sin especificar políticas concretas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fomentar tecnologías digitales complementarias al trabajador"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Diseñar incentivos y políticas para tecnologías complementarias"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Solicitud de estudio profundo, no propuesta de acción"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Ampliación de análisis investigativo, no recomendación política"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Encargo de investigación sectorial, no propuesta de política"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Solicitud de procesamiento de datos, no propuesta accionable"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Encargo de generación estadística, no propuesta de política"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Solicitud de estadísticas sobre sector informal"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Recomendación de incluir tema en análisis futuro"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Directiva metodológica para investigaciones futuras"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo vago sobre impulsores de productividad"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: no especifica qué mejoras concretas implementar"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Normativo sin mecanismo específico de implementación identificable"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo general sin acciones concretas de política pública"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo vago sin especificar instrumentos o mecanismos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo general sin instrumentos específicos de política"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sin reforma institucional concreta"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: definir e implementar agenda productividad"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Sugerencia de investigación futura, no propuesta de política"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Solicitud de investigación adicional, no recomendación política"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: implementar políticas desarrollo productivo clústeres"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: formular políticas productividad-salarios-empleo"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: análisis sectorial participación laboral"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: desarrollar habilidades y aprendizaje permanente"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: análisis factores tecnología por actividad"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: estudios políticas mercado trabajo competencia"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: recomendaciones transmisión ganancias productividad"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: formular e implementar políticas productividad-salarios"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: enfoque trabajadores salarios medios-bajos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo sin mecanismos específicos de implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: incorporar IPC en fijación salarios mínimos"
+  }
+ ]
+}

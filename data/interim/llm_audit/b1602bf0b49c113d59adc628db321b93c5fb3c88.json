@@ -1,0 +1,77 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "P",
+   "razon": "Crear consejo fiscal independiente con presupuesto y rendición de cuentas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Dotar recursos sin especificar cantidad, tipo o mecanismo de asignación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Asignar funciones específicas de monitoreo a institución existente"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Establecer mecanismos concretos de rendición de cuentas pública"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Alinear mecanismos sin especificar cómo ni qué cambios implementar"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Centralizar monitoreo fiscal en institución única responsable"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reformar comunicación ministerial hacia agregados macroeconómicos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Crear división especializada en análisis macroeconómico independiente"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Unificar gestión de tesorería y deuda pública con estrategia integrada"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Publicar estrategia de deuda para transparencia y credibilidad"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Medidas estructurales genéricas sin acciones concretas identificables"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recalibrar cargas sociales para aumentar empleo formal"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recalibrar cargas sociales para aumentar empleo formal"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar flexibilidad laboral y cobro de cargas por tiempo trabajado"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Enunciado genérico sin especificar qué medidas ni cómo implementarlas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Promover encadenamiento sin mecanismos, incentivos o acciones concretas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reducir y flexibilizar cargas sociales con objetivo de formalidad"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Considerar riesgos sin especificar medidas o acciones a tomar"
+  }
+ ]
+}

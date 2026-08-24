@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin especificar acciones concretas o mecanismos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar estrategia específica de OCDE para empleos calidad"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sin políticas específicas identificadas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: universalizar internet banda ancha nacional"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Políticas focalizadas para turismo y región Chorotega"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Modificar encaje mínimo legal de 97,5% a 90%"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Banco Central participe en mercados liquidez con plazos específicos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Autorizar reducción temporal jornadas laborales en emergencia nacional"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Suspender lecciones como medida preventiva COVID-19"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reanudar curso lectivo mediante educación a distancia"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Habilitar herramientas tecnológicas para acompañamiento académico alternativo"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Restricción temporal ingreso extranjeros no residentes"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Restricción vehicular nocturna para mitigar COVID-19"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Restricción vehicular diurna por último dígito placa"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Meta normativa sin mecanismos específicos de implementación"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva macroeconómica vaga sin instrumentos concretos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sin acciones específicas identificables"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva sobre énfasis sin políticas concretas especificadas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo normativo sin mecanismos de implementación claros"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Intervenciones educativas en años preescolares y transición laboral"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin mecanismos concretos de implementación identificables"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sin especificar qué adaptaciones ni cómo implementarlas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Propuesta vaga sobre herramientas novedosas sin definir acciones concretas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria clara: ampliar cobertura de protección social laboral"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Política accionable: mantener e impulsar programas activos mercado trabajo"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta concreta: formación en línea para acceso facilitado a servicios"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Programa específico: recapacitación de desempleados y trabajadores en riesgo"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Medida fiscal concreta: subsidios focalizados a contratación temporal"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Política accionable: incentivos para start-ups y creación de empleo"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva general sobre grupos vulnerables sin mecanismos específicos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo complejo sin detalles de implementación concreta"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma fiscal específica: ajuste contribuciones patronales genera 2% PIB"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria: seguridad jurídica explícita para trabajadores independientes"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sobre acompañamiento de flexibilidad sin acciones concretas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sobre protección integral sin mecanismos específicos"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Meta-texto sobre enfoque general sin recomendación accionable específica"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Meta-texto sobre coordinación institucional sin propuesta de política concreta"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Proyecto específico: transformación digital MEP automatiza gestión educativa"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta concreta: mejorar internet educativo mediante Red Bicentenario"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Estrategia accionable: programas nacionales tecnologías móviles e informática"
+  }
+ ]
+}

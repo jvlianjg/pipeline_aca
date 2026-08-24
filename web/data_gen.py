@@ -36,7 +36,7 @@ from src.indexing.ici import (  # noqa: E402
     ICIPoliticoRecord,
     compute_ici_all,
 )
-from src.config import PROCESSED_DIR, III, ICI  # noqa: E402
+from src.config import PROCESSED_DIR, INTERIM_DIR, III, ICI  # noqa: E402
 
 MOCK_DIR = Path(__file__).resolve().parent / "mock"
 MOCK_DIR.mkdir(parents=True, exist_ok=True)
@@ -82,7 +82,7 @@ _TOPIC_RULES: list[tuple[str, list[str]]] = [
     ("Educación", ["ina", "brechas"]),
     ("Emprendimiento", ["ecosistema-emprendedor", "accion-humana"]),
     ("Desarrollo y Pobreza", ["pandemia", "bienestar", "propuestas-para-un-mejor", "independencia"]),
-    ("Tecnología", ["ia", "estudiokas"]),
+    ("Tecnología", ["estudiokas"]),
 ]
 
 
@@ -129,7 +129,9 @@ def gen_time_series(real: dict) -> dict:
     ici_med_values = []
     for i in range(6):
         v = base + RNG.uniform(-0.015, 0.02) * (i + 1) / 6
-        iii_values.append(round(max(0.5, min(0.75, v)), 4))
+        # Banda relativa al valor real del corpus (la escala del III es
+        # relativa al corpus tras el reescalado empírico).
+        iii_values.append(round(max(0.0, min(1.0, v)), 4))
         ici_pol_values.append(round(0.55 + i * 0.012 + RNG.uniform(-0.01, 0.01), 4))
         ici_med_values.append(round(0.34 + i * 0.008 + RNG.uniform(-0.01, 0.01), 4))
 
@@ -169,6 +171,9 @@ def gen_policies(real: dict) -> dict:
     puntaje de coincidencia documento→política (tomamos el III medio del doc)."""
     doc_ids = real["doc_ids"]
     iii_medio = {d: float(v) for d, v in zip(doc_ids, real["iii_medio"])}
+    # Umbral de adopción relativo a la distribución real del corpus (tercil
+    # superior ⇒ "Total"); la escala del III es relativa al corpus.
+    umbral_adopcion = float(np.quantile(list(iii_medio.values()), 2 / 3))
 
     # Cada política se vincula a 1-3 docs, eligiendo docs con III medio alto.
     matches = []
@@ -181,8 +186,8 @@ def gen_policies(real: dict) -> dict:
         )
         for doc_id in linked:
             iii_val = iii_medio[doc_id] + RNG.uniform(-0.05, 0.05)
-            iii_val = max(0.5, min(0.85, iii_val))
-            adopcion = "Total" if iii_val > 0.68 else "Parcial"
+            iii_val = max(0.0, min(1.0, iii_val))
+            adopcion = "Total" if iii_val > umbral_adopcion else "Parcial"
             d = used_dates_start + timedelta(days=RNG.randint(0, 900))
             matches.append({
                 "publicacion": doc_id,
@@ -329,6 +334,54 @@ def gen_overview(real: dict, policies: dict, ici: dict, ts: dict) -> dict:
 
 
 # ────────────────────────────────────────────────────────────
+#  6. Catálogos (autores reales de metadatos + instituciones del plan ICI)
+# ────────────────────────────────────────────────────────────
+
+# Instituciones del plan de recolección ICI (metodología §3.4) con su sector.
+_INSTITUCIONES: list[tuple[str, str]] = [
+    ("Asamblea Legislativa", "Legislativo"),
+    ("Ministerio de Hacienda", "Fiscal"),
+    ("Banco Central de Costa Rica (BCCR)", "Monetario"),
+    ("Contraloría General de la República (CGR)", "Control fiscal"),
+    ("Caja Costarricense de Seguro Social (CCSS)", "Salud"),
+    ("Ministerio de Trabajo y Seguridad Social", "Laboral"),
+    ("Ministerio de Ambiente y Energía (MINAE)", "Ambiente"),
+    ("Ministerio de Educación Pública (MEP)", "Educación"),
+    ("Instituto Nacional de Aprendizaje (INA)", "Educación técnica"),
+    ("Ministerio de Vivienda y Asentamientos Humanos", "Vivienda"),
+    ("COPROCOM", "Competencia"),
+    ("SUGEF / CONASSIF", "Financiero"),
+    ("Procuraduría de la Ética Pública", "Ética pública"),
+    ("MICITT", "Ciencia y tecnología"),
+]
+
+
+def gen_catalogos(real: dict) -> dict:
+    """Autores reales (metadatos de los PDFs en data/interim) e instituciones
+    del plan de monitoreo ICI."""
+    autores: dict[str, int] = {}
+    n_docs = 0
+    for p in sorted(INTERIM_DIR.glob("*.json")):
+        d = json.loads(p.read_text(encoding="utf-8"))
+        n_docs += 1
+        a = ((d.get("raw_meta") or {}).get("author") or "").strip()
+        if a:
+            autores[a] = autores.get(a, 0) + 1
+
+    return {
+        "autores": [
+            {"nombre": nombre, "n_docs": n}
+            for nombre, n in sorted(autores.items(), key=lambda kv: (-kv[1], kv[0]))
+        ],
+        "n_docs": n_docs,
+        "n_docs_sin_autor": n_docs - sum(autores.values()),
+        "instituciones": [
+            {"nombre": nombre, "sector": sector} for nombre, sector in _INSTITUCIONES
+        ],
+    }
+
+
+# ────────────────────────────────────────────────────────────
 #  Orquestación
 # ────────────────────────────────────────────────────────────
 
@@ -348,6 +401,7 @@ def main() -> None:
     topics = gen_topics(real)
     policies = gen_policies(real)
     ici = gen_ici(real)
+    catalogos = gen_catalogos(real)
     overview = gen_overview(real, policies, ici, ts)
 
     _save("time_series", ts)
@@ -357,6 +411,7 @@ def main() -> None:
     _save("ici_results", {"results": ici["results"], "summary": ici["summary"],
                           "alpha_politico": ici["alpha_politico"]})
     _save("overview", overview)
+    _save("catalogos", catalogos)
 
     print(f"\nResumen:")
     print(f"  III promedio real:    {overview['iii_promedio_pct']}%")

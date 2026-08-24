@@ -1,0 +1,283 @@
+MUESTRA DE VALIDACIÓN — EXTRACTOR LLM (claude-haiku-4-5)
+========================================================================
+Protocolo: 3 propuestas por documento (23 docs), semilla 42, orden
+aleatorio. Etiqueta cada una:
+  P = propuesta válida (recomendación accionable de política/gestión)
+  B = borde (afirmación normativa débil, intencional pero no accionable)
+  N = ruido (narrativa, hallazgo, cita, meta-texto)
+
+[01] (Despues-de-la-pandemia_una-vision-de-largo-plazo-002)
+     Avanzar en cuanto a la igualdad de género
+     Etiqueta: ____
+
+[02] (Reciclaje de activos públicos)
+     Desarrollar infraestructuras logísticas que permitan una programación y movimiento eficiente de la carga en transporte terrestre
+     Etiqueta: ____
+
+[03] (Hacia políticas públicas a favor de la competencia y la protección del consumidor)
+     Replantear el modelo actual de concesión para sustituirlo por uno en que los activos sean propiedad del Estado, como el modelo de administración interesada.
+     Etiqueta: ____
+
+[04] (Transitando-a-la-circularidad)
+     Establecer la obligación de generadores y gestores en el manejo de la prevención y remediación de la contaminación
+     Etiqueta: ____
+
+[05] (CGV_Encadenamientos_Derrames)
+     Diseñar e implementar una política de desarrollo de clústeres
+     Etiqueta: ____
+
+[06] (Empleo-y-la-desigualdad-salarial-Academia)
+     Reforzar la normativa de seguridad y protección laboral, con especial atención a sectores con alta informalidad y vulnerabilidad, como el trabajo doméstico, garantizando condiciones laborales dignas.
+     Etiqueta: ____
+
+[07] (Incentivos-y-obstaculos-para-la-implementacion-del-Hidrogeno-Verde-en-Costa-Rica)
+     Incluir la industria del hidrógeno verde en programas académicos
+     Etiqueta: ____
+
+[08] (ESTUDIOKAS_IA)
+     Aumentar el acceso a la educación técnica en Costa Rica, especialmente en especialidades vinculadas a tecnologías de información y comunicación.
+     Etiqueta: ____
+
+[09] (Despues-de-la-pandemia_una-vision-de-largo-plazo-002)
+     Mejorar la calidad de la educación pública, aumentar la eficiencia del gasto público dedicado a la educación
+     Etiqueta: ____
+
+[10] (Regulacion-a-las-comisiones-de-tarjetas-de-pago)
+     Si el BCCR busca referenciar sus comisiones de intercambio, debería limitar su análisis a casos donde estas comisiones no están sujetas a controles de precios o restricciones similares.
+     Etiqueta: ____
+
+[11] (brechas-capital-humano-profesional)
+     Promover pasantías de estudiantes en empresas de alta tecnología
+     Etiqueta: ____
+
+[12] (La-reforma-del-sistema-bancario-en-Costa-Rica.-Acontecimientos-en-las-ultimas-dos-decadas)
+     Crear las condiciones necesarias para el funcionamiento eficiente de un mercado de dinero overnight
+     Etiqueta: ____
+
+[13] (20_Politica-fiscal-en-Costa-Rica-2021)
+     Dotar al consejo fiscal de recursos e insumos necesarios para hacer análisis independientes
+     Etiqueta: ____
+
+[14] (ESTUDIOKAS_IA)
+     Adaptar el sistema educativo para enfrentar los desafíos y aprovechar las oportunidades que presenta la inteligencia artificial generativa
+     Etiqueta: ____
+
+[15] (Impactos-economicos-y-sociales-de-la-fijacion-de-topes-maximos-a-las-tasas-de-interes-en-costa-rica-1)
+     El Banco Central de Costa Rica debe publicar las tasas máximas de interés en la primera semana de los meses de enero y julio de cada año, en La Gaceta y en su página web.
+     Etiqueta: ____
+
+[16] (Estudio sobre la implementación de la nueva ley del INA)
+     Ajustar la oferta de trabajadores capacitados por el INA, que corresponde predominantemente al nivel de trabajador calificado a la demanda en el mercado laboral, en la que predomina el nivel de técnico especializado.
+     Etiqueta: ____
+
+[17] (Fortaleciendo-el-Ecosistema-Emprendedor-de-Costa-Rica-)
+     Crear un Consejo Nacional de Competitividad con representantes de gobierno y del sector privado que impulse una visión estratégica integradora de políticas de desarrollo productivo
+     Etiqueta: ____
+
+[18] (Reciclaje de activos públicos)
+     Superar el simple análisis de deuda pública y aprovechar los activos existentes como opción para balancear las finanzas públicas y procurar servicios más eficientes
+     Etiqueta: ____
+
+[19] (La-reforma-del-sistema-bancario-en-Costa-Rica.-Acontecimientos-en-las-ultimas-dos-decadas)
+     Trasladar al Ministerio de Hacienda la atención de la deuda del Banco Central
+     Etiqueta: ____
+
+[20] (Propuestas-para-un-mejor-futuro)
+     Establecer la integración de las diferentes entidades del sector público agropecuario y definir una rectoría del programa de clústeres
+     Etiqueta: ____
+
+[21] (CGV_Encadenamientos_Derrames)
+     Atraer Inversión Extranjera Directa desde Estados Unidos y Europa aprovechando la tendencia de nearshoring para trasladar operaciones a localizaciones más cercanas a los mercados de consumo
+     Etiqueta: ____
+
+[22] (ESTUDIOKAS_IA)
+     Considerar seriamente la implementación de jornadas laborales más cortas como respuesta a la adopción de inteligencia artificial en las empresas y gobiernos
+     Etiqueta: ____
+
+[23] (Empleo-y-la-desigualdad-salarial-Academia)
+     Desarrollar programas de apoyo integral para mujeres en situación de vulnerabilidad, incluyendo acceso a recursos, educación, empleo y servicios de salud.
+     Etiqueta: ____
+
+[24] (Cargas-sobre-el-trabajo-parafiscalidad-y-seguridad-social)
+     Encontrar fuentes alternativas de ingresos para financiar la seguridad social
+     Etiqueta: ____
+
+[25] (Promoción-de-la-competencia-en-beneficio-del-consumidor_avances-y-retos-en-Costa-Rica)
+     Sancionar a quienes promuevan o faciliten la realización de prácticas anticompetitivas, aunque no participen directamente en ellas
+     Etiqueta: ____
+
+[26] (Promoción-de-la-competencia-en-beneficio-del-consumidor_avances-y-retos-en-Costa-Rica)
+     Establecer la obligación de suspender la ejecución del negocio hasta que se obtenga la autorización, prohibiendo el gun jumping
+     Etiqueta: ____
+
+[27] (Regulacion-a-las-comisiones-de-tarjetas-de-pago)
+     En lo posible, permitir que el mercado determine las comisiones de intercambio y de adquirencia
+     Etiqueta: ____
+
+[28] (en-busca-de-una-productividad-inclusiva)
+     Elaborar estadísticas que permitan llevar a cabo estudios sobre los niveles y tasas de crecimiento de la productividad laboral en el sector informal.
+     Etiqueta: ____
+
+[29] (Propuestas-para-un-mejor-futuro)
+     Resolver de forma urgente las dificultades para el registro de moléculas de última generación de agroquímicos
+     Etiqueta: ____
+
+[30] (Estudio sobre la implementación de la nueva ley del INA)
+     Fortalecer el desarrollo de habilidades blandas en todos los programas: integridad, respeto a la diversidad, comunicación asertiva, trabajo en equipo, planeación y organización, rendición de cuentas, creatividad, orientación al cliente, aprendizaje continuo, liderazgo, visión, capacidad de empoderarse y empoderar.
+     Etiqueta: ____
+
+[31] (Transitando-a-la-circularidad)
+     Crear un sistema de gestión ambiental con el objeto de prevenir y minimizar la generación de residuos, incluyendo lineamientos para las compras del Estado
+     Etiqueta: ____
+
+[32] (Cargas-sobre-el-trabajo-parafiscalidad-y-seguridad-social)
+     Buscar fuentes alternativas de financiamiento para la seguridad social, incluyendo reformas en la estructura tributaria si el caso lo amerita
+     Etiqueta: ____
+
+[33] (SFC_7)
+     Fortalecer las capacidades técnicas y operativas de las instituciones para alcanzar una supervisión plenamente basada en riesgos
+     Etiqueta: ____
+
+[34] (Empleo-y-la-desigualdad-salarial-Academia)
+     Promover la inserción de mujeres en sectores estratégicos de alta demanda y mayor remuneración mediante programas de becas, formación profesional y alianzas con el sector productivo.
+     Etiqueta: ____
+
+[35] (Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo)
+     Aumentar la formación de economistas de la salud en Latinoamérica para fortalecer la perspectiva local en la toma de decisiones de los sistemas de salud
+     Etiqueta: ____
+
+[36] (Cargas-sobre-el-trabajo-parafiscalidad-y-seguridad-social)
+     Utilizar impuestos generales como mecanismo para financiar la seguridad social en lugar de impuestos sobre el trabajo
+     Etiqueta: ____
+
+[37] (10 propuestas para mayor bienestar)
+     Promover una regulación que sea más pro competencia
+     Etiqueta: ____
+
+[38] (brechas-capital-humano-profesional)
+     Aplicar la metodología de brechas para análisis de la instalación del clúster de semiconductores
+     Etiqueta: ____
+
+[39] (Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo)
+     Implementar evaluaciones de tecnologías sanitarias (ETS) como herramienta para analizar la eficacia, seguridad, aspectos económicos, éticos y legales de intervenciones, políticas de prevención y nuevas tecnologías en salud
+     Etiqueta: ____
+
+[40] (brechas-capital-humano-profesional)
+     Ampliar la base de datos de CONARE para incorporar a todas las personas graduadas en Costa Rica, no solo en formaciones de Ciencia, Ingeniería y Tecnología, para conocer con mayor precisión la oferta de profesionales disponibles para atender los requerimientos de las empresas del Régimen de Zonas Francas y del resto de empresas en el país
+     Etiqueta: ____
+
+[41] (Reciclaje de activos públicos)
+     Aumentar la inversión en infraestructura para impulsar la actividad económica
+     Etiqueta: ____
+
+[42] (Estudio sobre la implementación de la nueva ley del INA)
+     Superar el estancamiento de la matrícula en cursos del INA a partir del 2009, año en el que se suspendió la posibilidad de que el INA contratara servicios formativos a terceros.
+     Etiqueta: ____
+
+[43] (SFC_7)
+     Alinear el marco institucional de Costa Rica con los estándares internacionales de supervisión basada en riesgos
+     Etiqueta: ____
+
+[44] (La-reforma-del-sistema-bancario-en-Costa-Rica.-Acontecimientos-en-las-ultimas-dos-decadas)
+     Adoptar medidas para eliminar o reducir el riesgo implícito en el elevado grado de dolarización de la economía
+     Etiqueta: ____
+
+[45] (Desempleo, pobreza y desigualdad en Costa Rica durante la pandemia por el COVID-19_Informe completo)
+     Superar los obstáculos a la adquisición de educación y de competencias laborales por parte de personas de entornos desfavorecidos, mediante intervenciones durante los años (pre)escolares y en la transición de la escuela al trabajo
+     Etiqueta: ____
+
+[46] (en-busca-de-una-productividad-inclusiva)
+     Seguir trabajando en los impulsores de la productividad, tales como la mejora de la capacidad de innovación de las empresas y la eficiencia con que los mercados asignan los recursos entre las empresas
+     Etiqueta: ____
+
+[47] (Regulacion-a-las-comisiones-de-tarjetas-de-pago)
+     Permitir la determinación de las comisiones de intercambio y adquirencia por parte del mercado en lugar de establecer controles de precios sobre estas comisiones
+     Etiqueta: ____
+
+[48] (Incentivos-y-obstaculos-para-la-implementacion-del-Hidrogeno-Verde-en-Costa-Rica)
+     Colaboración entre CTP y ARESEP para estrategias en el cambio tecnológico de autobuses
+     Etiqueta: ____
+
+[49] (Hacia políticas públicas a favor de la competencia y la protección del consumidor)
+     Impulsar cambios legales para modernizar la regulación, como los contenidos en el expediente legislativo 22.446, que permitan a la ARESEP utilizar nuevos métodos de regulación, prescindiendo de los principios de servicio al costo y equilibrio financiero de los regulados y enfatizando más bien el concepto de costos económicamente eficientes.
+     Etiqueta: ____
+
+[50] (en-busca-de-una-productividad-inclusiva)
+     Generar estadísticas que permitan incorporar la perspectiva de género al análisis del desacoplamiento productividad-salarios, específicamente las brechas salariales entre hombres y mujeres.
+     Etiqueta: ____
+
+[51] (Desempleo, pobreza y desigualdad en Costa Rica durante la pandemia por el COVID-19_Informe completo)
+     Alcanzar el justo equilibrio entre la flexibilidad y la estabilidad del empleo
+     Etiqueta: ____
+
+[52] (Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo)
+     Modificar los criterios de financiamiento público de la salud para que no se basen únicamente en criterios históricos, sino que incorporen análisis de innovación e integración de nuevos enfoques y tecnologías que demuestren ganancias en resultados de salud, eficiencia y equidad
+     Etiqueta: ____
+
+[53] (10 propuestas para mayor bienestar)
+     Gradualmente adoptar e invertir en la movilidad sostenible y la infraestructura correspondiente
+     Etiqueta: ____
+
+[54] (10 propuestas para mayor bienestar)
+     Continuar con el desfase gradual del uso de los combustibles fósiles en transición hacia la electrificación del transporte e industria
+     Etiqueta: ____
+
+[55] (Fortaleciendo-el-Ecosistema-Emprendedor-de-Costa-Rica-)
+     Diseñar regulaciones para nuevos emprendimientos y MIPYMES que incorporen análisis de impacto o costo-efectividad de políticas y programas
+     Etiqueta: ____
+
+[56] (Incentivos-y-obstaculos-para-la-implementacion-del-Hidrogeno-Verde-en-Costa-Rica)
+     Incorporar al sistema financiero creando vehículos financieros novedosos para hidrógeno verde
+     Etiqueta: ____
+
+[57] (20_Politica-fiscal-en-Costa-Rica-2021)
+     Unificar la gestión de la Tesorería Nacional y la Dirección de Crédito Público para la elaboración de una estrategia de deuda de mediano plazo que tome en cuenta todos los riesgos macrofiscales
+     Etiqueta: ____
+
+[58] (Impactos-economicos-y-sociales-de-la-fijacion-de-topes-maximos-a-las-tasas-de-interes-en-costa-rica-1)
+     Invertir en educación financiera para fortalecer la voz del prestatario y protegerlo contra una posible explotación.
+     Etiqueta: ____
+
+[59] (SFC_7)
+     Evaluar la aplicación uniforme de la normativa regulatoria a todas las entidades financieras, considerando diferenciaciones según el tamaño y naturaleza de los intermediarios
+     Etiqueta: ____
+
+[60] (Transitando-a-la-circularidad)
+     Crear un fondo para la gestión integral de residuos y el cumplimiento de la ley
+     Etiqueta: ____
+
+[61] (Promoción-de-la-competencia-en-beneficio-del-consumidor_avances-y-retos-en-Costa-Rica)
+     Modificar los umbrales para evitar que se deban notificar transacciones de poca importancia
+     Etiqueta: ____
+
+[62] (CGV_Encadenamientos_Derrames)
+     Mejorar la estrategia de atracción de IED y diseñar políticas propicias para la generación de más y mejores encadenamientos productivos
+     Etiqueta: ____
+
+[63] (Propuestas-para-un-mejor-futuro)
+     Proponer iniciativas diplomáticas estratégicas de acuerdo con los ejes de la Política Exterior, en beneficio de la población costarricense.
+     Etiqueta: ____
+
+[64] (Despues-de-la-pandemia_una-vision-de-largo-plazo-002)
+     Completar la educación preescolar y la secundaria
+     Etiqueta: ____
+
+[65] (Fortaleciendo-el-Ecosistema-Emprendedor-de-Costa-Rica-)
+     Alinear las políticas de apoyo a MIPYMES con políticas verticales de desarrollo productivo para fortalecer la productividad
+     Etiqueta: ____
+
+[66] (Hacia políticas públicas a favor de la competencia y la protección del consumidor)
+     Introducir la posibilidad de desregulación de precios en algunos sectores que se aproximen naturalmente a la competencia.
+     Etiqueta: ____
+
+[67] (Impactos-economicos-y-sociales-de-la-fijacion-de-topes-maximos-a-las-tasas-de-interes-en-costa-rica-1)
+     El gobierno puede ayudar a reducir las tasas de interés mediante la promoción de la transparencia y la protección del consumidor financiero.
+     Etiqueta: ____
+
+[68] (20_Politica-fiscal-en-Costa-Rica-2021)
+     Implementar adecuadamente el consejo fiscal independiente dotándolo de presupuesto para su funcionamiento y estableciendo un proceso preciso de rendición de cuentas
+     Etiqueta: ____
+
+[69] (Desempleo, pobreza y desigualdad en Costa Rica durante la pandemia por el COVID-19_Informe completo)
+     Implementar políticas macroeconómicas contracíclicas para estabilizar los resultados económicos y del mercado laboral
+     Etiqueta: ____

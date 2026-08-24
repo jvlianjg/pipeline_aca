@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "P",
+   "razon": "Meta cuantificable de recolección con acción política clara"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Intención normativa sin mecanismos concretos de implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional específica: botaderos por rellenos sanitarios"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: implementar compostaje para desechos orgánicos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Regulación clara sobre tratamiento de residuos peligrosos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional: formalizar reciclaje informal con reconocimiento"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Programa de comunicación y educación ambiental accionable"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional: definir competencias claras por nivel"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin mecanismos específicos de transición"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Propósito general sin acciones concretas identificables"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Meta-texto: describe objetivo del documento, no propuesta"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Crear programa nacional educativo con declaración de interés público"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Incentivos sin especificar mecanismos ni tipos concretos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Regulación comercial y ambiental en importación-exportación"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Participación sin mecanismos institucionales específicos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Crear fondo financiero para gestión integral de residuos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Sistema ambiental con lineamientos para compras estatales"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Responsabilidad extendida del productor con criterios ambientales"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Responsabilidad solidaria regulatoria en residuos peligrosos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Obligación legal de prevención y remediación de contaminación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Define infracciones, sanciones, inspección y delitos específicos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Establece niveles de seguimiento mediante instrumentos de política pública."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Tramitar permisos y crear registro de gestores peligrosos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Define sistema transfronterizo con prohibiciones y exenciones específicas."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Asigna inspección a Aduanas con facultad de repatriación."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Otorga facultad al Ministerio Salud para clasificar residuos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Ministerio Salud emite declaración de suelos contaminados."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Desarrollar PMGIRS municipales con normativa nacional específica."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Crear reglamentos mancomunados para gestión integral residuos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar instrumentos específicos: compostaje, registros, centros acopio."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Promover circularidad vago sin mecanismos concretos identificables."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Seguir cinco pasos genéricos sin especificar acciones concretas."
+  },
+  {
+   "veredicto": "N",
+   "razon": "Revisar instrumentos es tarea de diagnóstico, no propuesta."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Mantener estándares y ampliarlos es directiva vaga."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Ampliar sensibilización sin mecanismos concretos especificados."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Consolidar reglamento y potenciar compostaje sin acciones específicas."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Difusión y capacitación accesible sobre compostaje paso a paso."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Entrega gratuita o financiada de composteras con alianzas."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Incentivos reducción tasas municipales para domicilios compostadores."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Identificar residuos orgánicos con bolsas color específico."
+  }
+ ]
+}

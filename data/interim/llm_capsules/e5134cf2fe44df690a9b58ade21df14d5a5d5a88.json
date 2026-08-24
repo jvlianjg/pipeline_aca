@@ -1,0 +1,327 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "MINAE",
+   "metrica": "transición del transporte público a hidrógeno verde",
+   "keywords": [
+    "hoja de ruta",
+    "transporte público",
+    "fondos no reembolsables"
+   ]
+  },
+  {
+   "actor": "MINAE, MICITT, RECOPE, CTP, ARESEP, INA",
+   "metrica": "proyectos tangibles de hidrógeno verde implementados",
+   "keywords": [
+    "colaboración interinstitucional",
+    "flota de autobuses",
+    "vehículos financieros"
+   ]
+  },
+  {
+   "actor": "MICITT, instituciones académicas, sector privado",
+   "metrica": "diversificación de matriz energética y capacidad de investigación",
+   "keywords": [
+    "energías renovables",
+    "investigación tecnológica",
+    "hidrógeno verde"
+   ]
+  },
+  {
+   "actor": "MICITT, sector privado, instituciones académicas",
+   "metrica": "exportaciones de hidrógeno verde e indicadores de desempeño",
+   "keywords": [
+    "alianzas internacionales",
+    "exportación",
+    "medición de desempeño"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa, MINAE",
+   "metrica": "independencia de combustibles fósiles",
+   "keywords": [
+    "legislación",
+    "acuerdos internacionales",
+    "descarbonización"
+   ]
+  },
+  {
+   "actor": "Poder Ejecutivo, Asamblea Legislativa",
+   "metrica": "proyectos reales implementados y reducción de hidrocarburos",
+   "keywords": [
+    "implementación",
+    "gestión energética",
+    "actualización tecnológica"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "ley de hidrógeno verde aprobada y objetivos cumplidos",
+   "keywords": [
+    "legislación",
+    "integración sectorial",
+    "seguimiento estratégico"
+   ]
+  },
+  {
+   "actor": "MINAE, INA",
+   "metrica": "hoja de ruta implementada y capacitación en nuevos modelos de negocio",
+   "keywords": [
+    "liderazgo",
+    "modelos de negocio",
+    "hidrógeno verde"
+   ]
+  },
+  {
+   "actor": "MICITT, RECOPE, CTP, ARESEP, sistema financiero",
+   "metrica": "tecnologías de almacenamiento investigadas y autobuses modernizados",
+   "keywords": [
+    "almacenamiento",
+    "transporte público",
+    "innovación financiera"
+   ]
+  },
+  {
+   "actor": "CTP, ARESEP",
+   "metrica": "flota de autobuses con tecnología de hidrógeno verde",
+   "keywords": [
+    "transporte público",
+    "cambio tecnológico",
+    "autobuses"
+   ]
+  },
+  {
+   "actor": "sistema financiero, fondos internacionales",
+   "metrica": "modelos financieros para proyectos de hidrógeno verde",
+   "keywords": [
+    "financiamiento",
+    "fondos internacionales",
+    "sistema bancario"
+   ]
+  },
+  {
+   "actor": "Hacienda, sistema financiero",
+   "metrica": "incentivos fiscales otorgados y equipos de hidrógeno adquiridos",
+   "keywords": [
+    "incentivos fiscales",
+    "financiamiento",
+    "equipos"
+   ]
+  },
+  {
+   "actor": "MICITT, INA, Ministerio de Educación",
+   "metrica": "programas académicos creados y cobertura de educación sobre hidrógeno",
+   "keywords": [
+    "educación",
+    "programas académicos",
+    "sensibilización"
+   ]
+  },
+  {
+   "actor": "MINAE",
+   "metrica": "sistema de medición de desempeño establecido y ajustado",
+   "keywords": [
+    "medición",
+    "desempeño",
+    "monitoreo"
+   ]
+  },
+  {
+   "actor": "MINAE, ICE, RECOPE",
+   "metrica": "diversificación de matriz energética con renovables",
+   "keywords": [
+    "energías renovables",
+    "matriz energética",
+    "diversificación"
+   ]
+  },
+  {
+   "actor": "MICITT, instituciones académicas, sector privado, MINAE",
+   "metrica": "investigación en hidrógeno verde y proyectos piloto implementados",
+   "keywords": [
+    "investigación",
+    "proyectos piloto",
+    "equidad de género"
+   ]
+  },
+  {
+   "actor": "MINAE, sector privado",
+   "metrica": "yacimientos de hidrógeno blanco identificados y proyectos piloto en transporte",
+   "keywords": [
+    "hidrógeno blanco",
+    "transporte público",
+    "equidad de género"
+   ]
+  },
+  {
+   "actor": "MINAE, CTP",
+   "metrica": "proyectos piloto en transporte público con enfoque de equidad de género",
+   "keywords": [
+    "proyectos piloto",
+    "transporte",
+    "equidad de género"
+   ]
+  },
+  {
+   "actor": "MINAE, sector agrícola",
+   "metrica": "potencial de biomasa evaluado sin competencia con seguridad alimentaria",
+   "keywords": [
+    "biomasa",
+    "energía renovable",
+    "seguridad alimentaria"
+   ]
+  },
+  {
+   "actor": "MINAE",
+   "metrica": "desempeño del sector hidrógeno controlado y mitigado",
+   "keywords": [
+    "control",
+    "mitigación",
+    "desempeño"
+   ]
+  },
+  {
+   "actor": "Poder Ejecutivo, sector privado, instituciones académicas",
+   "metrica": "participación integrada de sectores público, privado y académico",
+   "keywords": [
+    "participación",
+    "colaboración",
+    "integración sectorial"
+   ]
+  },
+  {
+   "actor": "MINAE, CTP, sector privado",
+   "metrica": "economía del hidrógeno impulsada en sector transporte",
+   "keywords": [
+    "transporte",
+    "economía del hidrógeno",
+    "vector de negocios"
+   ]
+  },
+  {
+   "actor": "MINAE, MIDEPLAN",
+   "metrica": "Plan Nacional de Energía actualizado para fase de inflexión 2023-2030",
+   "keywords": [
+    "plan nacional",
+    "descarbonización",
+    "actualización"
+   ]
+  },
+  {
+   "actor": "INCOFER, MINAE",
+   "metrica": "tren eléctrico de carga operado con tecnología de hidrógeno verde",
+   "keywords": [
+    "ferrocarril",
+    "hidrógeno verde",
+    "transporte"
+   ]
+  },
+  {
+   "actor": "MINAE, Fondo Verde para el Clima",
+   "metrica": "fondos no reembolsables del GCF aplicados a proyectos de hidrógeno",
+   "keywords": [
+    "fondo verde para el clima",
+    "fondos no reembolsables",
+    "implementación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Implementación de proyectos de hidrógeno verde",
+   "keywords": [
+    "fondo verde para el clima",
+    "financiamiento internacional",
+    "hidrógeno verde"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Transformación de la matriz energética",
+   "keywords": [
+    "fondo verde para el clima",
+    "proyectos de hidrógeno verde",
+    "energías renovables"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Marco legal para producción y almacenamiento de hidrógeno verde",
+   "keywords": [
+    "regulaciones",
+    "estándares de seguridad",
+    "marco legal",
+    "hidrógeno verde"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Inversión privada en infraestructura de hidrógeno verde",
+   "keywords": [
+    "inversión privada",
+    "infraestructura",
+    "electrólisis",
+    "mercado"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Apertura de mercado para inversiones en hidrógeno verde",
+   "keywords": [
+    "oportunidades de inversión",
+    "mercado",
+    "hidrógeno verde"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Financiamiento de infraestructura inicial y atracción de inversión",
+   "keywords": [
+    "fondo verde para el clima",
+    "tarifa privilegiada",
+    "infraestructura"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Rentabilidad de proyectos de hidrógeno verde a corto y mediano plazo",
+   "keywords": [
+    "tarifa privilegiada",
+    "planes de inversión",
+    "hidrógeno verde"
+   ]
+  },
+  {
+   "actor": "ICE",
+   "metrica": "Desarrollo de cadena de suministros renovable sin afectar red nacional",
+   "keywords": [
+    "cadena de suministros",
+    "solar",
+    "eólico",
+    "red energética"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "Inversión en investigación, desarrollo e innovación en hidrógeno verde",
+   "keywords": [
+    "investigación",
+    "desarrollo",
+    "innovación",
+    "academia",
+    "empresa privada"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "Adopción de tecnologías de hidrógeno verde en transporte y equipos",
+   "keywords": [
+    "incentivos fiscales",
+    "vehículos",
+    "tecnología",
+    "hidrógeno verde"
+   ]
+  }
+ ]
+}

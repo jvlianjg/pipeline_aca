@@ -1,0 +1,65 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: permitir determinación de comisiones por mercado."
+  },
+  {
+   "veredicto": "N",
+   "razon": "Descripción de característica de mercados bilaterales, no recomendación."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: excluir análisis comparativos con países regulados."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: no imponer controles en tarjetas internacionales."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: realizar revisiones anuales de controles."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: revisar metodología considerando mercado bilateral."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: considerar inversión sin especificar acción concreta del regulador."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: considerar beneficios sin acción regulatoria específica identificable."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: abstenerse de nuevas restricciones hasta análisis."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: limitar análisis a casos sin controles."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: permitir determinación de comisiones por mercado."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: eliminar controles de precio sobre comisiones."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: no imponer controles en tarjetas extranjeras."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: no controlar comisiones transfronterizas de adquirencia."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: analizar efectos antes de nuevas restricciones."
+  }
+ ]
+}

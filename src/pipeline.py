@@ -32,7 +32,7 @@ from src.extraction.pdf_text import extract_document
 from src.extraction.proposals import extract_proposals
 from src.indexing.iii import DocEmbeddings, compute_iii_matrix, mean_iii_per_doc
 from src.llm.base import get_embedder
-from src.utils import logger
+from src.utils import logger, representative_chunks
 
 
 # ────────────────────────────────────────────────────────────
@@ -99,6 +99,27 @@ def stage_proposals(docs: list[dict]) -> pd.DataFrame:
 
 
 # ────────────────────────────────────────────────────────────
+#  Etapa 2c: verificación literal (local, determinista)
+# ────────────────────────────────────────────────────────────
+
+
+def stage_verify(docs: list[dict], proposals: pd.DataFrame) -> pd.DataFrame:
+    """Compuerta de verificación: cada propuesta se alinea contra el texto
+    fuente; las que calzan se corrigen a cita literal y el resto queda
+    marcada ``no_verificada`` (probable síntesis del modelo)."""
+    if proposals.empty:
+        return proposals
+    logger.info("Etapa 2c — Verificación literal de propuestas")
+    from .extraction.verify import verify_proposals
+
+    out = verify_proposals(docs, proposals)
+    lit = int((out["estado"] == "literal").sum())
+    logger.info("  → %d/%d propuestas son texto literal del documento (%.0f%%)",
+                lit, len(out), lit / max(1, len(out)) * 100)
+    return out
+
+
+# ────────────────────────────────────────────────────────────
 #  Etapa 3: embeddings
 # ────────────────────────────────────────────────────────────
 
@@ -107,11 +128,33 @@ def stage_embeddings(docs: list[dict], proposals: pd.DataFrame) -> tuple[np.ndar
     logger.info("Etapa 3 — Embeddings")
     embedder = get_embedder()
 
-    # Embedding de documento: usamos un resumen representativo (primeros 1500 chars)
-    # para estabilizar la comparación entre documentos de muy distinta longitud.
-    doc_texts = [(d["text"] or "")[:1500] for d in docs]
-    emb_doc = embedder.embed(doc_texts) if doc_texts else np.zeros((0, embedder.dim or 384), dtype=np.float32)
-    logger.info("  → embeddings de documento: %s", emb_doc.shape)
+    # Embedding de documento: promedio de fragmentos muestreados a lo largo
+    # del texto completo (el modelo trunca a ~128 tokens, de modo que usar
+    # solo el inicio capturaba portada/índice en vez del contenido sustantivo).
+    chunk_lists = [representative_chunks(d["text"] or "") for d in docs]
+    sizes = [len(cl) for cl in chunk_lists]
+    flat = [c for cl in chunk_lists for c in cl]
+    vecs = (
+        embedder.embed(flat)
+        if flat
+        else np.zeros((0, embedder.dim or 384), dtype=np.float32)
+    )
+    dim = vecs.shape[1] if vecs.size else (embedder.dim or 384)
+    emb_doc = np.zeros((len(docs), dim), dtype=np.float32)
+    ofs = 0
+    for i, k in enumerate(sizes):
+        if k:
+            emb_doc[i] = vecs[ofs : ofs + k].mean(axis=0)
+            ofs += k
+    # Renormaliza el promedio de fragmentos a norma L2 = 1.
+    norms = np.linalg.norm(emb_doc, axis=1, keepdims=True)
+    norms[norms == 0] = 1.0
+    emb_doc = emb_doc / norms
+    logger.info(
+        "  → embeddings de documento: %s (media de %.1f fragmentos por doc)",
+        emb_doc.shape,
+        sum(sizes) / max(1, len(sizes)),
+    )
 
     # Embeddings de propuestas, agrupados por doc_id.
     emb_prop_by_doc: dict[str, np.ndarray] = {}
@@ -203,7 +246,8 @@ def _save_artifacts(
     # Embeddings de propuestas por documento (dict -> npz con claves doc_id).
     np.savez(PROCESSED_DIR / "embeddings_prop.npz", **emb_prop_by_doc)
 
-    # Matriz III con índices de doc_id.
+    # Matriz III con índices de doc_id. Se guardan también las escalas
+    # crudas (min, max) usadas por el reescalado empírico, para auditoría.
     doc_ids = np.array([d["doc_id"] for d in docs])
     np.savez(
         PROCESSED_DIR / "iii_matrix.npz",
@@ -212,6 +256,8 @@ def _save_artifacts(
         alineacion=comps["alineacion"],
         coincidencia=comps["coincidencia"],
         temporalidad=comps["temporalidad"],
+        escala_alineacion=comps["escala_alineacion"],
+        escala_coincidencia=comps["escala_coincidencia"],
         iii_medio=means,
     )
     logger.info("  → artefactos guardados (documents, proposals, embeddings, iii_matrix)")
@@ -229,6 +275,7 @@ def run(force: bool = False) -> None:
         logger.error("No se extrajo ningún documento. Aborta.")
         return
     proposals = stage_proposals(docs)
+    proposals = stage_verify(docs, proposals)
     emb_doc, emb_prop_by_doc = stage_embeddings(docs, proposals)
     matriz, comps, means = stage_iii(docs, emb_doc, emb_prop_by_doc)
     _save_artifacts(docs, proposals, emb_doc, emb_prop_by_doc, matriz, comps, means)

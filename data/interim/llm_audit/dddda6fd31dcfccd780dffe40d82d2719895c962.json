@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "B",
+   "razon": "Normativo vago sin acciones concretas identificables"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva general sin mecanismos o acciones específicas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Marco normativo amplio sin recomendaciones accionables"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Meta económica sin instrumentos de política pública"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Meta de largo plazo sin propuesta de acción"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo normativo sin políticas públicas específicas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado vago sin áreas ni políticas identificadas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma electoral concreta: modificar procedimiento elección diputados"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional específica: revisar número de diputados"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma electoral accionable: considerar reelección diputados"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional: establecer rendición de cuentas obligatoria"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria: revisar financiamiento de partidos políticos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional: transitar a régimen parlamentario"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria: determinar temas iniciativa diputados"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional: revisar nombramiento magistrados Corte Suprema"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Política educativa: completar cobertura preescolar y secundaria"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Política educativa: mejorar calidad y eficiencia gasto"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Política educativa: aumentar cobertura educación dual"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Política social: generalizar Red de Cuido infantil"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo normativo sin políticas públicas específicas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin acciones concretas identificables"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Política social accionable: ingreso mínimo para adultos mayores"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional concreta: fortalecer autoridad de competencia"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo normativo sin mecanismos específicos de implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Programa accionable de reinserción laboral para desplazados"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Recomendación vaga sobre capacitación sin detalles operativos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva sobre financiamiento sin especificar mecanismos concretos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Política accionable: financiar I+D público y privado"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Política accionable: financiar inversión en infraestructura pública"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo vago sin mecanismos específicos de capitalización"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Políticas sociales concretas: ingreso mínimo, cuido, salud"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Meta económica sin recomendación de política pública"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva normativa vaga sobre establecer objetivos"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Pregunta metodológica sobre priorización sin propuesta concreta"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Metodología de análisis comparativo, no propuesta de política"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Metodología de análisis macroeconómico, no propuesta accionable"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Metodología de análisis comparativo, no propuesta de política"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Meta aspiracional sin recomendación de política pública"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva normativa vaga sobre democracia liberal"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Meta económica sin recomendación de política pública"
+  }
+ ]
+}

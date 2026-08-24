@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "B",
+   "razon": "Intención clara pero sin acción concreta identificable"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: fortalecer acceso PYMES a financiamiento formal"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: eliminar flexibilidades e impulsar disciplina prudencial"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: reforzar monitoreo de liquidez y modelos deterioro"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: ampliar Sistema Banca Desarrollo para PYMES"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Normativo vago sin mecanismo concreto de implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: reducir requisitos crédito desarrollo emprendimientos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: implementar estrategias difusión Sistema Banca Desarrollo"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: alinear incentivos entidades financieras productos desarrollo"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo vago sin mecanismo específico de fortalecimiento"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Intención clara pero sin especificación de fuentes o mecanismos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo normativo sin acciones concretas identificables"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: equilibrar bancos e intermediarios con marcos regulatorios"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: reforzar sistemas administración integral riesgos instituciones"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: fortalecer gobiernos corporativos instituciones supervisadas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: fortalecer capacidades supervisión basada en riesgos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: alinear marco institucional con estándares internacionales"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: alinear suficiencia patrimonial con Basilea"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: revisar y ajustar capitalización según Basilea"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: evaluar aplicación normativa diferenciada por tamaño"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Regulación proporcional según capacidad de entidades pequeñas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Revisar velocidad cambios normativos para reducir barreras entrada"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Diseñar mecanismos apoyo transición gobierno corporativo tecnología"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Evaluar aplicación Basilea III impacto costos operativos crédito"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Revisar suficiencia patrimonial sin acción concreta identificable"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fortalecer nombramiento consejos administración criterios técnicos verificables"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Mejorar calidad oportunidad información reportada SUGEF"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Fortalecer capacidades técnicas identificar riesgos sin mecanismo específico"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Esquema robusto independiente transparente nombramientos instituciones financieras"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Consolidar coordinación fluida CONASSIF BCCR Fondo Garantía"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Reforzar comunicación público confianza intervención sin mecanismo"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reducir encajes mínimos legales dado requisitos suficiencia patrimonial"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Trasladar presupuesto nacional financiamiento cargas parafiscales sistema"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Establecer central información crediticia integral sobreendeudamiento"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Abordar causas fallas mercado sin acción concreta"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Diseñar alternativas técnicas educación financiera inclusión crédito"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Incluir fintech Comité Modernización Sistema Pagos SINPE"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acompañar consolidación bancaria inclusión financiera supervisión spreads"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fortalecer controles internos información gobierno corporativo criterios técnicos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Iniciar consolidación preventiva sector financiero reducir costos"
+  }
+ ]
+}

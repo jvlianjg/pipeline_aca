@@ -27,7 +27,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from src.config import PROCESSED_DIR, III, ICI  # noqa: E402
+from src.config import PDF_DIR, PROCESSED_DIR, III, ICI  # noqa: E402
 
 WEB_DIR = Path(__file__).resolve().parent
 STATIC_DIR = WEB_DIR / "static"
@@ -41,6 +41,18 @@ app = Flask(__name__, static_folder=None)
 # ────────────────────────────────────────────────────────────
 
 _cache: dict = {}
+
+#: Artefactos que alimentan la caché de datos reales: si alguno cambia en
+#: disco (p. ej. tras re-ejecutar el pipeline), la caché se invalida sola.
+_REAL_FILES = ("documents.parquet", "proposals.parquet", "iii_matrix.npz")
+
+
+def _real_files_sig() -> tuple:
+    sig = []
+    for name in _REAL_FILES:
+        p = PROCESSED_DIR / name
+        sig.append(p.stat().st_mtime_ns if p.exists() else None)
+    return tuple(sig)
 
 
 def _load_real() -> dict:
@@ -58,11 +70,12 @@ def _load_real() -> dict:
         "coincidencia": npz["coincidencia"],
         "temporalidad": npz["temporalidad"],
         "iii_medio": npz["iii_medio"],
+        "_sig": _real_files_sig(),
     }
 
 
 def _get_real() -> dict:
-    if not _cache:
+    if not _cache or _cache["real"].get("_sig") != _real_files_sig():
         _cache["real"] = _load_real()
     return _cache["real"]
 
@@ -114,16 +127,46 @@ def api_document(doc_id: str):
 
 
 @app.route("/api/proposals/<path:doc_id>")
-def api_proposals(doc_id: str):
-    """Propuestas reales de un documento, ordenadas por idx."""
+def api_proposals(doc_id):
+    """Propuestas reales de un documento, con verificación literal."""
     real = _get_real()
     props = real["props"][real["props"]["doc_id"] == doc_id].sort_values("idx")
+    tiene_verificacion = "estado" in props.columns
+    propuestas = [
+        {
+            "text": str(r["text"]),
+            "estado": str(r.get("estado", "")) if tiene_verificacion else "",
+            "cobertura": float(r.get("cobertura", 0) or 0) if tiene_verificacion else 0.0,
+            "evidencia": str(r.get("evidencia", "") or "") if tiene_verificacion else "",
+        }
+        for _, r in props.iterrows()
+    ]
+    lit = sum(1 for p in propuestas if p["estado"] == "literal")
     return jsonify({
         "doc_id": doc_id,
         "filename": _doc_filename(doc_id),
         "total": int(len(props)),
-        "propuestas": props["text"].tolist(),
+        "literales": lit,
+        "propuestas": propuestas,
     })
+
+
+@app.route("/api/policy-link/<path:doc_id>")
+def api_policy_link(doc_id):
+    """Vínculo real publicación×política (componentes e evidencia textual)."""
+    path = PROCESSED_DIR / "policy_links.json"
+    if not path.exists():
+        return jsonify(None)
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return jsonify(None)
+    link = data.get("links", {}).get(doc_id)
+    if link is not None:
+        meta = data.get("politicas", {}).get(link.get("politica", ""), {})
+        if meta:
+            link = {**meta, **link}
+    return jsonify(link)
 
 
 @app.route("/api/ranking")
@@ -260,6 +303,12 @@ def api_ici_records():
     return jsonify(_load_mock("ici_records"))
 
 
+@app.route("/api/catalogos")
+def api_catalogos():
+    """Catálogos: autores reales (metadatos PDF) e instituciones del plan ICI."""
+    return jsonify(_load_mock("catalogos"))
+
+
 @app.route("/api/config")
 def api_config():
     """Parámetros operativos del sistema (reales)."""
@@ -269,6 +318,7 @@ def api_config():
             "w_coincidencia": III.w_coincidencia,
             "w_temporalidad": III.w_temporalidad,
             "ventana_meses": III.ventana_meses,
+            "temporalidad_asimetrica": III.temporalidad_asimetrica,
         },
         "ici": {
             "alpha_politico": ICI.alpha_politico,
@@ -281,7 +331,7 @@ def api_config():
 
 
 # ────────────────────────────────────────────────────────────
-#  Servir el frontend estático
+#  Servir el frontend estático y los PDFs del corpus
 # ────────────────────────────────────────────────────────────
 
 @app.route("/")
@@ -292,6 +342,12 @@ def index():
 @app.route("/<path:filename>")
 def static_files(filename: str):
     return send_from_directory(STATIC_DIR, filename)
+
+
+@app.route("/pdf/<path:filename>")
+def pdf_file(filename: str):
+    """PDFs originales del corpus, para revisar propuestas lado a lado."""
+    return send_from_directory(PDF_DIR, filename)
 
 
 # ────────────────────────────────────────────────────────────

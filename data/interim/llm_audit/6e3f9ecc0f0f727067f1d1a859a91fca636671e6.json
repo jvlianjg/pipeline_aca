@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "B",
+   "razon": "Explorar es vago, sin acción concreta identificable"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma tributaria clara: sustituir cargas por impuestos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: compensar ingresos públicos en reforma"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación clara de reducción de cargas laborales"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Objetivo específico: reducir costo trabajo, énfasis patronal"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma tributaria clara: migrar a impuestos generales"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Estrategia accionable: traslado gradual de cargas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Evaluación recomendada pero sin dirección de acción"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Mapeo de actores es preparatorio, no propuesta acción"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Consideración metodológica, no recomendación de acción"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforzar gestión por resultados en programas parafiscales"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Análisis recomendado pero sin dirección de acción"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Identificar barreras formalidad e introducir medidas correctivas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma clara: desvincular seguridad social de cargas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: reducir o eliminar impuestos planilla"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Encontrar fuentes es vago, sin mecanismo concreto"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma tributaria clara: impuestos generales para seguridad"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Estrategia integral accionable para traslado de cargas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma clara: desvincular y trasladar a impuestos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Buscar fuentes es vago, reforma tributaria condicional"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: usar impuestos generales para financiar seguridad social"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta concreta: implementar impuestos ambientales como fuente de financiamiento"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin especificar mecanismo, magnitud o implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta accionable: reducir cargas sociales diferenciadas por tipo"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma tributaria concreta: sustituir cargas sociales por IVA"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta accionable: recortes presupuestarios o ampliación tributaria para financiar"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación concreta: implementar monotributos para simplificar impuestos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo vago sin especificar qué fuentes alternativas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta accionable: transferencias solidarias financiadas con ingresos generales"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma concreta: regímenes simplificados con reducción de cargas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva normativa sobre diseño sin especificar cómo evitar efectos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Recomendación vaga: incluir instrumentos sin detallar cuáles"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta específica: exonerar parafiscales para trabajadores bajo umbral"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma tributaria concreta: sobretasa CREE del 9% sobre renta"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta accionable: destinar ingresos CREE a instituciones específicas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva condicional vaga sobre fondos adicionales del gobierno"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma tributaria concreta: aumentar tarifa impuesto renta corporativa"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Meta-recomendación sobre diseño de estrategia sin acción específica"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta accionable: realizar análisis costo-beneficio de programas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta concreta: trasladar cargas parafiscales a impuestos generales"
+  }
+ ]
+}

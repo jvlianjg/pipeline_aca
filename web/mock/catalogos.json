@@ -1,0 +1,72 @@
+{
+  "autores": [
+    {
+      "nombre": "Krista Rodriguez",
+      "n_docs": 1
+    },
+    {
+      "nombre": "alexiach",
+      "n_docs": 1
+    }
+  ],
+  "n_docs": 24,
+  "n_docs_sin_autor": 22,
+  "instituciones": [
+    {
+      "nombre": "Asamblea Legislativa",
+      "sector": "Legislativo"
+    },
+    {
+      "nombre": "Ministerio de Hacienda",
+      "sector": "Fiscal"
+    },
+    {
+      "nombre": "Banco Central de Costa Rica (BCCR)",
+      "sector": "Monetario"
+    },
+    {
+      "nombre": "Contraloría General de la República (CGR)",
+      "sector": "Control fiscal"
+    },
+    {
+      "nombre": "Caja Costarricense de Seguro Social (CCSS)",
+      "sector": "Salud"
+    },
+    {
+      "nombre": "Ministerio de Trabajo y Seguridad Social",
+      "sector": "Laboral"
+    },
+    {
+      "nombre": "Ministerio de Ambiente y Energía (MINAE)",
+      "sector": "Ambiente"
+    },
+    {
+      "nombre": "Ministerio de Educación Pública (MEP)",
+      "sector": "Educación"
+    },
+    {
+      "nombre": "Instituto Nacional de Aprendizaje (INA)",
+      "sector": "Educación técnica"
+    },
+    {
+      "nombre": "Ministerio de Vivienda y Asentamientos Humanos",
+      "sector": "Vivienda"
+    },
+    {
+      "nombre": "COPROCOM",
+      "sector": "Competencia"
+    },
+    {
+      "nombre": "SUGEF / CONASSIF",
+      "sector": "Financiero"
+    },
+    {
+      "nombre": "Procuraduría de la Ética Pública",
+      "sector": "Ética pública"
+    },
+    {
+      "nombre": "MICITT",
+      "sector": "Ciencia y tecnología"
+    }
+  ]
+}

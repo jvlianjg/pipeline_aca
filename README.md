@@ -16,7 +16,8 @@ La definición formal y operativa está en [`docs/metodologia.md`](docs/metodolo
 ## Requisitos
 
 - Python 3.10+
-- Los 30 PDFs en `pdfs_aca/` (ya incluidos en este proyecto)
+- Los 24 PDFs en `pdfs_aca/` (estudios de política; los 6 libros/ensayos
+  excluidos viven en `pdfs_excluidos/`)
 
 ## Instalación
 
@@ -30,13 +31,17 @@ pip install -r requirements.txt
 ## Configuración (opcional)
 
 Copia `.env.example` a `.env`. Por defecto el sistema funciona **100 % en local**.
-Para activar un proveedor comercial de embeddings (OpenAI):
+
+**Extractor de propuestas con LLM (recomendado):** Anthropic Haiku — corrida
+completa ≈$4.13 una sola vez (crédito mínimo de $5), luego caché:
 
 ```
-LLM_PROVIDER=openai
-OPENAI_API_KEY=sk-...
-EMBEDDING_MODEL=text-embedding-3-small
+LLM_PROVIDER=anthropic
+ANTHROPIC_API_KEY=...   # console.anthropic.com, con créditos comprados
 ```
+
+Alternativas: `gemini` + `GEMINI_API_KEY` (≈$1.18 la corrida, crédito mínimo
+$10) o `openai` + `OPENAI_API_KEY` (≈$0.53).
 
 ## Uso
 
@@ -81,7 +86,8 @@ Vistas disponibles:
 
 ```
 .
-├── pdfs_aca/                 # 30 PDFs fuente
+├── pdfs_aca/                 # 24 PDFs fuente (estudios de política)
+├── pdfs_excluidos/           # 6 libros/ensayos fuera del índice (ruido en propuestas)
 ├── docs/metodologia.md       # definición formal de III e ICI
 ├── src/
 │   ├── config.py             # rutas, pesos, ventana temporal (36 m)
@@ -95,10 +101,15 @@ Vistas disponibles:
 
 ## Alcance del prototipo
 
-- ✅ **III** implementado y ejecutado sobre los 30 PDFs (publicación-publicación,
+- ✅ **III** implementado y ejecutado sobre los 24 estudios (publicación-publicación,
   como validación de la maquinaria).
 - ✅ **ICI** especificado y con interfaz de código lista (`src/indexing/ici.py`),
   testeado con datos sintéticos; pendiente de fuentes externas.
 - ✅ IA **híbrida**: local por defecto, comercial enchufable vía `.env`.
+- ✅ **Extractor LLM de propuestas** implementado (`src/llm/anthropic_extractor.py`,
+  `src/llm/gemini_extractor.py`, `src/llm/openai_extractor.py`): con
+  `LLM_PROVIDER=anthropic` + `ANTHROPIC_API_KEY` (o `gemini`/`openai` + su key)
+  extrae con un LLM (prompts compartidos, caché por documento, fallback a
+  heurística); ver `docs/validacion_extraccion.md`.
 - ⏳ III sobre políticas públicas reales (requiere corpus de políticas).
 - ⏳ Calibración empírica de pesos y ventana temporal.

@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "B",
+   "razon": "Vago: qué rediseñar pero no cómo ni acciones concretas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Genérico: fortalecimiento sin especificar mecanismos o acciones"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: reorganización sin detalles de implementación o estructura"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: soluciones sin especificar mecanismos o acciones concretas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: tecnología como medio sin acciones específicas identificables"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Genérico: fortalecimiento sin especificar mecanismos o acciones"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: reorganización sin detalles de implementación o estructura"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: profundizar complementariedad sin mecanismos concretos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: tecnología como mecanismo sin acciones específicas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: maximizar oportunidades sin acciones concretas identificables"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: recopilar, estandarizar e integrar datos en historia clínica"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: reemplazar modelo centrado enfermedad por atención personalizada"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: crear red datos armonizada para referencias"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: desarrollar genoma referencia regional/nacional"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: realizar estudios costo-beneficio de intervenciones"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: modificar criterios financiamiento incorporando innovación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: implementar evaluaciones tecnologías sanitarias"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: crear/fortalecer agencias evaluación tecnologías sanitarias"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: usar análisis costo-beneficio identificar servicios ineficientes"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: aumentar formación economistas salud en Latinoamérica"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fortalecer asociaciones con acciones concretas identificables"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: qué sistema, qué criterios, implementación indefinida"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar etiquetado específico sobre azúcar y grasas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Adoptar etiqueta Green Keyhole como identificador específico"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Aplicar impuestos especiales a productos específicos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Disminuir precios de alimentos saludables mediante subsidios"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Actualizar y publicar cuentas de salud anualmente"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fortalecer capacidad rectora con funciones específicas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Ordenar funciones: vago, sin especificar cómo u orden"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Centralizar información: vago, sin mecanismo específico"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Monitoreo de calidad: vago, sin indicadores específicos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Integración de niveles: vago, sin mecanismo concreto"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Establecer mecanismos de exigencia de recomendaciones"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Priorizar objetivos e indicadores del Plan Nacional"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Realizar análisis: es investigación, no recomendación"
+  },
+  {
+   "veredicto": "N",
+   "razon": "Realizar estudio: es investigación, no recomendación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Establecer sistema de pago regulado por teleconsultas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Normar teleconsulta como acto médico reconocido"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Regular acto médico mediante consentimiento informado"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Diferenciar configuración de teleconsulta por tipo paciente"
+  }
+ ]
+}

@@ -14,7 +14,11 @@ from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
-from ..utils import logger, normalize_text
+from ..utils import logger, normalize_text, garbage_ratio
+
+# Proporción de caracteres raros a partir de la cual se considera que el texto
+# de un motor está corrupto y vale la pena probar el otro.
+_MAX_TEXT_GARBAGE = 0.02
 
 # ────────────────────────────────────────────────────────────
 #  Modelo de datos de un documento extraído
@@ -64,21 +68,45 @@ def _extract_with_pdfplumber(path: Path) -> tuple[str, int]:
 
 
 def extract_text(path: Path) -> tuple[str, int, dict]:
-    """Devuelve (texto, n_paginas, metadatos). Prueba PyMuPDF y luego pdfplumber."""
+    """Devuelve (texto, n_paginas, metadatos).
+
+    Estrategia: PyMuPDF primero; si falla, devuelve texto vacío o contiene una
+    proporción alta de caracteres corruptos (fuentes con ToUnicode dañado),
+    prueba pdfplumber y se queda con la versión más limpia.
+    """
+    meta: dict = {}
+    best: tuple[str, int] = ("", 0)
+    best_garbage = 1.0
+
     try:
         text, n, meta = _extract_with_pymupdf(path)
-        if text.strip():
+        best, best_garbage = (text, n), garbage_ratio(text)
+        if text.strip() and best_garbage <= _MAX_TEXT_GARBAGE:
             return text, n, meta
-        logger.warning("PyMuPDF devolvió texto vacío en %s; probando pdfplumber.", path.name)
+        logger.warning(
+            "PyMuPDF: texto vacío o corrupto (%.1f%% raros) en %s; probando pdfplumber.",
+            100 * best_garbage, path.name,
+        )
     except Exception as exc:  # noqa: BLE001
         logger.warning("PyMuPDF falló en %s (%s); probando pdfplumber.", path.name, exc)
 
     try:
         text, n = _extract_with_pdfplumber(path)
-        return text, n, {}
+        g = garbage_ratio(text)
+        if len(text) > len(best[0]) * 0.5 and g < best_garbage:
+            logger.info(
+                "pdfplumber mejora la extracción de %s (%.1f%% → %.1f%% chars raros).",
+                path.name, 100 * best_garbage, 100 * g,
+            )
+            # Conserva la metadata de PyMuPDF (pdfplumber no la devuelve y la
+            # fecha de publicación depende de ella).
+            return text, n, meta
+        if not best[0].strip():
+            return text, n, {}
     except Exception as exc:  # noqa: BLE001
         logger.error("pdfplumber también falló en %s: %s", path.name, exc)
-        return "", 0, {}
+
+    return best[0], best[1], meta
 
 
 # ────────────────────────────────────────────────────────────

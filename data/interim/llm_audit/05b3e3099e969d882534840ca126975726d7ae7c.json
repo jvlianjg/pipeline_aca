@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "B",
+   "razon": "Reforma vaga sin especificar qué aspectos de la ley modificar"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: establecer topes variables por tipo préstamo y cliente"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: vincular tope a tasa base del banco central"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: regular diferencial entre tasas activas y pasivas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: limitar precio total incluyendo tarifas y costos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: establecer topes diferenciados por subcategorías préstamo"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo vago sin mecanismos específicos de implementación identificables"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sin acciones concretas para garantizar contestabilidad"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Recomendación general sin especificar sectores ni mecanismos de apoyo"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: otorgar licencias a más instituciones financieras"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva general sin acciones específicas de política identificables"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sin mecanismos concretos para abordar costos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: invertir en oficinas crédito y garantías"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: crear fondo desafío sector financiero para innovación"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo vago sin especificar investigación, productos o mecanismos"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sin acciones concretas de promoción identificables"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: invertir en educación financiera para prestatarios"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: obligar transparencia en prácticas crediticias reguladas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: publicar tasas préstamos bancos competidores"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción muy específica: publicar tasas máximas enero y julio"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Supervisión mensual específica de tasas por Sugef, acción concreta."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Denuncia al Ministerio Público por incumplimiento, acción clara."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Aprobación de contratos por Comisión con plazo definido."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Obligación de información sobre tasas y alternativas crediticias."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Duplica propuesta 4, redacción idéntica sin especificidad adicional."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Información sobre características, límites, beneficios y restricciones."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Explicación de mecanismo y fórmula de tasa efectiva."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Identificación de entidad con datos de contacto específicos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Disponibilidad permanente en internet y línea de atención."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Exhibición visible en oficinas de atención al cliente."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Estado de cuenta mensual sin costo, acción específica."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Metodología TITA con límite TAM del Banco Central."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Anualización de costos adicionales en cálculo de TITA."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Sustitución de concepto de Tasa Efectiva por TITA."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Cambio de multiplicador de 1,50 a 1,75 para inclusión."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Equilibrio vago sin mecanismo concreto de implementación."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Educación financiera sin especificación de contenido o responsables."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Central crediticia nacional incluyendo mercado informal."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Integración vaga de elementos sin mecanismo específico."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Fundamentación en modelos económicos sin acción concreta."
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "B",
+   "razon": "Vago: no especifica qué adaptaciones ni cómo implementarlas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: no detalla qué programas ni estructura operativa"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: no especifica qué políticas laborales concretas actualizar"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: incorporar IA en transformación digital gubernamental"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: automatizar procesos predecibles en gestión financiera"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: invertir en capacitación docente e infraestructura"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: ampliar programa formación tecnológica con IA"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: no especifica mecanismos ni contexto de implementación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: aumentar acceso educación técnica en TIC"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: promover matrícula femenina en TIC técnica"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: usar IA para personalizar aprendizaje estudiantil"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: implementar herramientas IA para evaluación docente"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: desplegar redes telecomunicaciones en hogares y escuelas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: no especifica qué administración ni indicadores concretos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: implementar programas upskilling y reskilling laboral"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: no detalla qué políticas de redistribución específicas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: no especifica duración ni mecanismo implementación"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: no detalla reducción específica ni implementación"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: no especifica acciones concretas para posicionamiento"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Accionable: crear ecosistema colaborativo público-privado-académico"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Inversión en infraestructura digital e I+D es acción concreta identificable."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fortalecer ecosistema semiconductores siguiendo hoja de ruta específica es accionable."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Mejorar capacidades educativas es vago sin especificar mecanismos concretos."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Iniciativas para habilidades locales carece de acciones específicas identificables."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Participación inclusiva es normativa sin mecanismos concretos de implementación."
+  }
+ ]
+}

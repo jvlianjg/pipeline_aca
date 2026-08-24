@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "P",
+   "razon": "Articulación explícita con política nacional identificable y accionable."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Transformación institucional concreta de estructura de comités."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Cambio de política de contratación de servicios formativos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Simplificación regulatoria específica de becas y ayudas."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reducción de trámites documentales para acceso a beneficios."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: qué debe contener la política no está especificado."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Implementar prospección sistemática del mercado laboral."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin mecanismo concreto de reorientación."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Normativo vago: cómo adaptarse a Industria 4.0 no especificado."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Enunciado normativo sin acciones concretas identificables."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin mecanismo específico de actualización."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Desarrollar servicios EFTP para continuidad y reinserción laboral."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Políticas específicas EFTP para sectores vulnerables identificables."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo amplio sin mecanismo concreto de cierre de brechas."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Reposicionamiento normativo sin acciones concretas especificadas."
+  },
+  {
+   "veredicto": "N",
+   "razon": "Hallazgo empírico sobre estancamiento de matrícula."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Ajustar oferta de trabajadores a demanda de técnicos especializados."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Objetivo sin mecanismo concreto para revertir tendencia."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Dinamizar y adaptar oferta programática a mercado laboral."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Fortalecer habilidades blandas específicas en todos programas."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma de modelo de gestión con acción concreta identificable."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Proceso de reforma vago sin acciones específicas detalladas."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Cambio estructural claro: desligar Presidencia de gestión administrativa."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma jerárquica concreta: Gerencia General como superior."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: excluir régimen laboral de servicio civil."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria clara: habilitar derecho laboral común."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma de sistema de becas con beneficiarios específicos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción concreta: régimen de contratación administrativo propio."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Atribuciones específicas: fideicomisos y fundaciones."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma de fines institucionales con objetivos claros."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Servicio accionable: bolsa de empleo con usuarios definidos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma salarial concreta: salario único versus componentes."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: contrataciones temporales sin restricciones."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Criterios vagos de razonabilidad sin mecanismo concreto."
+  },
+  {
+   "veredicto": "B",
+   "razon": "Cambio de lógica vago con excepción indefinida."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma de procedimientos: licitación abreviada sin montos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: autorizar creación de fideicomisos."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Simplificación de trámite: unir aval y acreditación."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acciones concretas: publicar lista y elegibilidad automática."
+  },
+  {
+   "veredicto": "P",
+   "razon": "Modelo de homologación alternativo con criterios específicos."
+  }
+ ]
+}

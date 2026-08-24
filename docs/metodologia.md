@@ -1,8 +1,16 @@
 # Metodología — Medición del Impacto de Ideas en Políticas Públicas (ACA)
 
-**Versión:** 1.0 (prototipo)
-**Fecha:** 2026-07-14
+**Versión:** 1.1 (prototipo)
+**Fecha:** 2026-08-16
 **Alcance:** definición formal y operativa de los índices **III** (Índice de Impacto de Ideas) e **ICI** (Índice de Canales de Influencia) y su implementación de referencia.
+
+> **Cambios en v1.1:** (i) reescalado **empírico** de Alineación y Coincidencia
+> (min-max dentro del corpus) en lugar del teórico `(coseno+1)/2`, que comprimía
+> el índice en un rango estrecho sin poder de discriminación; (ii) *embedding*
+> de documento calculado sobre **fragmentos de todo el cuerpo** (antes: primeros
+> 1500 caracteres, dominados por portada e índice); (iii) temporalidad
+> **asimétrica activada** por defecto (un blanco anterior a la fuente recibe
+> temporalidad 0).
 
 ---
 
@@ -39,13 +47,27 @@ con `w₁ + w₂ + w₃ = 1`.
 
 Mide la similitud semántica global entre el documento fuente y el blanco.
 
-- Se calcula la **similitud coseno** entre el *embedding* del texto completo (o un resumen representativo) de `f` y el de `b`.
+- El *embedding* de cada documento es el promedio (renormalizado) de los
+  *embeddings* de **fragmentos de ~600 caracteres muestreados uniformemente a lo
+  largo de todo el texto** (hasta 24 por documento). El modelo de *embeddings*
+  trunca la entrada a ~128 tokens, de modo que procesar el documento entero de
+  una vez solo capturaba portada, créditos e índice.
+- Se calcula la **similitud coseno** entre el *embedding* de `f` y el de `b`.
 - Los *embeddings* provienen de un modelo multilingüe entrenado para lenguas romance (en este prototipo, `paraphrase-multilingual-MiniLM-L12-v2`, ejecutado localmente).
-- Se reescala al rango [0, 1]: `(coseno + 1) / 2`.
+- Se reescala al rango [0, 1] de forma **empírica**: min-max sobre los pares
+  fuera de la diagonal de la matriz del corpus.
 
 ```
-Alineación(f, b) = (cos(emb(f), emb(b)) + 1) / 2
+Alineación(f, b) = (cos(emb(f), emb(b)) − min_corpus) / (max_corpus − min_corpus)
 ```
+
+**Justificación del reescalado empírico:** los cosenos de este modelo viven en
+la práctica en ~[0.1, 0.9], de modo que el reescalado teórico `(cos+1)/2`
+acorralaba el componente en ~[0.55, 0.95] y el III resultante apenas
+discriminaba (media ≈ 0.66 para pares arbitrarios). Con el min-max empírico, el
+valor pasa a ser **relativo al corpus**: 1 = par más alineado del corpus,
+0 = par menos alineado. Las escalas crudas (min, max) usadas se guardan en
+`iii_matrix.npz` para auditoría.
 
 ### 2.3 Coincidencia de propuestas — `Coincidencia(f, b)`
 
@@ -54,33 +76,40 @@ Mide hasta qué punto las **propuestas concretas** de `f` aparecen recogidas en 
 1. Se extrae un conjunto de propuestas `P(f) = {p₁, …, pₙ}` y `P(b) = {q₁, …, qₘ}` de cada documento (heurística local: detección de secciones "Propuestas/Recomendaciones", marcadores "se propone / recomendamos / debería" y listas).
 2. Se calcula la matriz de similitud coseno entre todas las propuestas de `f` y todas las de `b`.
 3. Para cada propuesta `pᵢ` de `f` se toma su **máxima** similitud con las de `b` (la mejor coincidencia).
-4. Se agrega como la **media de esos máximos**, reescalada a [0, 1]:
+4. Se agrega como la **media de esos máximos**, reescalada con el mismo
+   **min-max empírico** de la matriz del corpus que la Alineación.
 
 ```
-Coincidencia(f, b) = meanᵢ [ maxⱼ (cos(emb(pᵢ), emb(qⱼ)) + 1)/2 ]
+Coincidencia(f, b) = rescale_empírico( meanᵢ maxⱼ cos(emb(pᵢ), emb(qⱼ)) )
 ```
 
 ### 2.4 Temporalidad — `Temporalidad(f, b)`
 
 Refleja que la influencia plausible requiere una secuencia temporal coherente: la propuesta debe ser **anterior** (o contemporánea) al blanco, y dentro de una ventana plausible.
 
-- Sea `t_f` y `t_b` las fechas de publicación de `f` y `b`, y `Δ` la diferencia en meses calendario (`Δ = months_between(t_f, t_b)`).
+- Sea `t_f` y `t_b` las fechas de publicación de `f` y `b`, y `Δ` la diferencia en meses calendario (`Δ = months_between(t_f, t_b)`; `Δ > 0` significa que el blanco es posterior).
 - `W = 36 meses` es la **ventana temporal** acordada para esta fase.
-- Fuera del intervalo `[-W, +W]`, `Temporalidad = 0`.
+- **Asimetría (activada por defecto desde v1.1):** si `t_b < t_f` (el blanco es
+  anterior a la fuente), `Temporalidad = 0`: la influencia hacia el pasado es
+  causalmente imposible.
 
 ```
-                 ⎧ 1 − |Δ|/W          si  |Δ| ≤ W  (y se prefiere t_f ≤ t_b)
-Temporalidad =  ⎨
-                 ⎩ 0                   si  |Δ| > W
+                 ⎧ 0                        si  t_b < t_f   (asimetría)
+Temporalidad =   ⎨ 1 − Δ/W                  si  0 ≤ Δ ≤ W
+                 ⎩ 0                        si  Δ > W
 ```
 
-**Asimetría opcional (no activada por defecto):** puede penalizarse el caso `t_f > t_b` (la fuente es posterior al blanco, causalmente imposible) con un factor `ρ ≤ 1`. En el prototipo se usa decaimiento simétrico para no descartar pares cercanos cuya fecha exacta sea incierta.
+> **Nota sobre la fecha incierta:** dado que buena parte de las fechas proviene
+> de metadatos de digitalización, la asimetría se aplica de forma **ponderada**
+> (la temporalidad aporta ⅓ del III) y no como puerta dura que anule todo el
+> índice; así, un error de fecha de unos meses degrada el par sin destruirlo.
+> El parámetro es configurable (`temporalidad_asimetrica` en `src/config.py`).
 
 > **Nota operativa:** como hoy no se dispone del corpus de políticas públicas, en el prototipo `b` es otra publicación de ACA. La ventana de 36 meses y la fórmula se aplican igual; al incorporar políticas como blanco, el cálculo no requiere cambios.
 
 ### 2.5 Matriz III
 
-Con `n` documentos se construye la matriz `III ∈ [0,1]^(n×n)` donde `III[i,j]` es el impacto potencial de `i` sobre `j`. La diagonal se anula. El **III medio** de una publicación `i` (excluyendo la diagonal) sirve como ranking de potencial de influencia.
+Con `n` documentos se construye la matriz `III ∈ [0,1]^(n×n)` donde `III[i,j]` es el impacto potencial de `i` sobre `j` (i = **fuente**, j = **blanco**). La diagonal se anula. El **III medio** de una publicación `i` (media de su fila, excluyendo la diagonal) es su potencial de influencia **como fuente** y sirve como ranking; con la temporalidad asimétrica, las publicaciones más antiguas del corpus tienden a encabezarlo, pues tienen más blancos posteriores disponibles.
 
 ---
 
@@ -140,11 +169,12 @@ En esta fase **no se dispone de las fuentes externas** necesarias (actas, docume
 
 ## 4. Supuestos y limitaciones
 
-1. **Comparación publicación-publicación como validación.** Sin corpus de políticas, el III se calcula entre las 30 publicaciones de ACA. Esto valida la maquinaria y permite rankear propuestas, pero **no** mide impacto real sobre políticas hasta disponer del blanco adecuado.
+1. **Comparación publicación-publicación como validación.** Sin corpus de políticas, el III se calcula entre las 24 publicaciones de estudio de ACA. Esto valida la maquinaria y permite rankear propuestas, pero **no** mide impacto real sobre políticas hasta disponer del blanco adecuado. Los 6 libros/ensayos del corpus original (divulgación, obras honorarias y análisis histórico-filosófico) se excluyeron del índice (`pdfs_excluidos/`) tras la validación de extracción: aportaban ruido, no propuestas (ver `docs/validacion_extraccion.md`).
 2. **Pesos uniformes.** La asignación `1/3, 1/3, 1/3` es deliberadamente agnóstica; cualquier reajuste requiere evidencia.
-3. **Calidad de la extracción de propuestas.** La heurística local puede omitir propuestas implícitas o incluir ruido; el extractor basado en LLM (detrás de la misma interfaz) mejora la precisión cuando se active un proveedor comercial.
-4. **Fechas.** La fecha de publicación se obtiene de metadatos del PDF y, en su defecto, de *regex* sobre el texto o nombre de archivo; algunas fechas pueden ser aproximadas (solo año).
+3. **Calidad de la extracción de propuestas.** La heurística local (v1.1) incorpora: separación de oraciones que respeta enumeraciones numeradas, filtro de texto corrupto por repertorio español+ASCII (incluidos los tokens `(cid:NN)` de pdfplumber), vetos de ruido sistemático (usos causales/epistémicos de "deber", preguntas retóricas, fórmulas, meta-afirmaciones, copyright), descarte de viñetas sin verbo de acción fuera de secciones, deduplicación por texto normalizado, y aplicación de los límites de longitud antes del tope por documento. **Validación por muestreo estratificado** (3/doc, semilla 42, etiquetado manual; ver `docs/validacion_extraccion.md`): precisión ponderada ≈41 % global — ≈50 % en los estudios de política que hoy componen el corpus. Con la heurística el corpus arroja 685 propuestas (28.5/doc), 0 con texto corrupto. **Extractor LLM activo desde 2026-08-20** (`claude-haiku-4-5` vía `LLM_PROVIDER=anthropic`; adaptadores también para Gemini y OpenAI, prompts compartidos): fragmentos de 6k chars con solapamiento, temperature 0, JSON, caché por documento en `data/interim/llm_props/` y fallback a la heurística ante fallos de API. Corrida sobre el corpus: **845 propuestas** (35.2/doc) en 23 de 24 estudios; la validación por muestreo de esta extracción está en curso (`docs/validacion_extraccion.md`). La extracción de texto compara PyMuPDF y pdfplumber por calidad y conserva los metadatos del motor primario.
+4. **Fechas.** La fecha de publicación se obtiene de metadatos del PDF y, en su defecto, de *regex* sobre el texto o nombre de archivo; algunas fechas pueden ser aproximadas (solo año). En el corpus actual el 100 % proviene de metadatos, que en digitalizaciones puede reflejar la fecha de escaneo y no la de publicación; esto afecta directamente al componente de temporalidad.
 5. **Idioma.** Todo el corpus está en español; el modelo de *embeddings* es multilingüe con buen desempeño en lenguas romance.
+6. **Escala relativa al corpus.** Con el reescalado empírico, los valores de III solo son comparables **dentro** del corpus sobre el que se calculó la matriz; al añadir o quitar documentos, los valores de todos los pares se recalculan.
 
 ---
 
@@ -163,9 +193,11 @@ Cuando se disponga de pares `(publicación, política)` con impacto conocido:
 
 ```
 III(f,b) = 1/3·Alineación + 1/3·Coincidencia + 1/3·Temporalidad
-  Alineación   = (cos(emb(f), emb(b)) + 1)/2
-  Coincidencia = meanᵢ maxⱼ (cos(emb(pᵢ), emb(qⱼ)) + 1)/2
-  Temporalidad = max(0, 1 − |Δmeses|/36)
+  Alineación   = rescale_empírico( cos(emb_doc(f), emb_doc(b)) )
+                   emb_doc = promedio de embeddings de fragmentos de todo el cuerpo
+  Coincidencia = rescale_empírico( meanᵢ maxⱼ cos(emb(pᵢ), emb(qⱼ)) )
+  Temporalidad = 0 si t_b < t_f;  si no, max(0, 1 − Δmeses/36)
+  rescale_empírico(x) = (x − min_corpus) / (max_corpus − min_corpus)   [pares fuera de diagonal]
 
 ICI = 0.6·ICI‑Político + 0.4·ICI‑Medios
 ```

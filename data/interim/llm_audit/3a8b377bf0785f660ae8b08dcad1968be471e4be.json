@@ -1,0 +1,165 @@
+{
+ "model": "claude-haiku-4-5",
+ "resultados": [
+  {
+   "veredicto": "B",
+   "razon": "Vago: no especifica cómo aplicar efectivamente"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción clara: reducir excepciones legislativas específicas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sobre regulación estatal sin acciones concretas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma legislativa accionable: ampliar alcance a empresas estatales"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional clara: fortalecer COPROCOM con recursos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción específica: aclarar metodología de análisis monopolístico"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria: incorporar control previo de concentraciones"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sin especificar niveles o mecanismos sancionadores"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional clara: garantizar autonomía de agencias"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Acción presupuestaria específica para agencias de competencia"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma legislativa: revisar y eliminar excepciones injustificadas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Directiva vaga sobre cooperación internacional sin mecanismos específicos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma procesal accionable: procedimiento dos etapas para concentraciones"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Cambio legal específico: modificar estándar de valoración de concentraciones"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria: eliminar notificación posterior al cierre"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma legal: obligar suspensión hasta autorización, prohibir gun jumping"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria: modificar umbrales de notificación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma legislativa: ampliar infracciones y prácticas monopolísticas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma sancionadora: aumentar multas hasta 10% ingresos brutos"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma legal: sancionar promotores de prácticas anticompetitivas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Recomendación accionable: aumentar multas a personas físicas con restricción de pago"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta concreta: considerar programas voluntarios como atenuante en sanciones"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria clara: implementar programa de clemencia para carteles"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta accionable: agregar supuestos para terminar investigaciones anticipadamente"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional: establecer procedimientos especiales con plazos determinados"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: modelo integrado con medidas internas sin especificar cuáles"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma clara: separar instrucción de caso de decisión final"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta concreta: dotar independencia en tres áreas específicas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria: eliminar exclusiones implícitas, mantener solo autorizadas"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Normativo vago: promover reducción de excepciones sin mecanismo específico"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta accionable: valoraciones periódicas para eliminar excepciones injustificadas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional: dotar COPROCOM de independencia y personalidad jurídica"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta concreta: asignar presupuesto mínimo específico a COPROCOM"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional: cambiar estructura a tiempo completo con miembros dedicados"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: fortalecer potestades sin especificar mecanismos o acciones concretas"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma regulatoria: alinear normas competencia general y telecomunicaciones"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta accionable: acciones coordinadas COPROCOM-SUTEL para competencia"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Reforma institucional: fortalecer facultades SUTEL con inspecciones y cooperación"
+  },
+  {
+   "veredicto": "P",
+   "razon": "Propuesta concreta: ampliar facultades SUTEL para concentraciones y abogacía"
+  },
+  {
+   "veredicto": "B",
+   "razon": "Vago: apertura y desintegración sin especificar mecanismos o alcance"
+  }
+ ]
+}
