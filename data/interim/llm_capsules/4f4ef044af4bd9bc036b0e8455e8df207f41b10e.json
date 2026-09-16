@@ -1,0 +1,96 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "Ministerio de Educación Pública",
+   "metrica": "Cobertura de capacitación docente e infraestructura tecnológica en escuelas",
+   "keywords": [
+    "capacitación docentes",
+    "infraestructura tecnológica",
+    "escuelas"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación Pública",
+   "metrica": "Estudiantes con competencias en inteligencia artificial y pensamiento computacional",
+   "keywords": [
+    "formación tecnológica",
+    "inteligencia artificial",
+    "pensamiento computacional"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación Pública",
+   "metrica": "Certificaciones especializadas en IA y competencias computacionales",
+   "keywords": [
+    "certificaciones ia",
+    "pensamiento computacional",
+    "habilidades digitales"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación Pública",
+   "metrica": "Estudiantes con acceso a tutorías personalizadas y materiales adaptativos",
+   "keywords": [
+    "ia generativa",
+    "aprendizaje personalizado",
+    "tutorías individualizadas"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación Pública",
+   "metrica": "Tiempo docente liberado para actividades pedagógicas creativas",
+   "keywords": [
+    "ia generativa",
+    "retroalimentación automática",
+    "evaluación"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "Cobertura de redes de telecomunicaciones en hogares, escuelas y empresas",
+   "keywords": [
+    "infraestructura digital",
+    "telecomunicaciones",
+    "brecha digital"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "Trabajadores capacitados en upskilling y reskilling para adaptación a IA",
+   "keywords": [
+    "upskilling",
+    "reskilling",
+    "redistribución beneficios ia"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Políticas implementadas sobre jornadas laborales y adopción de IA",
+   "keywords": [
+    "jornadas laborales",
+    "adopción ia",
+    "políticas laborales"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "Trabajadores entrenados en upskilling para integración de IA en sectores",
+   "keywords": [
+    "entrenamiento",
+    "upskilling",
+    "integración ia sectores"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "Inversión en I+D e infraestructura digital; empresas tecnológicas atraídas",
+   "keywords": [
+    "inversión i+d",
+    "infraestructura digital",
+    "semiconductores"
+   ]
+  }
+ ]
+}

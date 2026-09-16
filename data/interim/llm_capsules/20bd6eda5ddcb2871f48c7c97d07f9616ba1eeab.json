@@ -1,0 +1,365 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "protección del consumidor, libertad de elección",
+   "keywords": [
+    "educación del consumidor",
+    "regulación",
+    "competencia"
+   ]
+  },
+  {
+   "actor": "COPROCOM",
+   "metrica": "bienestar del consumidor",
+   "keywords": [
+    "regla de la razón",
+    "eficiencias",
+    "impacto en consumidores"
+   ]
+  },
+  {
+   "actor": "COPROCOM",
+   "metrica": "aplicación efectiva de legislación de competencia",
+   "keywords": [
+    "guías",
+    "regla de la razón",
+    "presupuesto"
+   ]
+  },
+  {
+   "actor": "COPROCOM",
+   "metrica": "impacto en poblaciones vulnerables, bienes esenciales",
+   "keywords": [
+    "planes estratégicos",
+    "poblaciones vulnerables",
+    "servicios esenciales"
+   ]
+  },
+  {
+   "actor": "COPROCOM",
+   "metrica": "cumplimiento de compromisos internacionales",
+   "keywords": [
+    "implementación",
+    "legislación de competencia",
+    "ocde"
+   ]
+  },
+  {
+   "actor": "Poder Judicial",
+   "metrica": "aplicación de legislación de competencia",
+   "keywords": [
+    "capacitación",
+    "especialización",
+    "jueces"
+   ]
+  },
+  {
+   "actor": "Poder Judicial",
+   "metrica": "comprensión de legislación de competencia",
+   "keywords": [
+    "capacitación",
+    "especialización",
+    "consumidores"
+   ]
+  },
+  {
+   "actor": "CONASSIF",
+   "metrica": "protección del consumidor financiero",
+   "keywords": [
+    "proyecto de ley",
+    "servicios financieros",
+    "supervisión"
+   ]
+  },
+  {
+   "actor": "PRODHAB",
+   "metrica": "protección de datos personales",
+   "keywords": [
+    "fortalecimiento",
+    "datos personales",
+    "consumidor financiero"
+   ]
+  },
+  {
+   "actor": "Instituciones financieras públicas",
+   "metrica": "disciplina de mercado",
+   "keywords": [
+    "contralorías",
+    "defensores",
+    "rendición de cuentas"
+   ]
+  },
+  {
+   "actor": "Poder Judicial",
+   "metrica": "conocimiento en materia financiera",
+   "keywords": [
+    "formación de jueces",
+    "mercados financieros"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "conducta de instituciones financieras",
+   "keywords": [
+    "protocolos de conducta",
+    "adhesión voluntaria",
+    "reforma"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "eficiencia de costos en servicios públicos",
+   "keywords": [
+    "modernización regulatoria",
+    "costos económicamente eficientes",
+    "tarifas"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "competencia en sectores de servicios públicos",
+   "keywords": [
+    "desregulación de precios",
+    "competencia natural"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "prevención de captura regulatoria",
+   "keywords": [
+    "medidas preventivas",
+    "nombramiento de reguladores"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "cumplimiento normativo",
+   "keywords": [
+    "régimen sancionatorio",
+    "acciones administrativas"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "propiedad estatal de activos",
+   "keywords": [
+    "modelo de concesión",
+    "administración interesada"
+   ]
+  },
+  {
+   "actor": "Empresas públicas de servicios",
+   "metrica": "gobernanza corporativa",
+   "keywords": [
+    "parámetros de gobernanza",
+    "empresas públicas"
+   ]
+  },
+  {
+   "actor": "COPROCOM, ARESEP",
+   "metrica": "competencia en servicios públicos regulados",
+   "keywords": [
+    "legislación de competencia",
+    "coordinación",
+    "servicios públicos"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "estabilidad tarifaria",
+   "keywords": [
+    "fijaciones ordinarias",
+    "modelo de costos",
+    "tarifas"
+   ]
+  },
+  {
+   "actor": "MEIC, COMEX",
+   "metrica": "precio de alimentos",
+   "keywords": [
+    "obstáculos al comercio",
+    "inspección de contenedores",
+    "aranceles"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad agrícola",
+   "keywords": [
+    "laboratorios",
+    "registros de agroquímicos",
+    "productividad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad de pequeños y medianos productores",
+   "keywords": [
+    "investigación agrícola",
+    "extensionismo",
+    "capacitación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad agrícola, impacto ambiental",
+   "keywords": [
+    "infraestructura agrícola",
+    "agricultura de precisión",
+    "tecnología"
+   ]
+  },
+  {
+   "actor": "CNC, MEIC",
+   "metrica": "eficiencia en atención de reclamos",
+   "keywords": [
+    "reforma de procedimientos",
+    "protección del consumidor",
+    "recursos"
+   ]
+  },
+  {
+   "actor": "DAC",
+   "metrica": "Reducción de casos de infracciones menores desestimados; eficiencia en resolución de disputas",
+   "keywords": [
+    "resolución alterna",
+    "arbitraje",
+    "consumidor",
+    "desestimación"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Implementación de jueces administrativos unipersonales; reducción de tiempo en procedimientos orales",
+   "keywords": [
+    "reforma dac",
+    "jueces administrativos",
+    "procedimientos orales"
+   ]
+  },
+  {
+   "actor": "CNC",
+   "metrica": "Ampliación de potestades de ejecución; anulación de cláusulas contractuales; otorgamiento de daños y perjuicios",
+   "keywords": [
+    "potestades cnc",
+    "ejecución",
+    "cláusulas contractuales",
+    "rendición de cuentas"
+   ]
+  },
+  {
+   "actor": "DAC",
+   "metrica": "Simplificación del Sistema Nacional de Protección al Consumidor; mejora en coordinación interinstitucional",
+   "keywords": [
+    "sistema nacional",
+    "protección consumidor",
+    "autorregulación",
+    "cooperación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Fortalecimiento de mecanismos privados de autorregulación; resolución de disputas de baja complejidad",
+   "keywords": [
+    "autorregulación privada",
+    "disputas",
+    "baja complejidad"
+   ]
+  },
+  {
+   "actor": "DAC",
+   "metrica": "Detección de prácticas anticompetitivas; cooperación internacional; aumento de sanciones",
+   "keywords": [
+    "capacidad dac",
+    "cooperación internacional",
+    "sanciones"
+   ]
+  },
+  {
+   "actor": "DAC",
+   "metrica": "Efectividad en seguridad de productos; reducción de lesiones; retiro efectivo de productos",
+   "keywords": [
+    "seguridad productos",
+    "alertas",
+    "coordinación interinstitucional",
+    "retiro mercado"
+   ]
+  },
+  {
+   "actor": "DAC",
+   "metrica": "Recopilación de datos sobre lesiones; comunicación efectiva para retiro de productos",
+   "keywords": [
+    "datos lesiones",
+    "productos consumo",
+    "retiro mercado"
+   ]
+  },
+  {
+   "actor": "PRODHAB",
+   "metrica": "Fortalecimiento de seguridad de información; posicionamiento de ciberseguridad como prioritario",
+   "keywords": [
+    "ciberseguridad",
+    "comunicaciones electrónicas",
+    "seguridad información"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Reforma Ley 7472; protección comercio electrónico; acciones colectivas; cumplimiento OCDE",
+   "keywords": [
+    "ley 7472",
+    "comercio electrónico",
+    "acciones colectivas",
+    "ocde"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Cumplimiento de compromisos OCDE; aprovechamiento de beneficios de membresía",
+   "keywords": [
+    "ocde",
+    "compromisos",
+    "membresía"
+   ]
+  },
+  {
+   "actor": "DAC",
+   "metrica": "Mejora en eficiencia y eficacia de defensa de derechos del consumidor; alineación con agenda OCDE",
+   "keywords": [
+    "institucionalidad",
+    "defensa consumidor",
+    "ocde"
+   ]
+  },
+  {
+   "actor": "CNC",
+   "metrica": "Reconocimiento de programas de cumplimiento voluntario; detección de carteles",
+   "keywords": [
+    "cumplimiento voluntario",
+    "clemencia",
+    "carteles"
+   ]
+  },
+  {
+   "actor": "CNC",
+   "metrica": "Detección de carteles; fortalecimiento de abogacía de la competencia",
+   "keywords": [
+    "clemencia",
+    "carteles",
+    "abogacía competencia"
+   ]
+  },
+  {
+   "actor": "COPROCOM",
+   "metrica": "Equiparación de normas y procedimientos entre COPROCOM y SUTEL",
+   "keywords": [
+    "coprocom",
+    "sutel",
+    "normas procedimientos"
+   ]
+  }
+ ]
+}

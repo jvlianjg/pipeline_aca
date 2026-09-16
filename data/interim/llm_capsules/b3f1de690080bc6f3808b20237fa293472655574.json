@@ -1,0 +1,361 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "INA",
+   "metrica": "Agilidad operativa y flexibilidad institucional",
+   "keywords": [
+    "régimen laboral",
+    "contrataciones a plazo fijo",
+    "capacitación"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Cobertura de servicios de formación y capacitación",
+   "keywords": [
+    "contratación de terceros",
+    "centros acreditados",
+    "competencias técnicas"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Acceso a becas y ayudas económicas",
+   "keywords": [
+    "sistema de becas",
+    "centros externos",
+    "acreditación"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Empleabilidad y emprendimiento",
+   "keywords": [
+    "finalidades del ina",
+    "empleabilidad",
+    "emprendimiento"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Articulación con sector productivo",
+   "keywords": [
+    "política nacional de clústeres",
+    "mesas de trabajo",
+    "comités de enlace"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Adaptación a industria 4.0",
+   "keywords": [
+    "educación técnico profesional",
+    "cambio tecnológico",
+    "interacción productiva"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Actualización de oferta programática",
+   "keywords": [
+    "eftp",
+    "mundo de la producción",
+    "velocidad de cambio"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Continuidad y reinserción laboral",
+   "keywords": [
+    "transformación de puestos",
+    "reinserción laboral",
+    "servicios eftp"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Cobertura de sectores vulnerables",
+   "keywords": [
+    "sectores vulnerables",
+    "transformación productiva",
+    "políticas específicas"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Cierre de brechas de competencias",
+   "keywords": [
+    "demanda de competencias",
+    "niveles técnicos",
+    "dominio del inglés"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Marco nacional de cualificaciones",
+   "keywords": [
+    "niveles de calificación",
+    "técnica",
+    "cualificaciones"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Matrícula en cursos y reposicionamiento de EFTP",
+   "keywords": [
+    "empleabilidad",
+    "opción residual",
+    "estudios terciarios"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Estancamiento de matrícula",
+   "keywords": [
+    "servicios formativos",
+    "terceros",
+    "suspensión 2009"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Ajuste de oferta a demanda laboral",
+   "keywords": [
+    "trabajador calificado",
+    "técnico especializado",
+    "demanda mercado"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Certificaciones de competencia",
+   "keywords": [
+    "certificaciones",
+    "competencia",
+    "tendencia decreciente"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Dinamización de oferta programática",
+   "keywords": [
+    "oferta programática",
+    "demanda decreciente",
+    "mercado laboral"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Desarrollo de habilidades blandas",
+   "keywords": [
+    "habilidades blandas",
+    "integridad",
+    "liderazgo"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Modelo de gestión basado en resultados",
+   "keywords": [
+    "gestión pública",
+    "resultados",
+    "modelo de gestión"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Marco normativo habilitante",
+   "keywords": [
+    "proyecto de ley 9931",
+    "reforma normativa",
+    "transformación"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Reglamentación e implementación",
+   "keywords": [
+    "reglamentación",
+    "nuevos instrumentos",
+    "puesta en marcha"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Transformación del modelo de gestión",
+   "keywords": [
+    "modelo de gestión",
+    "nuevas autoridades",
+    "implementación"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Despolitización de la gestión",
+   "keywords": [
+    "presidencia ejecutiva",
+    "junta directiva",
+    "gerencia general"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Reforma del régimen laboral",
+   "keywords": [
+    "régimen laboral",
+    "servicio civil",
+    "derecho laboral común"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Sistema de becas y ayudas económicas",
+   "keywords": [
+    "becas",
+    "ayudas económicas",
+    "instituciones externas"
+   ]
+  },
+  {
+   "actor": "INA",
+   "metrica": "Régimen de contratación administrativa",
+   "keywords": [
+    "contratación administrativa",
+    "procedimientos",
+    "ley de contratación"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "administración de bienes",
+    "fideicomiso",
+    "fundaciones"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "empleabilidad, inserción laboral",
+   "keywords": [
+    "empleabilidad",
+    "desarrollo empresarial",
+    "bolsa de empleo",
+    "inserción laboral"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "autonomía presupuestaria",
+    "exclusión de directrices",
+    "administración financiera"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "exclusión régimen civil",
+    "trabajadores",
+    "estatuto servicio civil"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "cargos de confianza",
+    "razonabilidad",
+    "proporcionalidad técnica"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "cobertura de capacitación, acceso a formación",
+   "keywords": [
+    "becas",
+    "capacitación",
+    "centros públicos privados",
+    "servicios de formación"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "servicios de capacitación",
+    "provisión directa",
+    "circunstancias especiales"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "cobertura de formación, acceso a servicios acreditados",
+   "keywords": [
+    "becas",
+    "acreditación",
+    "instructores plazo fijo",
+    "servicios externos"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "compras centralizadas",
+    "desconcentración administrativa",
+    "adquisiciones"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "justificación de compras",
+    "incapacidad institucional",
+    "contratación terceros"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "aval técnico",
+    "acreditación",
+    "trámite único",
+    "simplificación"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "servicios prioritarios",
+    "acreditación automática",
+    "elegibilidad becas"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "homologación",
+    "reconocimiento industria",
+    "acreditación simplificada"
+   ]
+  },
+  {
+   "actor": "Instituto Nacional de Aprendizaje",
+   "metrica": "No especificada",
+   "keywords": [
+    "reforma regulatoria",
+    "modificación reglamento",
+    "cumplimiento reforma"
+   ]
+  }
+ ]
+}

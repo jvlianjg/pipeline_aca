@@ -1,0 +1,54 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "estabilidad y desarrollo del sistema financiero",
+   "keywords": [
+    "intermediación bursátil",
+    "fondos de inversión",
+    "seguros",
+    "fondos de pensiones"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "resiliencia y eficiencia de la intermediación financiera",
+   "keywords": [
+    "mercado de capitales",
+    "financiamiento no bancario",
+    "dependencia bancaria"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "suficiencia patrimonial, crédito y rentabilidad del sistema",
+   "keywords": [
+    "suficiencia patrimonial",
+    "exceso de cautela",
+    "crédito"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "calidad de nombramientos en gestión prudencial",
+   "keywords": [
+    "nombramientos",
+    "gestión prudencial",
+    "criterios técnicos",
+    "transparencia"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "coordinación institucional y confianza del público",
+   "keywords": [
+    "coordinación",
+    "conassif",
+    "fondo de garantía de depósitos",
+    "comunicación"
+   ]
+  }
+ ]
+}

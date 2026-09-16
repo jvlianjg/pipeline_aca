@@ -1,0 +1,349 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "MEIC",
+   "metrica": "Fortalecimiento del entorno competitivo de emprendimientos y MIPYMES",
+   "keywords": [
+    "política pública",
+    "programas de apoyo",
+    "competitividad"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Cobertura y alcance de programas de apoyo a emprendimientos y MIPYMES",
+   "keywords": [
+    "modelo de apoyo",
+    "prioridades de mejora",
+    "progresividad"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Adopción de modelos de gestión avanzada",
+   "keywords": [
+    "modelo de gestión avanzada",
+    "replicabilidad",
+    "gestión"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Alcance e impacto en el sector productivo",
+   "keywords": [
+    "alianzas público-privada",
+    "desarrollo productivo",
+    "emprendimiento"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Innovación en MIPYMES",
+   "keywords": [
+    "innovación",
+    "desarrollo empresarial",
+    "potencial de avance"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Cultura de la calidad y modernización productiva",
+   "keywords": [
+    "estándares de calidad",
+    "difusión",
+    "modernización"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Integración de política pública para emprendimientos y MIPYMES",
+   "keywords": [
+    "enfoque integrado",
+    "marco de actuación",
+    "sistema emprendedor"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Coordinación de actores del sistema emprendedor",
+   "keywords": [
+    "marco de actuación",
+    "actores",
+    "sistema emprendedor"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Eficiencia en servicios de apoyo empresarial",
+   "keywords": [
+    "agencias especializadas",
+    "servicios de apoyo",
+    "políticas de desarrollo productivo"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Eficiencia en acceso a servicios de atención empresarial",
+   "keywords": [
+    "participación privada",
+    "servicios empresariales",
+    "eficiencia de recursos"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Cobertura de servicios de desarrollo empresarial",
+   "keywords": [
+    "coordinación interinstitucional",
+    "cobertura",
+    "mipymes"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Visión estratégica integrada de desarrollo productivo",
+   "keywords": [
+    "consejo de competitividad",
+    "política estratégica",
+    "desarrollo productivo"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Productividad empresarial",
+   "keywords": [
+    "políticas verticales",
+    "asistencia técnica",
+    "productividad"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Impacto regulatorio en emprendimientos y MIPYMES",
+   "keywords": [
+    "análisis de impacto",
+    "marco normativo",
+    "costo-efectividad"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Asignación eficiente de recursos y cumplimiento de objetivos",
+   "keywords": [
+    "monitoreo y evaluación",
+    "impacto",
+    "ajustes normativos"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Objetivos de largo plazo en emprendimiento y MIPYMES",
+   "keywords": [
+    "mejora continua",
+    "política de emprendimiento",
+    "largo plazo"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Claridad regulatoria para emprendimiento e innovación",
+   "keywords": [
+    "coordinación interinstitucional",
+    "leyes y reglamentos",
+    "emprendimiento"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Integración de servicios de apoyo con políticas de desarrollo productivo",
+   "keywords": [
+    "coherencia institucional",
+    "servicios de apoyo",
+    "políticas de desarrollo productivo"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Productividad empresarial con enfoque global",
+   "keywords": [
+    "servicios de apoyo empresarial",
+    "gestión empresarial",
+    "productividad"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Coherencia en intervenciones productivas para MIPYMES",
+   "keywords": [
+    "coordinación",
+    "norte común",
+    "intervenciones productivas"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Integración y coordinación de políticas",
+   "keywords": [
+    "integración",
+    "coordinación",
+    "políticas"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Cultura de gestión avanzada a nivel nacional",
+   "keywords": [
+    "sinergias",
+    "complementariedades",
+    "gestión avanzada"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Implementación efectiva de acciones de emprendimiento y desarrollo productivo",
+   "keywords": [
+    "coordinación administrativa",
+    "transversalidad",
+    "política nacional de emprendimiento"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Posicionamiento institucional de largo plazo",
+   "keywords": [
+    "posicionamiento institucional",
+    "política de largo plazo",
+    "competitividad"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Coordinación interinstitucional para implementación de políticas de desarrollo productivo",
+   "keywords": [
+    "consejo de competitividad",
+    "coordinación interinstitucional",
+    "expediente 22.614"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Institucionalización de política de competitividad y emprendimiento",
+   "keywords": [
+    "consejo",
+    "competitividad",
+    "emprendimiento",
+    "nivel político"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Efectividad de política de emprendimiento de largo plazo",
+   "keywords": [
+    "arreglo institucional",
+    "cide",
+    "política emprendimiento"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Calidad de servicios de desarrollo productivo para MIPYMES",
+   "keywords": [
+    "cide",
+    "atención personalizada",
+    "enfoque sistémico"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Eficiencia y eficacia de políticas de apoyo productivo",
+   "keywords": [
+    "evaluación impacto",
+    "mipymes",
+    "resultados tangibles"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Rigurosidad y alcance de evaluaciones de impacto",
+   "keywords": [
+    "evaluación impacto",
+    "infraestructura institucional",
+    "mipymes"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Autoridad institucional y efectos de políticas de desarrollo productivo",
+   "keywords": [
+    "evaluación impacto",
+    "desarrollo productivo",
+    "rigurosidad"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Impacto de mecanismos de apoyo a MIPYMES",
+   "keywords": [
+    "evaluación impacto",
+    "mecanismos apoyo",
+    "mipymes"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Calidad de monitoreo y datos para decisiones de política",
+   "keywords": [
+    "línea base",
+    "monitoreo",
+    "seguimiento"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Competitividad e innovación empresarial",
+   "keywords": [
+    "modelo gestión",
+    "competitividad",
+    "innovación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Adopción y participación en políticas de apoyo empresarial",
+   "keywords": [
+    "simplificación",
+    "rigor",
+    "aporte valor"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Acceso y uso de servicios de emprendimiento",
+   "keywords": [
+    "plataforma difusión",
+    "servicios emprendimiento",
+    "mipymes"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Capacitación y adopción de modelo de gestión avanzada",
+   "keywords": [
+    "acompañamiento",
+    "diagnóstico",
+    "modelo gestión"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Diagnóstico y evaluación empresarial",
+   "keywords": [
+    "autoevaluación",
+    "línea base",
+    "siec"
+   ]
+  }
+ ]
+}

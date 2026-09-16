@@ -1,0 +1,228 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "Calidad de información para toma de decisiones en formación profesional",
+   "keywords": [
+    "divulgación",
+    "instituciones educativas",
+    "información",
+    "formaciones estratégicas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Flexibilidad en creación de formaciones profesionales",
+   "keywords": [
+    "flexibilización",
+    "nuevas formaciones",
+    "planes de estudio",
+    "oferta profesional"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Retorno en inversión educativa y empleo futuro",
+   "keywords": [
+    "gasto privado",
+    "educación",
+    "información de calidad",
+    "retorno inversión"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Alineación entre formaciones y clústeres industriales",
+   "keywords": [
+    "clústeres",
+    "formación ocupacional",
+    "valor agregado",
+    "industrias"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Actualización anual de demanda de capital humano",
+   "keywords": [
+    "monitoreo",
+    "demanda",
+    "oferta",
+    "seguimiento anual"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Precisión y periodicidad en evaluación de brechas laborales",
+   "keywords": [
+    "sinergias",
+    "inversión extranjera directa",
+    "capital humano",
+    "información"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Alineación de conocimientos y habilidades con empresas de Zonas Francas",
+   "keywords": [
+    "alianzas",
+    "zonas francas",
+    "educación superior",
+    "conocimientos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Formación dual universitaria en alta tecnología",
+   "keywords": [
+    "bachilleratos duales",
+    "trabajo",
+    "zonas francas",
+    "alta tecnología"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Desarrollo de profesionales en Ingeniería, Ciencia y Tecnología",
+   "keywords": [
+    "ingeniería",
+    "ciencia",
+    "tecnología",
+    "formaciones estratégicas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Información consistente y periódica de brechas de capital humano",
+   "keywords": [
+    "información",
+    "brechas",
+    "zonas francas",
+    "capital humano profesional"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Reasignación de recursos para profesionales en áreas estratégicas",
+   "keywords": [
+    "profesionales",
+    "ingeniería",
+    "ciencia",
+    "tecnología",
+    "desarrollo económico"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Precisión en oferta de profesionales disponibles",
+   "keywords": [
+    "base de datos",
+    "graduados",
+    "oferta profesional",
+    "precisión"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Cierre de brechas de capital humano mediante políticas públicas",
+   "keywords": [
+    "políticas públicas",
+    "brechas",
+    "capital humano",
+    "zonas francas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Ajustes en formaciones estratégicas y orientación estudiantil",
+   "keywords": [
+    "educación superior",
+    "cupos",
+    "créditos estudiantiles",
+    "orientación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Monitoreo de oferta de formaciones profesionales",
+   "keywords": [
+    "seguimiento",
+    "oferta",
+    "capital humano",
+    "formaciones"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "Cobertura de datos sobre graduados en todas las áreas formativas",
+   "keywords": [
+    "hipatia",
+    "graduados",
+    "ingeniería",
+    "ciencia",
+    "tecnología"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Estimación permanente de brechas oferta-demanda",
+   "keywords": [
+    "brechas",
+    "oferta",
+    "demanda",
+    "estimación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Detección de brechas y estrategias para industrias estratégicas",
+   "keywords": [
+    "monitoreo",
+    "brechas",
+    "inversión extranjera directa",
+    "profesionales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Evaluación anual de brechas laborales con precisión",
+   "keywords": [
+    "sinergias",
+    "inversión extranjera directa",
+    "capital humano",
+    "evaluación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Atracción de capital humano con posgrados en áreas estratégicas",
+   "keywords": [
+    "política migratoria",
+    "máster",
+    "doctorado",
+    "capital humano"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Pertinencia de conocimientos adquiridos en educación",
+   "keywords": [
+    "pasantías",
+    "empresas",
+    "retroalimentación",
+    "egresados"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Análisis de capital humano requerido para inversión extranjera directa",
+   "keywords": [
+    "metodología",
+    "brechas",
+    "inversión extranjera directa",
+    "capital humano"
+   ]
+  }
+ ]
+}

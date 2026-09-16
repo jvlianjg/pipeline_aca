@@ -1,0 +1,373 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "sostenibilidad del sistema público de salud",
+   "keywords": [
+    "sostenibilidad",
+    "sistema público",
+    "salud"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "capacidad rectora",
+   "keywords": [
+    "rectoría",
+    "ministerio de salud",
+    "función rectora"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "fortalecimiento de servicios de salud",
+   "keywords": [
+    "servicios de salud",
+    "listas de espera",
+    "fortalecimiento"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "reducción de listas de espera y reorganización de niveles de atención",
+   "keywords": [
+    "listas de espera",
+    "atención primaria",
+    "atención secundaria",
+    "atención terciaria"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "complementariedad entre servicios públicos y privados",
+   "keywords": [
+    "complementariedad",
+    "servicios públicos",
+    "servicios privados",
+    "sustituibilidad"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "acceso a servicios de salud mediante tecnología",
+   "keywords": [
+    "tecnología",
+    "acceso a salud",
+    "complementariedad",
+    "servicios públicos",
+    "servicios privados"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "acceso y cobertura de servicios de salud",
+   "keywords": [
+    "tecnología",
+    "acceso a salud",
+    "mejora de servicios"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "innovación e impacto en servicios de salud",
+   "keywords": [
+    "investigación",
+    "innovación",
+    "oportunidad de negocio",
+    "tecnología",
+    "prototipos"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "actualización y publicación de cuentas de salud",
+   "keywords": [
+    "cuentas de salud",
+    "ocde",
+    "publicación anual"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "capacidad rectora",
+   "keywords": [
+    "capacidad rectora",
+    "ministerio de salud",
+    "fortalecimiento"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "fortalecimiento de servicios de salud y capacidad rectora",
+   "keywords": [
+    "capacidad rectora",
+    "formación profesional",
+    "infraestructura sanitaria",
+    "presupuesto",
+    "tecnología"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "calidad y integración de servicios de salud",
+   "keywords": [
+    "ordenamiento funcional",
+    "centralización de información",
+    "calidad de servicios",
+    "integración de atención"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "regulación de pagos a profesionales de salud",
+   "keywords": [
+    "sistema de pago",
+    "profesionales de salud",
+    "consultas"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "protección de derechos de pacientes",
+   "keywords": [
+    "consentimiento informado",
+    "acto médico",
+    "derechos de pacientes"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "diferenciación de configuración de atención telemédica",
+   "keywords": [
+    "teleconsulta",
+    "paciente de primera vez",
+    "paciente subsecuente",
+    "esalud"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "regulación de consultas sincrónicas y asincrónicas",
+   "keywords": [
+    "teleconsulta",
+    "sincrónica",
+    "asincrónica",
+    "esalud"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "monitoreo remoto de clínicas telemédicas",
+   "keywords": [
+    "monitoreo remoto",
+    "políticas",
+    "regulaciones",
+    "protocolos",
+    "tecnología"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "disponibilidad de insumos y tecnología según ubicación del paciente",
+   "keywords": [
+    "ubicación del paciente",
+    "insumos",
+    "tecnología",
+    "atención institucional",
+    "atención en hogar"
+   ]
+  },
+  {
+   "actor": "MICITT, Ministerio de Salud",
+   "metrica": "interoperabilidad de sistemas de datos de salud",
+   "keywords": [
+    "interoperabilidad",
+    "sistemas de datos",
+    "decreto",
+    "datos de salud"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "arbitraje y regulación de relaciones público-privadas",
+   "keywords": [
+    "tercero",
+    "autoridad",
+    "regulación",
+    "credibilidad"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "supervisión de relaciones público-privadas",
+   "keywords": [
+    "relaciones",
+    "supervisión",
+    "elaboración",
+    "regulación"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "arbitraje técnico imparcial",
+   "keywords": [
+    "arbitraje",
+    "imparcialidad",
+    "conocimiento técnico",
+    "conflictos"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "resolución de conflictos público-privados",
+   "keywords": [
+    "ministerio de salud",
+    "conflictos",
+    "autoridad",
+    "experiencia"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "formación y necesidades de recurso humano en salud",
+   "keywords": [
+    "políticas de formación",
+    "recurso humano",
+    "rectoría",
+    "sector salud"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "involucramiento del ente rector en decisiones de recurso humano",
+   "keywords": [
+    "ente rector",
+    "involucramiento",
+    "decisiones",
+    "recurso humano"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Calidad de servicios asistenciales e integridad de pacientes",
+   "keywords": [
+    "rectoría",
+    "recurso humano",
+    "formación",
+    "campos clínicos"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Ordenamiento de procesos formativos",
+   "keywords": [
+    "cendeiss",
+    "planificación",
+    "recurso humano",
+    "rectoría"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Financiamiento de formación de recursos humanos",
+   "keywords": [
+    "financiamiento",
+    "prestadores",
+    "universidades",
+    "formación"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Transparencia y solidez de estadísticas de salud",
+   "keywords": [
+    "información",
+    "transparencia",
+    "estadísticas",
+    "datos"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Calidad de servicios privados supervisados",
+   "keywords": [
+    "rectoría",
+    "supervisión",
+    "servicios privados",
+    "calidad"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Fortaleza en manejo de información nacional de salud",
+   "keywords": [
+    "rectoría",
+    "información",
+    "manejo",
+    "fortaleza"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Eficiencia en delegación y tercerización de funciones",
+   "keywords": [
+    "tercerización",
+    "delegación",
+    "funciones",
+    "eficiencia"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Análisis sectorial de prestación de servicios",
+   "keywords": [
+    "análisis sectorial",
+    "público",
+    "privado",
+    "servicios"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Calidad y seguridad del paciente en servicios de salud",
+   "keywords": [
+    "calidad",
+    "seguridad del paciente",
+    "infraestructura",
+    "profesionales"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Orientación centrada en el paciente",
+   "keywords": [
+    "prestación",
+    "paciente",
+    "orientación",
+    "servicios"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Implementación de programa de calidad y medicina basada en evidencia",
+   "keywords": [
+    "calidad",
+    "medicina basada en evidencia",
+    "profesionales",
+    "servicios"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "Integración sectorial en instancias decisorias de salud",
+   "keywords": [
+    "organización",
+    "cámara de salud",
+    "integración",
+    "comunicación"
+   ]
+  }
+ ]
+}

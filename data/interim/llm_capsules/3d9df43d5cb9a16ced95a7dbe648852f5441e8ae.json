@@ -1,0 +1,303 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "mantenimiento de carreteras, fondeo de impuestos sobre combustibles e impuestos a la propiedad de vehículos",
+   "keywords": [
+    "reciclaje de activos",
+    "mantenimiento de carreteras",
+    "fondeo alternativo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "eficiencia y calidad de servicios públicos",
+   "keywords": [
+    "alianza público-privada",
+    "recursos financieros",
+    "gestión privada"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "gestión del balance de activos y pasivos públicos",
+   "keywords": [
+    "activos de infraestructura",
+    "balance fiscal",
+    "gestión de activos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "provisión de servicios públicos de calidad, sostenibilidad fiscal",
+   "keywords": [
+    "gestión de infraestructura",
+    "enfoque de servicios",
+    "sostenibilidad fiscal"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "balance de finanzas públicas, eficiencia de servicios",
+   "keywords": [
+    "activos existentes",
+    "deuda pública",
+    "finanzas públicas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "monetización de infraestructura, financiamiento de nuevas inversiones",
+   "keywords": [
+    "reciclaje de activos",
+    "monetización",
+    "gestión de activos y pasivos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "ciclo de vida de proyectos de infraestructura",
+   "keywords": [
+    "ciclo de vida",
+    "planificación",
+    "operación y mantenimiento"
+   ]
+  },
+  {
+   "actor": "MIDEPLAN",
+   "metrica": "visión estratégica a largo plazo",
+   "keywords": [
+    "visión estratégica",
+    "planificación a largo plazo",
+    "infraestructura"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "sostenibilidad presupuestaria, asequibilidad",
+   "keywords": [
+    "sostenibilidad presupuestaria",
+    "asequibilidad",
+    "hacienda pública"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "contratación eficiente y efectiva",
+   "keywords": [
+    "contratación",
+    "eficiencia",
+    "efectividad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "participación transparente de partes interesadas",
+   "keywords": [
+    "transparencia",
+    "participación",
+    "partes interesadas"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "coherencia y eficiencia regulatoria",
+   "keywords": [
+    "marco regulatorio",
+    "coherencia",
+    "eficiencia"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "integridad de procesos",
+   "keywords": [
+    "marco regulatorio",
+    "integridad",
+    "amenazas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "toma de decisiones basada en datos",
+   "keywords": [
+    "datos",
+    "decisiones",
+    "evidencia"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desempeño del activo durante su vida útil",
+   "keywords": [
+    "vida útil",
+    "desempeño",
+    "gestión de activos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "optimización del valor de activos a largo plazo",
+   "keywords": [
+    "gestión de activos",
+    "valor a largo plazo",
+    "ciclo de vida"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "impulso de nuevas iniciativas de inversión",
+   "keywords": [
+    "reciclaje de activos",
+    "alianza público-privada",
+    "inversión"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "reinversión de recursos en infraestructura",
+   "keywords": [
+    "reinversión",
+    "recursos públicos",
+    "infraestructura"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "monetización de activos, financiamiento de infraestructura social",
+   "keywords": [
+    "optimización de activos",
+    "monetización",
+    "infraestructura social"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "operación comercial de activos públicos",
+   "keywords": [
+    "reciclaje de activos",
+    "gestión comercial",
+    "activos subutilizados"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "valor de retención de proyectos",
+   "keywords": [
+    "valor de retención",
+    "transferencia de proyectos",
+    "gestión estatal"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "reducción de riesgo y costo de deuda privada",
+   "keywords": [
+    "riesgo de proyectos",
+    "deuda privada",
+    "mejoradores crediticios"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "atracción de capital privado",
+   "keywords": [
+    "capital privado",
+    "reciclaje de activos",
+    "estructura financiera"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "calidad de servicio público, protección del valor de activos",
+   "keywords": [
+    "ciclo de vida",
+    "diseño y construcción",
+    "mantenimiento y operación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "ejecución exitosa de proyectos APP",
+   "keywords": [
+    "alianza público-privada",
+    "reciclaje de activos",
+    "múltiples actores"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Recursos canalizados, transparencia y acceso a oportunidades de inversión",
+   "keywords": [
+    "mercado de valores",
+    "reciclaje de activos",
+    "fondos de infraestructura"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Seguridad y confianza de inversionistas",
+   "keywords": [
+    "acompañamiento técnico",
+    "fondos de infraestructura",
+    "fideicomisos"
+   ]
+  },
+  {
+   "actor": "CINDE, PROCOMER",
+   "metrica": "Inversión extranjera directa en infraestructura",
+   "keywords": [
+    "apertura comercial",
+    "atracción de inversión",
+    "sinergias sectoriales"
+   ]
+  },
+  {
+   "actor": "CINDE, PROCOMER",
+   "metrica": "Competitividad de procesos licitatorios y adopción de mejores prácticas",
+   "keywords": [
+    "app",
+    "reposicionamiento",
+    "procesos licitatorios"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Transparencia y rendición de cuentas en concesiones",
+   "keywords": [
+    "transparencia",
+    "información pública",
+    "concesiones"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Capacitación y soporte técnico en estructuración de concesiones",
+   "keywords": [
+    "ley de concesiones",
+    "capacitación",
+    "fondo de preinversión"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Fortalecimiento institucional del sector de concesiones",
+   "keywords": [
+    "ley de concesiones",
+    "consejo nacional de concesiones",
+    "capacidades"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Estabilidad regulatoria y atracción de inversión en APP",
+   "keywords": [
+    "reforma legislativa",
+    "ley 9701",
+    "marco legal app"
+   ]
+  }
+ ]
+}

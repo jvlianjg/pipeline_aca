@@ -1,0 +1,334 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "BCCR",
+   "metrica": "márgenes de intermediación, calidad de servicios financieros",
+   "keywords": [
+    "márgenes de intermediación",
+    "servicios financieros",
+    "vigilancia"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "supervisión consolidada, fondo de garantía de depósitos",
+   "keywords": [
+    "supervisión consolidada",
+    "fondo de garantía",
+    "intermediarios financieros"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "resolución de bancos en problemas",
+   "keywords": [
+    "normativa legal",
+    "resolución de bancos",
+    "problemas financieros"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "déficit cuasifiscal, control de inflación",
+   "keywords": [
+    "déficit cuasifiscal",
+    "emisión monetaria",
+    "inflación"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "cantidad de dinero circulante, estabilidad de precios",
+   "keywords": [
+    "sistemas cambiarios",
+    "emisión monetaria",
+    "independencia del banco central"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "dolarización de la economía",
+   "keywords": [
+    "dolarización",
+    "confianza en moneda local",
+    "sustitución de monedas"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "independencia institucional",
+   "keywords": [
+    "independencia del banco central",
+    "consideraciones políticas"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "independencia en política monetaria",
+   "keywords": [
+    "influencia fiscal",
+    "política monetaria",
+    "tasas de interés"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "déficit del banco central, control de inflación",
+   "keywords": [
+    "déficit del banco central",
+    "independencia funcional",
+    "política monetaria"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "deuda del banco central",
+   "keywords": [
+    "deuda del banco central",
+    "ministerio de hacienda"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "volatilidad cambiaria, mercado de divisas a futuro",
+   "keywords": [
+    "sistema cambiario de bandas",
+    "volatilidad",
+    "mercado de divisas"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "transmisión de política monetaria, tasas de interés",
+   "keywords": [
+    "mercado de dinero overnight",
+    "transmisión monetaria",
+    "tasas de interés"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "dolarización financiera, riesgo cambiario",
+   "keywords": [
+    "dolarización financiera",
+    "política cambiaria",
+    "competencia bancaria"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "metas de inflación",
+   "keywords": [
+    "metas de inflación",
+    "estabilización económica"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "independencia monetaria, tipo de cambio flexible",
+   "keywords": [
+    "tipos de cambio flexibles",
+    "intervención del banco central"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "percepción de riesgo cambiario",
+   "keywords": [
+    "coberturas cambiarias",
+    "riesgo cambiario",
+    "libertad de mercado"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "transmisión de política monetaria, tasas de interés",
+   "keywords": [
+    "correas de transmisión",
+    "tasa de política monetaria",
+    "mercado de liquidez"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "dolarización de la economía",
+   "keywords": [
+    "dolarización",
+    "riesgo cambiario",
+    "intervención cambiaria"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "regulación macroprudencial, capitalización del banco central",
+   "keywords": [
+    "regulación macroprudencial",
+    "supervisión",
+    "capitalización"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "capitalización del banco central",
+   "keywords": [
+    "capitalización del banco central",
+    "reforma financiera"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "estabilidad financiera, control de inflación",
+   "keywords": [
+    "metas de inflación",
+    "flotación cambiaria",
+    "estabilidad financiera"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "transparencia institucional",
+   "keywords": [
+    "transparencia",
+    "informes públicos",
+    "metodologías"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "independencia del banco central",
+   "keywords": [
+    "nombramiento del presidente",
+    "independencia",
+    "ciclo político"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "independencia de política monetaria",
+   "keywords": [
+    "voto del ministro de hacienda",
+    "junta directiva",
+    "decisiones monetarias"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "transmisión de política monetaria, tasas de interés",
+   "keywords": [
+    "mercado de dinero overnight",
+    "transmisión monetaria",
+    "decisiones de inversión"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "estabilidad de inflación y economía real",
+   "keywords": [
+    "metas de inflación",
+    "política monetaria",
+    "estabilidad económica"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "independencia monetaria y estabilidad cambiaria",
+   "keywords": [
+    "intervención cambiaria",
+    "mercado de divisas",
+    "coberturas cambiarias"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "estabilidad del sistema financiero",
+   "keywords": [
+    "regulación macroprudencial",
+    "supervisión financiera",
+    "coberturas cambiarias"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "solidez patrimonial del banco central",
+   "keywords": [
+    "capitalización",
+    "regulación macroprudencial",
+    "estabilidad financiera"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "transparencia institucional",
+   "keywords": [
+    "transparencia",
+    "acceso público",
+    "informes periódicos"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "estabilidad cambiaria",
+   "keywords": [
+    "bandas cambiarias",
+    "tipo de cambio",
+    "flotación cambiaria"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "credibilidad de política monetaria",
+   "keywords": [
+    "inflación prospectiva",
+    "transparencia",
+    "comunicación pública"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "independencia de política monetaria",
+   "keywords": [
+    "flotación cambiaria",
+    "intervención cambiaria",
+    "política monetaria"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "aislamiento monetario de shocks externos",
+   "keywords": [
+    "estrategia cambiaria",
+    "política monetaria",
+    "divisas"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "reducción de dolarización",
+   "keywords": [
+    "regulación prudencial",
+    "dolarización",
+    "créditos en dólares"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "efectividad de política monetaria",
+   "keywords": [
+    "facilidad crediticia",
+    "política monetaria",
+    "recuperación económica"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "eficiencia de instrumentos de política monetaria",
+   "keywords": [
+    "política monetaria",
+    "subsidios",
+    "sectores económicos"
+   ]
+  }
+ ]
+}

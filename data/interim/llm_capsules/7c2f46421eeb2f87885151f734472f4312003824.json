@@ -1,0 +1,339 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "COMEX, CINDE, PROCOMER",
+   "metrica": "derrames de productividad, encadenamientos productivos",
+   "keywords": [
+    "políticas de desarrollo productivo",
+    "atracción de ied",
+    "encadenamientos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desarrollo de clústeres",
+   "keywords": [
+    "clústeres",
+    "cadenas de valor",
+    "tic y ciberseguridad"
+   ]
+  },
+  {
+   "actor": "COMEX, CINDE, PROCOMER",
+   "metrica": "clima de negocios, desarrollo de proveedores locales",
+   "keywords": [
+    "institucionalidad",
+    "clima de negocios",
+    "proveedores locales"
+   ]
+  },
+  {
+   "actor": "CINDE",
+   "metrica": "flujos de ied",
+   "keywords": [
+    "cadena de ciencias de la vida",
+    "atracción de ied",
+    "eslabones"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "encadenamientos productivos",
+   "keywords": [
+    "incentivos",
+    "ied",
+    "empresas locales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "No especificada",
+   "keywords": [
+    "políticas públicas",
+    "prioridad",
+    "celeridad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "capacidad de absorción de proveedores",
+   "keywords": [
+    "desarrollo productivo",
+    "tecnología",
+    "i+d+i"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "clima de negocios",
+   "keywords": [
+    "mercado laboral",
+    "propiedad intelectual",
+    "financiamiento"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "derrames de productividad, difusión tecnológica",
+   "keywords": [
+    "fallas de mercado",
+    "información y coordinación",
+    "emn"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "apoyo a empresas domésticas",
+   "keywords": [
+    "marco institucional",
+    "proveedores",
+    "emn"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "políticas públicas de encadenamientos",
+   "keywords": [
+    "marco institucional",
+    "monitoreo y evaluación",
+    "ocde"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "modernización productiva, competitividad",
+   "keywords": [
+    "desarrollo de proveedores",
+    "acompañamiento integral",
+    "estándares"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "encadenamientos y derrames de productividad",
+   "keywords": [
+    "consejo nacional de productividad",
+    "gobierno",
+    "sector privado"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "fallas de mercado en cadenas de valor",
+   "keywords": [
+    "programa nacional de clústeres",
+    "herramienta",
+    "cgv"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "valor agregado de exportaciones, crecimiento inclusivo",
+   "keywords": [
+    "encadenamientos productivos",
+    "empresas exportadoras",
+    "insumos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "capacidad de innovación",
+   "keywords": [
+    "empresas domésticas",
+    "política de clústeres",
+    "innovación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "atracción de ied",
+   "keywords": [
+    "proveedores especializados",
+    "insumos estratégicos",
+    "emn"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "atracción de proveedores globales",
+   "keywords": [
+    "coordinación",
+    "emn",
+    "plantas subsidiarias"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "incentivos a proveedores",
+   "keywords": [
+    "autoridades políticas",
+    "emn",
+    "proveedores"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "apoyo a emprendedores, costos operativos",
+   "keywords": [
+    "emprendedores",
+    "cargas sociales",
+    "financiamiento"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "clima competitivo, inversiones",
+   "keywords": [
+    "importaciones",
+    "insumos estratégicos",
+    "manufactura"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "optimización de costos y manufactura",
+   "keywords": [
+    "inversiones de proveedores",
+    "logística",
+    "manufactura"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "atracción de proveedores globales",
+   "keywords": [
+    "compras de insumos",
+    "clúster",
+    "competitividad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "costos operativos, infraestructura",
+   "keywords": [
+    "salarios",
+    "electricidad",
+    "infraestructura"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "oferta de capital humano",
+   "keywords": [
+    "capital humano",
+    "cantidad y calidad",
+    "cgv"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "atracción de inversión extranjera directa, reducción de costos logísticos",
+   "keywords": [
+    "clúster nacional",
+    "proveedores locales",
+    "empresas proveedoras globales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desempeño de políticas de encadenamientos, capacidad de proveedores domésticos",
+   "keywords": [
+    "políticas públicas",
+    "encadenamientos",
+    "acompañamiento proveedores"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "flujos de inversión extranjera directa, compras locales",
+   "keywords": [
+    "clima de negocios",
+    "zonas francas",
+    "inversión extranjera"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "competitividad en ciencias de la vida, oportunidades de crecimiento",
+   "keywords": [
+    "hub ciencias vida",
+    "dispositivos médicos",
+    "zonas francas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "catálogo de productos y servicios locales, estándares de calidad",
+   "keywords": [
+    "catálogo nacional",
+    "productos servicios",
+    "estándares empresas multinacionales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "volumen de encadenamientos con industria local",
+   "keywords": [
+    "encadenamientos",
+    "industria local",
+    "prioridad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "capacidad de proveedores, posicionamiento de oferta local",
+   "keywords": [
+    "acompañamiento proveedores",
+    "matchmaking",
+    "posicionamiento oferta"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "negocios concretados con empresas multinacionales, modernización productiva",
+   "keywords": [
+    "inteligencia negocios",
+    "proveedores locales",
+    "capacidades mejora"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "acceso a financiamiento, modernización productiva de proveedores",
+   "keywords": [
+    "financiamiento",
+    "inversiones tecnológicas",
+    "proveedores locales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "posicionamiento de oferta local, integración clúster",
+   "keywords": [
+    "redes proveedores",
+    "enfoque colaborativo",
+    "clúster"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "integración industria local con empresas multinacionales",
+   "keywords": [
+    "start ups",
+    "spin offs",
+    "integración industria"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "eficiencia institucional, satisfacción de empresas proveedoras",
+   "keywords": [
+    "institucionalidad",
+    "voz cliente",
+    "empresas proveedoras"
+   ]
+  }
+ ]
+}

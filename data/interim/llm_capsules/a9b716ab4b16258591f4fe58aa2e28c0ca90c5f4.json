@@ -1,0 +1,321 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Cobertura de la legislación de competencia",
+   "keywords": [
+    "alcance legislativo",
+    "empresas estatales",
+    "concesiones públicas"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Independencia y recursos de la autoridad de competencia",
+   "keywords": [
+    "coprocom",
+    "marco institucional",
+    "recursos financieros"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Claridad metodológica y poder disuasorio",
+   "keywords": [
+    "prácticas monopolísticas",
+    "control previo",
+    "sanciones"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Control de concentraciones",
+   "keywords": [
+    "control previo",
+    "concentraciones",
+    "transacciones"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Poder disuasorio de sanciones",
+   "keywords": [
+    "sanciones",
+    "multas",
+    "poder disuasorio"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Autonomía e independencia de agencias de competencia",
+   "keywords": [
+    "coprocom",
+    "sutel",
+    "autonomía",
+    "cooperación internacional"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Aplicación internacional de la ley de competencia",
+   "keywords": [
+    "cooperación internacional",
+    "aplicación transfronteriza"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Control de transacciones y umbrales de notificación",
+   "keywords": [
+    "gun jumping",
+    "notificación",
+    "umbrales"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Amplitud de infracciones sancionables",
+   "keywords": [
+    "prácticas monopolísticas",
+    "infracciones",
+    "deberes procesales"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Monto de multas por infracciones",
+   "keywords": [
+    "multas",
+    "ingresos brutos",
+    "poder disuasorio"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Responsabilidad de promotores de prácticas anticompetitivas",
+   "keywords": [
+    "facilitadores",
+    "personas físicas",
+    "multas"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Cumplimiento voluntario de normas de competencia",
+   "keywords": [
+    "programas voluntarios",
+    "cumplimiento",
+    "atenuantes"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Inmunidad y reducción de multas por colaboración",
+   "keywords": [
+    "inmunidad",
+    "colaboración",
+    "investigación"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Terminación anticipada de investigaciones",
+   "keywords": [
+    "investigación",
+    "terminación anticipada",
+    "cargos"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Procedimientos de investigación",
+   "keywords": [
+    "procedimientos",
+    "investigación",
+    "prácticas prohibidas"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Protección del debido proceso en investigaciones",
+   "keywords": [
+    "debido proceso",
+    "defensa",
+    "plazos"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Independencia en toma de decisiones",
+   "keywords": [
+    "modelo integrado",
+    "independencia",
+    "recursos limitados"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Separación de funciones en investigación",
+   "keywords": [
+    "instrucción",
+    "decisión final",
+    "independencia"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "Exclusiones a la ley de competencia",
+   "keywords": [
+    "exclusiones",
+    "leyes especiales",
+    "actos autorizados"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Eliminación de excepciones injustificadas",
+   "keywords": [
+    "excepciones",
+    "restricciones",
+    "justificación"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Independencia técnica y administrativa de COPROCOM",
+   "keywords": [
+    "coprocom",
+    "independencia",
+    "personalidad jurídica"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Presupuesto de la autoridad de competencia",
+   "keywords": [
+    "presupuesto",
+    "coprocom",
+    "recursos"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Estructura y dedicación de miembros de COPROCOM",
+   "keywords": [
+    "coprocom",
+    "tiempo completo",
+    "miembros"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Eliminación de barreras regulatorias a la competencia",
+   "keywords": [
+    "regulaciones",
+    "monopolios",
+    "barreras"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "Alineación normativa entre sistemas de competencia",
+   "keywords": [
+    "telecomunicaciones",
+    "normas",
+    "multas"
+   ]
+  },
+  {
+   "actor": "COPROCOM, ARESEP",
+   "metrica": "efectividad de la promoción de la competencia en mercados",
+   "keywords": [
+    "coordinación",
+    "promoción de competencia",
+    "mercados"
+   ]
+  },
+  {
+   "actor": "COPROCOM",
+   "metrica": "aplicación efectiva de legislación de competencia",
+   "keywords": [
+    "dotación de recursos",
+    "coprocom",
+    "ley 9736"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "regulación de servicios públicos",
+   "keywords": [
+    "aresep",
+    "regulación",
+    "servicios públicos"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "calidad, confiabilidad, continuidad y tarifas de servicios públicos",
+   "keywords": [
+    "inspecciones técnicas",
+    "calidad",
+    "tarifas"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "cumplimiento tributario y laboral de empresas prestadoras",
+   "keywords": [
+    "obligaciones tributarias",
+    "cargas sociales",
+    "leyes laborales"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "fijación de tarifas y precios de servicios públicos",
+   "keywords": [
+    "tarifas",
+    "precios",
+    "estudios técnicos"
+   ]
+  },
+  {
+   "actor": "ARESEP",
+   "metrica": "precios de electricidad",
+   "keywords": [
+    "apertura de mercado",
+    "desintegración",
+    "electricidad"
+   ]
+  },
+  {
+   "actor": "Administración Pública",
+   "metrica": "regulación de precios en situaciones excepcionales",
+   "keywords": [
+    "regulación de precios",
+    "excepcionalidad",
+    "temporalidad"
+   ]
+  },
+  {
+   "actor": "Administración Pública",
+   "metrica": "regulación de precios en monopolios y oligopolios",
+   "keywords": [
+    "monopolio",
+    "oligopolio",
+    "regulación de precios"
+   ]
+  },
+  {
+   "actor": "COPROCOM, Poder Ejecutivo",
+   "metrica": "fijación de precios conforme a ley 7472",
+   "keywords": [
+    "ley 7472",
+    "fijación de precios",
+    "procedimiento legal"
+   ]
+  }
+ ]
+}

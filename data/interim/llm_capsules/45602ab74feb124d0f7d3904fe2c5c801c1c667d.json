@@ -1,0 +1,366 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "recolección de desechos",
+   "keywords": [
+    "análisis de datos",
+    "recolección de desechos",
+    "políticas públicas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "recolección y reciclaje de desechos",
+   "keywords": [
+    "análisis de datos",
+    "revalorización de desechos",
+    "reciclaje"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "sustitución de botaderos por rellenos sanitarios",
+   "keywords": [
+    "rellenos sanitarios",
+    "gestión de desechos",
+    "infraestructura"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "aprovechamiento de desechos orgánicos",
+   "keywords": [
+    "desechos orgánicos",
+    "aprovechamiento",
+    "valorización"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "tratamiento de desechos peligrosos, formalización del reciclaje, conciencia ambiental",
+   "keywords": [
+    "desechos peligrosos",
+    "reciclaje informal",
+    "economía circular"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "formalización del reciclaje informal, conciencia ambiental",
+   "keywords": [
+    "reciclaje informal",
+    "formalización",
+    "economía circular"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "conciencia ambiental, transición a economía circular",
+   "keywords": [
+    "comunicación",
+    "concientización",
+    "economía circular"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "definición de competencias institucionales, transición a economía circular",
+   "keywords": [
+    "competencias institucionales",
+    "economía circular",
+    "sostenibilidad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "transición a economía circular",
+   "keywords": [
+    "economía circular",
+    "paradigma",
+    "sostenibilidad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "promoción de economía circular en gobiernos locales",
+   "keywords": [
+    "economía circular",
+    "municipalidades",
+    "políticas públicas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "identificación de casos de éxito en gestión de residuos",
+   "keywords": [
+    "casos de éxito",
+    "municipalidades",
+    "iniciativas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "educación ambiental, incentivos para generadores de residuos",
+   "keywords": [
+    "educación ambiental",
+    "gestión integral de residuos",
+    "incentivos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "gestión integral de residuos, minimización de generación de residuos",
+   "keywords": [
+    "fondo de residuos",
+    "sistema de gestión ambiental",
+    "compras del estado"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "minimización de generación de residuos, monitoreo y evaluación",
+   "keywords": [
+    "sistema de gestión ambiental",
+    "compras del estado",
+    "monitoreo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "control de movimientos transfronterizos de residuos",
+   "keywords": [
+    "permisos ambientales",
+    "registro de gestores",
+    "movimientos transfronterizos"
+   ]
+  },
+  {
+   "actor": "Dirección General de Aduanas",
+   "metrica": "control de importación de materiales y repatriación de productos",
+   "keywords": [
+    "aduanas",
+    "movimientos transfronterizos",
+    "repatriación"
+   ]
+  },
+  {
+   "actor": "Dirección General de Aduanas",
+   "metrica": "inspección y repatriación de productos que contravengan normas",
+   "keywords": [
+    "aduanas",
+    "inspección",
+    "repatriación"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "responsabilidad en manejo de residuos peligrosos",
+   "keywords": [
+    "residuos peligrosos",
+    "responsabilidad del productor",
+    "salud ambiental"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "prevención y remediación de contaminación de suelos",
+   "keywords": [
+    "responsabilidad solidaria",
+    "contaminación",
+    "suelos"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "cumplimiento normativo, sanciones administrativas",
+   "keywords": [
+    "infracciones",
+    "sanciones",
+    "inspección"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "seguimiento de implementación de acciones de gestión de residuos",
+   "keywords": [
+    "política nacional",
+    "gestión integral de residuos",
+    "monitoreo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "clasificación y control de residuos peligrosos",
+   "keywords": [
+    "residuos peligrosos",
+    "convenio de basilea",
+    "ocde"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "emisión de reglamentos municipales para gestión de residuos",
+   "keywords": [
+    "municipalidades",
+    "reglamentos",
+    "gestión integral de residuos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "transición a economía circular en gobiernos locales",
+   "keywords": [
+    "guía",
+    "gobiernos locales",
+    "economía circular"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "cumplimiento de estándares normativos y compromisos internacionales",
+   "keywords": [
+    "estándares normativos",
+    "compromisos internacionales",
+    "gestión de residuos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "cumplimiento de responsabilidad extendida del productor",
+   "keywords": [
+    "responsabilidad extendida del productor",
+    "sensibilización",
+    "incentivos"
+   ]
+  },
+  {
+   "actor": "Municipalidades",
+   "metrica": "promoción de compostaje y gestión de residuos sólidos",
+   "keywords": [
+    "compostaje",
+    "residuos sólidos",
+    "educación formal"
+   ]
+  },
+  {
+   "actor": "Municipalidades",
+   "metrica": "adopción de compostaje domiciliario",
+   "keywords": [
+    "compostaje domiciliario",
+    "capacitación",
+    "difusión"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "acceso a composteras domiciliarias y empleo",
+   "keywords": [
+    "composteras",
+    "financiamiento",
+    "empleo"
+   ]
+  },
+  {
+   "actor": "Municipalidades",
+   "metrica": "participación en compostaje domiciliario",
+   "keywords": [
+    "tasas municipales",
+    "incentivos",
+    "compostaje"
+   ]
+  },
+  {
+   "actor": "Municipalidades",
+   "metrica": "identificación y cumplimiento de separación de residuos orgánicos",
+   "keywords": [
+    "residuos orgánicos",
+    "identificación",
+    "reconocimiento"
+   ]
+  },
+  {
+   "actor": "Municipalidades",
+   "metrica": "reducción de residuos en sitios no controlados",
+   "keywords": [
+    "sitios no controlados",
+    "recolección",
+    "viabilidad financiera"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "calidad y accesibilidad de sistemas de información de residuos",
+   "keywords": [
+    "sistemas de información",
+    "gestión de datos",
+    "experiencia de usuario"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación Pública",
+   "metrica": "participación en Programa de Bandera Azul Ecológica",
+   "keywords": [
+    "bandera azul ecológica",
+    "educación ambiental",
+    "reinstauración"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "consolidación de sistemas de información de residuos",
+   "keywords": [
+    "sistemas de información",
+    "consolidación",
+    "residuos"
+   ]
+  },
+  {
+   "actor": "Municipalidades",
+   "metrica": "disponibilidad de línea base de información local",
+   "keywords": [
+    "línea base",
+    "información disponible",
+    "gobierno local"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "calidad y control de información de residuos",
+   "keywords": [
+    "monitoreo",
+    "evaluación",
+    "control de calidad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desarrollo de instrumentos de monitoreo y evaluación",
+   "keywords": [
+    "cooperación internacional",
+    "monitoreo",
+    "evaluación"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "registro y gestión de residuos hospitalarios",
+   "keywords": [
+    "residuos hospitalarios",
+    "recolección",
+    "registro"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "transparencia y acceso a información de residuos",
+   "keywords": [
+    "publicación",
+    "transparencia",
+    "acceso a información"
+   ]
+  }
+ ]
+}

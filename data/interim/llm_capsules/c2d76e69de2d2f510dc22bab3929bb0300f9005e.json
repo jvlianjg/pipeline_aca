@@ -1,0 +1,357 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "financiamiento de seguridad social",
+   "keywords": [
+    "seguridad social",
+    "fuentes alternativas",
+    "financiamiento"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "recaudación tributaria",
+   "keywords": [
+    "cargas laborales",
+    "impuestos generales",
+    "sustitución"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "sostenibilidad fiscal",
+   "keywords": [
+    "traslado gradual",
+    "cargas laborales",
+    "impuestos generales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "viabilidad política de reformas",
+   "keywords": [
+    "mapeo de actores",
+    "economía política",
+    "reforma"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desempeño de mercados laborales",
+   "keywords": [
+    "gestión por resultados",
+    "análisis costo-beneficio",
+    "parafiscales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desempeño de mercados laborales",
+   "keywords": [
+    "análisis costo-beneficio",
+    "financiamiento seguridad social",
+    "alternativas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "formalidad laboral",
+   "keywords": [
+    "barreras de entrada",
+    "formalidad",
+    "medidas correctivas"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "ingresos tributarios",
+   "keywords": [
+    "fuentes alternativas",
+    "compensación de ingresos",
+    "seguridad social"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "eficiencia tributaria",
+   "keywords": [
+    "impuestos generales",
+    "financiamiento seguridad social",
+    "eficiencia"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "sostenibilidad fiscal",
+   "keywords": [
+    "traslado cargas sociales",
+    "impuestos generales",
+    "estrategia integral"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "implementación de reformas",
+   "keywords": [
+    "reformas seguridad social",
+    "fuentes alternativas",
+    "capacidades"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "financiamiento seguridad social",
+   "keywords": [
+    "desvinculación",
+    "aportes laborales",
+    "impuestos generales"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "recaudación tributaria",
+   "keywords": [
+    "fuentes alternativas",
+    "reforma tributaria",
+    "financiamiento"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "distorsión del mercado laboral",
+   "keywords": [
+    "impuestos trabajo",
+    "fuentes alternativas",
+    "informalidad"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "formalidad laboral",
+   "keywords": [
+    "transferencias solidarias",
+    "ingresos generales",
+    "informalidad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "crecimiento empresarial",
+   "keywords": [
+    "diseño de regímenes",
+    "efectos indeseados",
+    "formalidad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "formalidad laboral",
+   "keywords": [
+    "reducción cargas",
+    "simplificación trámites",
+    "atención autoridades"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "formalidad laboral",
+   "keywords": [
+    "productividad",
+    "acceso crédito",
+    "cargas laborales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "financiamiento seguridad social",
+   "keywords": [
+    "fuentes alternativas",
+    "países alc",
+    "recomendación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "viabilidad de reforma fiscal",
+   "keywords": [
+    "política pública",
+    "economía política",
+    "contexto institucional"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "eficiencia de programas parafiscales",
+   "keywords": [
+    "análisis costo-beneficio",
+    "seguimiento evaluación",
+    "resultados"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "costo del trabajo",
+   "keywords": [
+    "cargas sociales",
+    "parafiscales",
+    "salario bruto"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "distorsión del mercado laboral",
+   "keywords": [
+    "programas parafiscales",
+    "impuesto renta",
+    "iva"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "sostenibilidad seguridad social",
+   "keywords": [
+    "reducir dependencia",
+    "cuotas obreropatronales",
+    "alternativas"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "sostenibilidad seguridad social",
+   "keywords": [
+    "mejores prácticas",
+    "cotizaciones laborales",
+    "reforma"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "recaudación tributaria, carga fiscal",
+   "keywords": [
+    "cargas sociales",
+    "impuestos generales",
+    "sustitución tributaria"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "recaudación tributaria, carga parafiscal",
+   "keywords": [
+    "cargas parafiscales",
+    "impuestos directos",
+    "reforma tributaria"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "recaudación por IVA, elasticidad tributaria",
+   "keywords": [
+    "iva",
+    "análisis costo-beneficio",
+    "pass-through"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "recaudación parafiscal",
+   "keywords": [
+    "cargas parafiscales",
+    "reforma tributaria",
+    "fase piloto"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "recaudación por IVA, margen fiscal",
+   "keywords": [
+    "iva",
+    "recaudación tributaria",
+    "potencial fiscal"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "recaudación tributaria, emisiones de CO₂",
+   "keywords": [
+    "impuestos selectivos",
+    "impuestos ambientales",
+    "turismo"
+   ]
+  },
+  {
+   "actor": "MINAE",
+   "metrica": "daños ambientales cuantificados, costo monetario ambiental",
+   "keywords": [
+    "monitoreo ambiental",
+    "daños ambientales",
+    "capacidad institucional"
+   ]
+  },
+  {
+   "actor": "MIDEPLAN",
+   "metrica": "beneficio neto social y económico",
+   "keywords": [
+    "presupuesto",
+    "análisis costo-beneficio",
+    "gasto público"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "sostenibilidad fiscal, disponibilidad de recursos",
+   "keywords": [
+    "regla fiscal",
+    "compromiso político",
+    "disciplina presupuestaria"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "empleo formal, contribuciones al seguro social",
+   "keywords": [
+    "contribuciones empleador",
+    "seguro social",
+    "grupos específicos"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "empleo formal en mujeres y jóvenes",
+   "keywords": [
+    "empleo",
+    "mujeres",
+    "jóvenes"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "recaudación tributaria, evasión fiscal",
+   "keywords": [
+    "tasas tributarias",
+    "bases amplias",
+    "control de evasión"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "mapeo de actores, riesgos identificados",
+   "keywords": [
+    "actores involucrados",
+    "matriz de riesgos",
+    "reforma tributaria"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "compensación de recursos, riesgos mitigados",
+   "keywords": [
+    "matriz de riesgos",
+    "medidas de mitigación",
+    "reforma tributaria"
+   ]
+  }
+ ]
+}

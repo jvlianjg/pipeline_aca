@@ -1,0 +1,255 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "acceso a educación técnica y profesional para mujeres",
+   "keywords": [
+    "educación técnica",
+    "mujeres",
+    "becas",
+    "barreras económicas"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "igualdad salarial, seguridad laboral, conciliación trabajo-familia",
+   "keywords": [
+    "igualdad salarial",
+    "licencias parentales",
+    "seguridad laboral",
+    "trabajo flexible"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "participación femenina en puestos de decisión y sectores masculinizados",
+   "keywords": [
+    "liderazgo femenino",
+    "mentoría",
+    "emprendimiento",
+    "financiamiento"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "informalidad laboral femenina, acceso a seguridad social",
+   "keywords": [
+    "trabajo doméstico",
+    "cuidado infantil",
+    "informalidad",
+    "seguridad social"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "implementación de políticas de equidad de género, recopilación de datos desagregados",
+   "keywords": [
+    "incentivos fiscales",
+    "datos desagregados",
+    "evaluación de políticas",
+    "equidad de género"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "acceso a educación básica y técnica para mujeres",
+   "keywords": [
+    "educación técnica",
+    "barreras culturales",
+    "formación profesional"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "inserción de mujeres en sectores estratégicos de alta demanda",
+   "keywords": [
+    "sectores estratégicos",
+    "becas",
+    "formación profesional",
+    "sector productivo"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "igualdad salarial por trabajo de igual valor",
+   "keywords": [
+    "liderazgo",
+    "capacitación",
+    "igualdad salarial",
+    "normativas"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "igualdad salarial, equilibrio trabajo-familia",
+   "keywords": [
+    "igualdad salarial",
+    "licencia maternidad",
+    "licencia paternidad",
+    "trayectoria profesional"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "seguridad y protección laboral en sectores informales",
+   "keywords": [
+    "seguridad laboral",
+    "trabajo doméstico",
+    "informalidad",
+    "condiciones dignas"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "equidad en contratación, promoción y remuneración",
+   "keywords": [
+    "políticas empresariales",
+    "equidad de género",
+    "contratación",
+    "remuneración"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "acceso de mujeres a posiciones de liderazgo",
+   "keywords": [
+    "mentoría",
+    "coaching",
+    "desarrollo de carrera",
+    "liderazgo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "acceso a financiamiento para mujeres emprendedoras",
+   "keywords": [
+    "emprendimiento",
+    "financiamiento",
+    "crédito",
+    "mercados estratégicos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "participación femenina en sectores masculinizados",
+   "keywords": [
+    "sectores masculinizados",
+    "tecnología",
+    "agricultura",
+    "sensibilización"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "reducción de informalidad laboral femenina, acceso a seguridad social",
+   "keywords": [
+    "informalidad laboral",
+    "estabilidad empleo",
+    "seguridad social",
+    "protección laboral"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "cobertura de servicios de cuidado infantil, inserción laboral femenina",
+   "keywords": [
+    "cuidado infantil",
+    "inserción laboral",
+    "barreras participación",
+    "accesibilidad"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "conciliación trabajo-familia mediante flexibilidad laboral",
+   "keywords": [
+    "trabajo flexible",
+    "teletrabajo",
+    "horarios adaptables",
+    "conciliación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "redistribución equitativa del trabajo doméstico y de cuidados",
+   "keywords": [
+    "trabajo doméstico",
+    "corresponsabilidad",
+    "concienciación",
+    "cuidados"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "acceso a recursos, educación, empleo y salud para mujeres vulnerables",
+   "keywords": [
+    "vulnerabilidad",
+    "apoyo integral",
+    "educación",
+    "empleo"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "equidad salarial, inclusión financiera femenina",
+   "keywords": [
+    "incentivos fiscales",
+    "equidad salarial",
+    "inclusión financiera",
+    "autonomía económica"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "acceso a mecanismos de inclusión financiera y alfabetización digital",
+   "keywords": [
+    "microcréditos",
+    "cooperativas",
+    "alfabetización digital",
+    "conectividad rural"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "erradicación de estereotipos de género, cambio cultural",
+   "keywords": [
+    "estereotipos de género",
+    "educación",
+    "medios comunicación",
+    "igualdad oportunidades"
+   ]
+  },
+  {
+   "actor": "MIDEPLAN",
+   "metrica": "recopilación de datos desagregados por género, monitoreo de equidad",
+   "keywords": [
+    "datos desagregados",
+    "género",
+    "evidencia",
+    "monitoreo"
+   ]
+  },
+  {
+   "actor": "MIDEPLAN",
+   "metrica": "efectividad y adaptabilidad de políticas de igualdad de género",
+   "keywords": [
+    "evaluación",
+    "ajuste políticas",
+    "equidad de género",
+    "mercado laboral"
+   ]
+  },
+  {
+   "actor": "MIDEPLAN",
+   "metrica": "efectividad y adaptabilidad de políticas de igualdad de género",
+   "keywords": [
+    "mecanismos evaluación",
+    "políticas igualdad",
+    "adaptabilidad",
+    "trabajadoras"
+   ]
+  }
+ ]
+}

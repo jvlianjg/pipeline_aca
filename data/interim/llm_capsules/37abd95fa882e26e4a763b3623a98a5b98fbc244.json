@@ -1,0 +1,141 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "crecimiento del PIB",
+   "keywords": [
+    "crecimiento del pib",
+    "escenarios alternativos",
+    "proyecciones"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "credibilidad de la política fiscal",
+   "keywords": [
+    "institucionalidad fiscal",
+    "política fiscal",
+    "independencia"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "error de pronóstico del Marco Fiscal de Mediano Plazo",
+   "keywords": [
+    "consejos fiscales",
+    "regla fiscal",
+    "monitoreo"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "credibilidad de la política fiscal",
+   "keywords": [
+    "rendición de cuentas",
+    "transparencia",
+    "congreso"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "impacto fiscal",
+   "keywords": [
+    "rendición de cuentas",
+    "regla fiscal",
+    "evaluación"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "credibilidad de la política fiscal",
+   "keywords": [
+    "comunicación",
+    "gasto corriente",
+    "impacto macroeconómico"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "análisis macroeconómico",
+   "keywords": [
+    "división de análisis",
+    "equipo técnico",
+    "macro-fiscal"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "credibilidad de la política fiscal",
+   "keywords": [
+    "equipo técnico",
+    "independencia",
+    "especialistas"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "credibilidad de la política fiscal",
+   "keywords": [
+    "institucionalidad pública",
+    "regla fiscal",
+    "fortalecimiento"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "costo de financiamiento de la deuda pública",
+   "keywords": [
+    "gestión de deuda",
+    "financiamiento",
+    "riesgo"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "costo de la deuda pública",
+   "keywords": [
+    "tesorería nacional",
+    "crédito público",
+    "estrategia de deuda"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "riesgos macrofiscales",
+   "keywords": [
+    "gestión de deuda",
+    "tesorería",
+    "mediano plazo"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "credibilidad de la gestión de deuda pública",
+   "keywords": [
+    "transparencia",
+    "mercado financiero",
+    "rendición de cuentas"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "empleo formal",
+   "keywords": [
+    "cargas sociales",
+    "estabilidad de ingresos",
+    "consumo"
+   ]
+  },
+  {
+   "actor": "Ministerio de Hacienda",
+   "metrica": "formalidad del empleo",
+   "keywords": [
+    "cargas sociales",
+    "flexibilización",
+    "ingresos de hogares"
+   ]
+  }
+ ]
+}

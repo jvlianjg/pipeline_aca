@@ -1,0 +1,356 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "resiliencia nacional",
+   "keywords": [
+    "variables físicas",
+    "toma de decisiones",
+    "resiliencia"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "coherencia de políticas públicas",
+   "keywords": [
+    "líderes políticos",
+    "mandato explícito",
+    "posturas sectoriales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "coherencia de políticas públicas",
+   "keywords": [
+    "condiciones físicas",
+    "políticas públicas",
+    "múltiples sectores"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "acciones tempranas",
+   "keywords": [
+    "acciones tempranas",
+    "valor"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "educación ambiental",
+   "keywords": [
+    "materias ambientales",
+    "educación primaria",
+    "educación secundaria"
+   ]
+  },
+  {
+   "actor": "MINAE",
+   "metrica": "liderazgo ambiental y climático",
+   "keywords": [
+    "instituciones ambientales",
+    "acción climática",
+    "convenciones internacionales"
+   ]
+  },
+  {
+   "actor": "COMEX",
+   "metrica": "cumplimiento de regulaciones comerciales",
+   "keywords": [
+    "sector exportador",
+    "etiquetados ecológicos",
+    "regulaciones comerciales"
+   ]
+  },
+  {
+   "actor": "Municipalidades",
+   "metrica": "construcción sostenible",
+   "keywords": [
+    "normas construcción",
+    "diseño vivienda",
+    "materiales"
+   ]
+  },
+  {
+   "actor": "Municipalidades",
+   "metrica": "ordenamiento territorial",
+   "keywords": [
+    "planes reguladores",
+    "ordenamiento territorial",
+    "largo plazo"
+   ]
+  },
+  {
+   "actor": "Comisión Nacional de Prevención de Riesgos y Atención de Emergencias",
+   "metrica": "gestión de riesgos",
+   "keywords": [
+    "sistema gestión riesgos",
+    "eventos extremos",
+    "emergencias"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "competencia económica",
+   "keywords": [
+    "ley competencia",
+    "sectores exentos",
+    "azúcar arroz café"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "precios al consumidor",
+   "keywords": [
+    "aranceles",
+    "barreras no arancelarias",
+    "costo social"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "competencia económica",
+   "keywords": [
+    "coprocom",
+    "concentraciones monopólicas",
+    "abuso poder"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "preparación laboral",
+   "keywords": [
+    "planes estudio",
+    "destrezas vida",
+    "matic"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "capacitación docente",
+   "keywords": [
+    "capacitación docentes",
+    "metodologías pedagógicas",
+    "tecnología aprendizaje"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "integración educativa",
+   "keywords": [
+    "tecnología aprendizaje",
+    "centros educativos",
+    "universidades empresas"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "educación técnica",
+   "keywords": [
+    "colegios técnicos",
+    "capacitación vocacional",
+    "instituto aprendizaje"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "cobertura educativa",
+   "keywords": [
+    "cobertura pertinencia",
+    "estandarización",
+    "zonas gam"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "graduadas en ingenierías",
+   "keywords": [
+    "mujeres ingenierías",
+    "tecnologías",
+    "paridad género"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "equidad de género educativa",
+   "keywords": [
+    "sesgos género",
+    "contenidos educativos",
+    "matic mujeres"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "participación laboral femenina",
+   "keywords": [
+    "barreras estructurales",
+    "cuidado",
+    "brecha salarial"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "datos desagregados por sexo",
+   "keywords": [
+    "recolección datos",
+    "diferenciación sexo",
+    "investigación"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "productividad tecnológica",
+   "keywords": [
+    "adopción tecnología",
+    "clústeres",
+    "productos matic"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "emprendedurismo",
+   "keywords": [
+    "marco regulatorio",
+    "registros patentes",
+    "barreras administrativas"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "cobertura banda ancha",
+   "keywords": [
+    "infraestructura digital",
+    "banda ancha",
+    "conectividad"
+   ]
+  },
+  {
+   "actor": "INA, UTN, MEP",
+   "metrica": "personal capacitado en telecomunicaciones",
+   "keywords": [
+    "capacitación",
+    "técnicos",
+    "telecomunicaciones"
+   ]
+  },
+  {
+   "actor": "SUTEL",
+   "metrica": "separación funcional entre constructores y proveedores",
+   "keywords": [
+    "separación",
+    "constructores",
+    "proveedores de servicios"
+   ]
+  },
+  {
+   "actor": "SUTEL",
+   "metrica": "implementación de Ley General de Telecomunicaciones",
+   "keywords": [
+    "ley",
+    "telecomunicaciones",
+    "implementación"
+   ]
+  },
+  {
+   "actor": "SUTEL",
+   "metrica": "interconexiones locales tipo IXP establecidas",
+   "keywords": [
+    "ixp",
+    "interconexiones",
+    "infraestructura"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "política pública para IXP y tráfico local",
+   "keywords": [
+    "ixp",
+    "política pública",
+    "tráfico local"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "obligatoriedad de agregación de tráfico local",
+   "keywords": [
+    "tráfico local",
+    "operadores",
+    "política pública"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "cobertura de servicio básico en población vulnerable",
+   "keywords": [
+    "subsidio",
+    "acceso",
+    "vulnerabilidad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "mantenimiento de activos existentes",
+   "keywords": [
+    "mantenimiento",
+    "infraestructura",
+    "activos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "recursos programados para operación y mantenimiento",
+   "keywords": [
+    "mantenimiento",
+    "presupuesto",
+    "infraestructura"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "proyectos implementados mediante APP",
+   "keywords": [
+    "alianzas público-privadas",
+    "nuevos proyectos",
+    "infraestructura"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "proyectos APP implementados con subsidio estatal",
+   "keywords": [
+    "app",
+    "tarifas",
+    "subsidio"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "dinamización del mercado de valores local",
+   "keywords": [
+    "mercado de valores",
+    "reciclaje de activos",
+    "optimización"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "acceso de costarricenses a inversiones en infraestructura",
+   "keywords": [
+    "mercado de valores",
+    "democratización",
+    "transparencia"
+   ]
+  },
+  {
+   "actor": "MICITT",
+   "metrica": "infraestructura como política de Estado",
+   "keywords": [
+    "política de estado",
+    "infraestructura",
+    "institucionalidad"
+   ]
+  }
+ ]
+}

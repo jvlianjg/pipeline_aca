@@ -1,0 +1,314 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "tasa de crecimiento de productividad laboral",
+   "keywords": [
+    "agenda de mejora",
+    "productividad laboral",
+    "crecimiento sostenido"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "demanda de empleo, productividad",
+   "keywords": [
+    "políticas de desarrollo productivo",
+    "demanda de empleo",
+    "prosperidad compartida"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad de economía tradicional, empleo",
+   "keywords": [
+    "desarrollo productivo",
+    "economía tradicional",
+    "crecimiento inclusivo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "concentración de mercados laborales",
+   "keywords": [
+    "concentración de mercados",
+    "poder monopolístico",
+    "desacoplamiento productividad-salarios"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "poder monopolístico, salarios",
+   "keywords": [
+    "concentración mercados laborales",
+    "monopolio",
+    "salarios bajos"
+   ]
+  },
+  {
+   "actor": "MEIC",
+   "metrica": "recursos para competencia",
+   "keywords": [
+    "coprocom",
+    "promoción de competencia",
+    "meic"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "distribución de beneficios tecnológicos",
+   "keywords": [
+    "cambio tecnológico",
+    "integración comercial",
+    "distribución de beneficios"
+   ]
+  },
+  {
+   "actor": "MTSS, COMEX, MEIC, MAG, MICITT",
+   "metrica": "distribución de beneficios de productividad",
+   "keywords": [
+    "equipo de trabajo interministerial",
+    "cambio tecnológico",
+    "integración comercial"
+   ]
+  },
+  {
+   "actor": "CNS",
+   "metrica": "salarios mínimos del sector privado",
+   "keywords": [
+    "consejo nacional de salarios",
+    "productividad laboral",
+    "salarios mínimos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "impacto en productividad laboral",
+   "keywords": [
+    "reformas estructurales",
+    "inversión extranjera directa",
+    "encadenamientos productivos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "brecha de productividad laboral",
+   "keywords": [
+    "crecimiento de productividad",
+    "brecha internacional",
+    "desarrollo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad laboral",
+   "keywords": [
+    "tecnologías complementarias",
+    "trabajador",
+    "productividad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "empleo, productividad sectorial",
+   "keywords": [
+    "tecnologías digitales",
+    "complemento laboral",
+    "creación de empleos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "empleo, productividad sectorial",
+   "keywords": [
+    "tecnologías digitales",
+    "complemento laboral",
+    "desplazamiento laboral"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "uso de tecnologías digitales",
+   "keywords": [
+    "incentivos",
+    "tecnologías complementarias",
+    "sectores productivos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desacoplamiento productividad-salarios",
+   "keywords": [
+    "desacoplamiento",
+    "productividad",
+    "salarios"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desacoplamiento productividad-salarios",
+   "keywords": [
+    "salarios reales",
+    "productividad laboral",
+    "comercio internacional"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desacoplamiento productividad-salarios por sector",
+   "keywords": [
+    "estudios sectoriales",
+    "productividad laboral",
+    "salarios reales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desacoplamiento productividad-salarios",
+   "keywords": [
+    "análisis sectorial",
+    "factores económicos",
+    "recomendaciones de política"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad laboral regional, brechas territoriales",
+   "keywords": [
+    "análisis regional",
+    "productividad laboral",
+    "brechas territoriales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "brechas salariales de género",
+   "keywords": [
+    "perspectiva de género",
+    "brechas salariales",
+    "mujeres"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad laboral sector informal",
+   "keywords": [
+    "sector informal",
+    "productividad laboral",
+    "estadísticas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad laboral sector informal",
+   "keywords": [
+    "sector informal",
+    "empleadores",
+    "trabajadores informales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "desacoplamiento productividad-salarios",
+   "keywords": [
+    "cambio climático",
+    "productividad laboral",
+    "salarios"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad y recursos naturales",
+   "keywords": [
+    "recursos naturales",
+    "productividad laboral",
+    "sostenibilidad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad, capacidad de innovación, eficiencia en asignación de recursos",
+   "keywords": [
+    "innovación empresarial",
+    "asignación de recursos",
+    "productividad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "calidad del capital humano, acceso a información y tecnología, acceso al financiamiento, clima de negocios",
+   "keywords": [
+    "capital humano",
+    "acceso a tecnología",
+    "financiamiento",
+    "marco institucional"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad",
+   "keywords": [
+    "agenda de productividad",
+    "mejora continua",
+    "costa rica"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad laboral, generación de empleo",
+   "keywords": [
+    "políticas de desarrollo productivo",
+    "productividad laboral",
+    "empleo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad, generación de empleo",
+   "keywords": [
+    "desarrollo de clústeres",
+    "políticas de desarrollo productivo",
+    "empleo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "participación laboral",
+   "keywords": [
+    "análisis sectorial",
+    "políticas públicas",
+    "participación laboral"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "desarrollo de habilidades, aprendizaje permanente",
+   "keywords": [
+    "formación de habilidades",
+    "validación de competencias",
+    "aprendizaje permanente"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "identificación de factores críticos por sector",
+   "keywords": [
+    "análisis sectorial",
+    "factores productivos",
+    "recomendaciones de política"
+   ]
+  },
+  {
+   "actor": "MTSS, MEIC, COMEX",
+   "metrica": "desacoplamiento productividad-salarios, compensación salarial",
+   "keywords": [
+    "mercado de trabajo",
+    "competencias laborales",
+    "comercio internacional",
+    "tecnología"
+   ]
+  }
+ ]
+}

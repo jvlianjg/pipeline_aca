@@ -1,0 +1,258 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "control de ganancias del sector financiero",
+   "keywords": [
+    "contestabilidad",
+    "marco regulatorio",
+    "intervención"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "tasas de interés de mercado",
+   "keywords": [
+    "distorsión de mercado",
+    "subsidios",
+    "ayuda basada en producción"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "tasas de interés sostenibles",
+   "keywords": [
+    "presión suave",
+    "licencias",
+    "oferta de servicios financieros"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "competencia y eficiencia del mercado financiero",
+   "keywords": [
+    "estructura de mercado",
+    "barreras de entrada",
+    "burocracia"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "eficiencia operativa y tasas de interés",
+   "keywords": [
+    "aprender haciendo",
+    "gastos operativos",
+    "cartera de préstamos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "costos de evaluación de préstamos",
+   "keywords": [
+    "oficinas de crédito",
+    "agencias de garantías",
+    "sostenibilidad comercial"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "costo de productos y servicios financieros",
+   "keywords": [
+    "innovación de productos",
+    "fondo de desafío",
+    "investigación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "tasas de interés",
+   "keywords": [
+    "transparencia",
+    "protección del consumidor",
+    "divulgación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "protección del prestatario",
+   "keywords": [
+    "educación financiera",
+    "voz del prestatario",
+    "explotación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "costos ocultos en créditos",
+   "keywords": [
+    "transparencia",
+    "prácticas crediticias",
+    "protección del consumidor"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "competencia bancaria",
+   "keywords": [
+    "publicación de tasas",
+    "transparencia",
+    "competencia"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "tasa máxima de interés para crédito regular",
+   "keywords": [
+    "tope de tasas",
+    "promedio ponderado",
+    "multiplicador"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "tasa máxima de interés para microcrédito",
+   "keywords": [
+    "microcrédito",
+    "tope de tasas",
+    "multiplicador"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "tasa de interés activa de referencia",
+   "keywords": [
+    "tasa activa negociada",
+    "sociedades de depósito",
+    "moneda"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "publicación y aplicación de tasas máximas",
+   "keywords": [
+    "cálculo de tasas",
+    "publicación semestral",
+    "gaceta"
+   ]
+  },
+  {
+   "actor": "SUGEF",
+   "metrica": "prevención de fragmentación de créditos",
+   "keywords": [
+    "fragmentación",
+    "evasión de topes",
+    "supervisión"
+   ]
+  },
+  {
+   "actor": "SUGEF",
+   "metrica": "límites en costos y comisiones crediticias",
+   "keywords": [
+    "costos ocultos",
+    "comisiones",
+    "regulación"
+   ]
+  },
+  {
+   "actor": "SUGEF",
+   "metrica": "cumplimiento de tasas máximas de interés",
+   "keywords": [
+    "supervisión mensual",
+    "incumplimiento",
+    "ministerio público"
+   ]
+  },
+  {
+   "actor": "SUGEF",
+   "metrica": "denuncias por incumplimiento de tasas",
+   "keywords": [
+    "incumplimiento",
+    "ministerio público",
+    "enforcement"
+   ]
+  },
+  {
+   "actor": "SUGEF",
+   "metrica": "aprobación de contratos base de crédito",
+   "keywords": [
+    "contratos base",
+    "aprobación regulatoria",
+    "plazo"
+   ]
+  },
+  {
+   "actor": "SUGEF",
+   "metrica": "disponibilidad de información crediticia",
+   "keywords": [
+    "transparencia de información",
+    "página web",
+    "consumidor"
+   ]
+  },
+  {
+   "actor": "SUGEF",
+   "metrica": "visibilidad de información crediticia",
+   "keywords": [
+    "exhibición de información",
+    "oficinas",
+    "consumidor"
+   ]
+  },
+  {
+   "actor": "SUGEF",
+   "metrica": "acceso a estados de cuenta",
+   "keywords": [
+    "estado de cuenta",
+    "mensual",
+    "sin costo"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "bancarización y acceso al crédito",
+   "keywords": [
+    "multiplicador de tasas",
+    "inclusión financiera",
+    "exclusión"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "acceso al crédito de sectores vulnerables",
+   "keywords": [
+    "equilibrio regulatorio",
+    "inclusión financiera",
+    "vulnerabilidad"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "exclusión financiera, protección al consumidor financiero",
+   "keywords": [
+    "topes de tasas de interés",
+    "calibración",
+    "protección del consumidor"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "cobertura de educación financiera, información crediticia nacional",
+   "keywords": [
+    "educación financiera",
+    "central crediticia",
+    "mercado regulado"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "tasas de interés sostenibles, eficiencia del mercado financiero",
+   "keywords": [
+    "reforma del sector financiero",
+    "información del mercado",
+    "estructura de mercado"
+   ]
+  }
+ ]
+}

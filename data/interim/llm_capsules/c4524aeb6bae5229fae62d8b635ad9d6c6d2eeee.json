@@ -1,0 +1,366 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "No especificada",
+   "keywords": [
+    "trabajo sistémico",
+    "restricciones al desarrollo",
+    "bienestar"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "No especificada",
+   "keywords": [
+    "institucionalidad",
+    "políticas",
+    "implementación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "No especificada",
+   "keywords": [
+    "monitoreo",
+    "evaluación",
+    "rendición de cuentas"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "No especificada",
+   "keywords": [
+    "hoja de ruta",
+    "prioridades",
+    "requerimientos"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "No especificada",
+   "keywords": [
+    "prioridades externas",
+    "costo-beneficio",
+    "sistema liberal"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "No especificada",
+   "keywords": [
+    "aliados estratégicos",
+    "relaciones internacionales",
+    "multilateralismo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "No especificada",
+   "keywords": [
+    "multilateralismo",
+    "barreras comerciales",
+    "gobernanza"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "No especificada",
+   "keywords": [
+    "actores no estatales",
+    "redes de apoyo",
+    "cooperación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "No especificada",
+   "keywords": [
+    "variable estratégica",
+    "accionar externo",
+    "sistematización"
+   ]
+  },
+  {
+   "actor": "MREC",
+   "metrica": "No especificada",
+   "keywords": [
+    "tendencias",
+    "oportunidades",
+    "inteligencia"
+   ]
+  },
+  {
+   "actor": "MREC, COMEX, MINAE, MIDEPLAN",
+   "metrica": "No especificada",
+   "keywords": [
+    "coordinación",
+    "mecanismos ágiles",
+    "consejos"
+   ]
+  },
+  {
+   "actor": "MREC",
+   "metrica": "No especificada",
+   "keywords": [
+    "servicio exterior",
+    "capacitación",
+    "recursos"
+   ]
+  },
+  {
+   "actor": "MIDEPLAN",
+   "metrica": "No especificada",
+   "keywords": [
+    "plan nacional de desarrollo",
+    "acción exterior",
+    "estado"
+   ]
+  },
+  {
+   "actor": "MREC",
+   "metrica": "No especificada",
+   "keywords": [
+    "cooperación internacional",
+    "desarrollo sostenible",
+    "vulnerabilidad"
+   ]
+  },
+  {
+   "actor": "MREC",
+   "metrica": "No especificada",
+   "keywords": [
+    "iniciativas diplomáticas",
+    "política exterior",
+    "población"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "empleo, actividad económica",
+   "keywords": [
+    "dinamización económica",
+    "encadenamientos",
+    "empleo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "inversión extranjera directa",
+   "keywords": [
+    "inversión extranjera",
+    "zonas fuera de gam",
+    "descentralización"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "inversión extranjera directa, empleo",
+   "keywords": [
+    "clústeres",
+    "desarrollo rural",
+    "exportaciones agrícolas"
+   ]
+  },
+  {
+   "actor": "MAG",
+   "metrica": "riqueza, empleo, seguridad alimentaria",
+   "keywords": [
+    "reestructuración agrícola",
+    "recursos naturales",
+    "brechas territoriales"
+   ]
+  },
+  {
+   "actor": "MAG",
+   "metrica": "diversificación de exportaciones",
+   "keywords": [
+    "programa nacional de clústeres",
+    "rectoría",
+    "sector público"
+   ]
+  },
+  {
+   "actor": "MAG",
+   "metrica": "productividad agrícola",
+   "keywords": [
+    "clústeres agrícolas",
+    "coordinación",
+    "colaboración competitiva"
+   ]
+  },
+  {
+   "actor": "MAG",
+   "metrica": "productividad agrícola",
+   "keywords": [
+    "programa de clústeres",
+    "sector privado",
+    "academia"
+   ]
+  },
+  {
+   "actor": "MAG",
+   "metrica": "eficiencia agrícola, recursos naturales",
+   "keywords": [
+    "registro de agroquímicos",
+    "moléculas",
+    "cambio climático"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad agrícola",
+   "keywords": [
+    "clústeres",
+    "coordinación",
+    "colaboración competitiva"
+   ]
+  },
+  {
+   "actor": "MAG",
+   "metrica": "No especificada",
+   "keywords": [
+    "derecho internacional",
+    "protección fitosanitaria",
+    "agencias"
+   ]
+  },
+  {
+   "actor": "PROCOMER, Instituto Nacional de Aprendizaje, PROINNOVA, MAG, Sistema de Banca para el Desarrollo",
+   "metrica": "Monetización de exportación agrícola, pecuaria e industria agroalimentaria",
+   "keywords": [
+    "innovación agropecuaria",
+    "emprendimiento",
+    "exportación",
+    "financiamiento"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Vinculación efectiva entre programas de investigación, innovación y creación de empresas",
+   "keywords": [
+    "programa descubre",
+    "clústeres",
+    "investigación",
+    "innovación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Vinculación efectiva entre programas de investigación, innovación y creación de empresas",
+   "keywords": [
+    "programa descubre",
+    "clústeres",
+    "pndip",
+    "inversión"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Economías de escala del Programa Descubre",
+   "keywords": [
+    "descubre",
+    "expansión",
+    "economías de escala"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Diversificación agrícola mediante complejidad económica",
+   "keywords": [
+    "complejidad económica",
+    "agricultura",
+    "diversificación"
+   ]
+  },
+  {
+   "actor": "PROCOMER",
+   "metrica": "Diversificación de oferta exportable e identificación de nuevos sectores de inversión",
+   "keywords": [
+    "complejidad económica",
+    "inteligencia artificial",
+    "exportación",
+    "inversión"
+   ]
+  },
+  {
+   "actor": "Instituciones agropecuarias del sector público, academia",
+   "metrica": "Adopción de conocimiento y tecnología para desarrollo sectorial",
+   "keywords": [
+    "coordinación institucional",
+    "tecnología",
+    "conocimiento",
+    "desarrollo"
+   ]
+  },
+  {
+   "actor": "COMEX, PROCOMER, CINDE",
+   "metrica": "Inversión fuera de la GAM",
+   "keywords": [
+    "comex",
+    "procomer",
+    "cinde",
+    "inversión territorial"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Atracción de inversión nacional e internacional",
+   "keywords": [
+    "diferenciación agrícola",
+    "inversión",
+    "posicionamiento"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Inversión agropecuaria con coherencia en desarrollo sostenible",
+   "keywords": [
+    "incentivos",
+    "trámites",
+    "sostenibilidad",
+    "carga impositiva"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Presentación de proyectos a inversionistas potenciales",
+   "keywords": [
+    "banco de proyectos",
+    "inversión",
+    "operaciones"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Capacidades de recursos humanos y empleo en actividades de mayor productividad",
+   "keywords": [
+    "formación",
+    "capacidades",
+    "recursos humanos",
+    "productividad"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Monetización de exportación agrícola, pecuaria e industria agroalimentaria",
+   "keywords": [
+    "oferta productiva",
+    "mercados internacionales",
+    "exportación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "Productividad del sector agropecuario y generación de empleo",
+   "keywords": [
+    "productividad",
+    "empleo",
+    "innovación",
+    "capacidades"
+   ]
+  }
+ ]
+}

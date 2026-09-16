@@ -1,0 +1,351 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "transición de renta media a renta alta en ranking OCDE",
+   "keywords": [
+    "renta alta",
+    "ocde",
+    "crecimiento económico",
+    "largo plazo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "fortalecimiento institucional democrático",
+   "keywords": [
+    "democracia liberal",
+    "construcción institucional",
+    "largo plazo"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "resiliencia democrática",
+   "keywords": [
+    "democracia liberal",
+    "autoritarismo",
+    "populismo",
+    "salvaguarda"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "alineación de políticas públicas",
+   "keywords": [
+    "marco de referencia",
+    "políticas públicas",
+    "democracia liberal"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "ejercicio de derechos y garantías",
+   "keywords": [
+    "derechos ciudadanos",
+    "garantías",
+    "vida cotidiana"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "cobertura universal de derechos",
+   "keywords": [
+    "cobertura universal",
+    "no discriminación",
+    "inclusión"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "permanencia de cobertura de derechos",
+   "keywords": [
+    "cobertura permanente",
+    "excepciones",
+    "crisis"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "reforma electoral",
+   "keywords": [
+    "elección diputados",
+    "procedimiento electoral",
+    "reforma"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "composición legislativa",
+   "keywords": [
+    "número diputados",
+    "reforma legislativa",
+    "representación"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "continuidad legislativa",
+   "keywords": [
+    "reelección diputados",
+    "reforma legislativa",
+    "continuidad"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "rendición de cuentas institucional",
+   "keywords": [
+    "rendición de cuentas",
+    "supremos poderes",
+    "transparencia"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "reforma institucional integral",
+   "keywords": [
+    "reforma electoral",
+    "financiamiento partidos",
+    "sistema de gobierno"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "cambio de régimen político",
+   "keywords": [
+    "parlamentarismo",
+    "presidencialismo",
+    "reforma constitucional"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "iniciativa legislativa",
+   "keywords": [
+    "derecho de iniciativa",
+    "diputados",
+    "reforma legislativa"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "independencia judicial",
+   "keywords": [
+    "corte suprema",
+    "magistrados",
+    "nombramiento"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "cobertura educativa preescolar y secundaria",
+   "keywords": [
+    "educación preescolar",
+    "educación secundaria",
+    "cobertura"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "calidad educativa y eficiencia del gasto",
+   "keywords": [
+    "calidad educación",
+    "eficiencia gasto",
+    "educación pública"
+   ]
+  },
+  {
+   "actor": "Ministerio de Educación",
+   "metrica": "cobertura de educación dual",
+   "keywords": [
+    "educación dual",
+    "formación técnica",
+    "cobertura"
+   ]
+  },
+  {
+   "actor": "MIDEPLAN",
+   "metrica": "cobertura de servicios de cuido infantil",
+   "keywords": [
+    "red de cuido",
+    "niños",
+    "cobertura universal"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "igualdad de género",
+   "keywords": [
+    "igualdad de género",
+    "derechos",
+    "equidad"
+   ]
+  },
+  {
+   "actor": "Ministerio de Salud",
+   "metrica": "reforma del sistema nacional de salud",
+   "keywords": [
+    "servicio nacional salud",
+    "reforma",
+    "cobertura"
+   ]
+  },
+  {
+   "actor": "MIDEPLAN",
+   "metrica": "protección de adultos mayores",
+   "keywords": [
+    "adultos mayores",
+    "ingreso mínimo vital",
+    "protección social"
+   ]
+  },
+  {
+   "actor": "MTSS",
+   "metrica": "reinserción laboral de desplazados",
+   "keywords": [
+    "reinserción",
+    "desplazados",
+    "reskilling",
+    "upskilling"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "financiamiento de formación de recursos humanos",
+   "keywords": [
+    "formación recursos humanos",
+    "financiamiento",
+    "inversión"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "tasa de crecimiento anual del PIB",
+   "keywords": [
+    "crecimiento pib",
+    "financiamiento",
+    "recursos fiscales"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "cantidad de factores de producción",
+   "keywords": [
+    "factores de producción",
+    "aumento",
+    "economía"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "productividad económica",
+   "keywords": [
+    "productividad",
+    "sector privado",
+    "sector público"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "objetivos políticos y sociales",
+   "keywords": [
+    "objetivos políticos",
+    "objetivos sociales",
+    "formulación"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "comparación con países OCDE",
+   "keywords": [
+    "ocde",
+    "referencia",
+    "comparación"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "áreas prioritarias políticas y sociales",
+   "keywords": [
+    "objetivos cualitativos",
+    "objetivos cuantitativos",
+    "áreas prioritarias"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "variables macroeconómicas y brechas",
+   "keywords": [
+    "variables macroeconómicas",
+    "brechas",
+    "política económica"
+   ]
+  },
+  {
+   "actor": "Asamblea Legislativa",
+   "metrica": "fortalecimiento democrático",
+   "keywords": [
+    "democracia liberal",
+    "política",
+    "medidas económicas"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "PIB por habitante",
+   "keywords": [
+    "pib por habitante",
+    "brecha",
+    "2050"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "PIB por habitante relativo a OCDE",
+   "keywords": [
+    "pib por habitante",
+    "ocde",
+    "ranking"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "ahorro interno",
+   "keywords": [
+    "ahorro interno",
+    "pib",
+    "2025-2050"
+   ]
+  },
+  {
+   "actor": "Hacienda",
+   "metrica": "ahorro externo",
+   "keywords": [
+    "ahorro externo",
+    "pib",
+    "inversión"
+   ]
+  },
+  {
+   "actor": "COMEX",
+   "metrica": "coeficiente de apertura comercial",
+   "keywords": [
+    "apertura comercial",
+    "crecimiento económico",
+    "2050"
+   ]
+  },
+  {
+   "actor": "COMEX",
+   "metrica": "inversión extranjera directa y acceso a mercados",
+   "keywords": [
+    "inversión extranjera directa",
+    "acuerdos comerciales",
+    "mercados externos"
+   ]
+  }
+ ]
+}

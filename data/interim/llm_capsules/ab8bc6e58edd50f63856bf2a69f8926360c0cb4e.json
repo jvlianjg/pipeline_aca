@@ -1,0 +1,95 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "BCCR",
+   "metrica": "Comisiones de intercambio y adquirencia",
+   "keywords": [
+    "comisiones",
+    "tarjetas de pago",
+    "mercado"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "Efectividad del sistema de pagos",
+   "keywords": [
+    "mercados bilaterales",
+    "subsidios",
+    "sistema de pagos"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "Comisiones de intercambio y adquirencia",
+   "keywords": [
+    "análisis comparativos",
+    "controles de precios",
+    "metodología"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "Comisiones de tarjetas internacionales",
+   "keywords": [
+    "control de precios",
+    "tarjetas internacionales"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "Comisiones máximas de intercambio y adquirencia",
+   "keywords": [
+    "metodología",
+    "mercado bilateral",
+    "beneficios consumidores"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "Inversión en tecnología de pagos",
+   "keywords": [
+    "emv",
+    "tecnología",
+    "puntos de venta"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "Beneficios para tarjetahabientes",
+   "keywords": [
+    "cuotas",
+    "devolución de efectivo",
+    "protección fraude"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "Restricciones sobre comisiones de intercambio y adquirencia",
+   "keywords": [
+    "restricciones",
+    "análisis de impacto",
+    "controles actuales"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "Comisiones de intercambio",
+   "keywords": [
+    "referenciación",
+    "análisis comparativo",
+    "sesgos"
+   ]
+  },
+  {
+   "actor": "BCCR",
+   "metrica": "Comisiones de intercambio",
+   "keywords": [
+    "determinación por mercado",
+    "mejores prácticas",
+    "liberalización"
+   ]
+  }
+ ]
+}

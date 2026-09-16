@@ -1,0 +1,24 @@
+{
+ "model": "claude-haiku-4-5",
+ "version": "v1",
+ "capsulas": [
+  {
+   "actor": "No especificado",
+   "metrica": "vulnerabilidad social",
+   "keywords": [
+    "protección",
+    "vulnerables",
+    "pandemia"
+   ]
+  },
+  {
+   "actor": "No especificado",
+   "metrica": "empleo formal y calidad laboral",
+   "keywords": [
+    "empleos de calidad",
+    "ocde",
+    "estrategia"
+   ]
+  }
+ ]
+}
