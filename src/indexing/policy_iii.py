@@ -23,7 +23,7 @@ import pandas as pd
 from ..config import PROCESSED_DIR, III
 from ..utils import logger, representative_chunks
 
-#: Metadatos de las políticas procesadas (por ahora, el piloto NDC).
+#: Metadatos de las políticas procesadas.
 POLICIAS_META: dict[str, dict] = {
     "CND-2025-2035": {
         "nombre": "Contribución Nacionalmente Determinada 2025-2035",
@@ -31,8 +31,18 @@ POLICIAS_META: dict[str, dict] = {
         "fecha": "2025-11-14",
         "tipo": "NDC ante la CMNUCC",
         "pdf": "CND-2025-2035_NDC_CostaRica_MINAE.pdf",
+        "metodo": "medidas extraídas con IA y verificadas literalmente",
         "umbral_evidencia": 0.55,
-    }
+    },
+    "ENIA-2024-2027": {
+        "nombre": "Estrategia Nacional de Inteligencia Artificial 2024-2027",
+        "institucion": "MICITT",
+        "fecha": "2024-10-24",
+        "tipo": "Estrategia nacional (v2.6)",
+        "pdf": "ENIA_2024-2027_Estrategia_Nacional_IA.pdf",
+        "metodo": "medidas extraídas con heurística local y verificadas literalmente",
+        "umbral_evidencia": 0.55,
+    },
 }
 
 
@@ -55,15 +65,11 @@ def _policy_doc_embedding(policy_id: str) -> np.ndarray:
     return vec / np.linalg.norm(vec)
 
 
-def compute_policy_links(policy_id: str = "CND-2025-2035",
-                         n_evidencia: int = 3) -> dict:
-    """Calcula el III de cada publicación contra una política y guarda
-    ``data/processed/policy_links.json`` con componentes reescalados y
-    pares de evidencia (propuesta ACA ↔ medida de la política)."""
-    meta = POLICIAS_META[policy_id]
-    fecha_pol = pd.Timestamp(meta["fecha"])
-    umbral = meta["umbral_evidencia"]
-
+def compute_policy_links(n_evidencia: int = 3) -> dict:
+    """Calcula el III de cada publicación contra TODAS las políticas con
+    medidas extraídas y guarda ``data/processed/policy_links.json`` con
+    componentes reescalados y pares de evidencia, agrupados por publicación:
+    ``links[doc_id][policy_id] = {...}``."""
     npz = np.load(PROCESSED_DIR / "iii_matrix.npz", allow_pickle=True)
     doc_ids = [str(d) for d in npz["doc_ids"]]  # orden real de embeddings/filas
     esc_ali = npz["escala_alineacion"]
@@ -77,58 +83,64 @@ def compute_policy_links(policy_id: str = "CND-2025-2035",
         d: g.sort_values("idx")["text"].tolist()
         for d, g in pd.read_parquet(PROCESSED_DIR / "proposals.parquet").groupby("doc_id")
     }
-    medidas = pd.read_parquet(PROCESSED_DIR / "policy_measures.parquet")
+    medidas_all = pd.read_parquet(PROCESSED_DIR / "policy_measures.parquet")
     from ..llm.base import get_embedder
 
-    med_emb = get_embedder().embed(medidas["text"].tolist())
-    pol_doc = _policy_doc_embedding(policy_id)
-
+    embedder = get_embedder()
     links: dict[str, dict] = {}
-    for i, d in enumerate(doc_ids):
-        if d not in prop.files or not len(prop[d]) or d not in fechas:
+
+    for policy_id, meta in POLICIAS_META.items():
+        medidas = medidas_all[medidas_all["doc_id"] == policy_id].sort_values("idx")
+        if medidas.empty:
+            logger.warning("Sin medidas para %s; se omite.", policy_id)
             continue
-        sims = prop[d] @ med_emb.T           # (n_prop, n_medidas)
-        coin_raw = float(sims.max(axis=1).mean())
-        ali_raw = float(emb_doc[i] @ pol_doc)
-        meses = (fecha_pol - fechas[d]).days / 30.44
-        temp = max(0.0, 1 - meses / III.ventana_meses) if meses > 0 else 0.0
+        fecha_pol = pd.Timestamp(meta["fecha"])
+        umbral = meta.get("umbral_evidencia", 0.55)
+        med_emb = embedder.embed(medidas["text"].tolist())
+        pol_doc = _policy_doc_embedding(policy_id)
 
-        ali = _rescale(ali_raw, esc_ali)
-        coin = _rescale(coin_raw, esc_coin)
-        links[d] = {
-            "politica": policy_id,
-            "meses": round(meses, 1),
-            "alineacion": round(ali, 3),
-            "coincidencia": round(coin, 3),
-            "temporalidad": round(temp, 3),
-            "iii": round((ali + coin + temp) / 3, 3),
-            "evidencia": [],
-        }
-        # Pares de evidencia: la mejor medida por propuesta, sin repetir medida.
-        mejor_med_por_prop = sims.argmax(axis=1)
-        orden = np.argsort(-sims.max(axis=1))
-        usadas: set[int] = set()
-        for pi in orden:
-            mj = int(mejor_med_por_prop[pi])
-            if mj in usadas or sims[pi, mj] < umbral:
+        for i, d in enumerate(doc_ids):
+            if d not in prop.files or not len(prop[d]) or d not in fechas:
                 continue
-            usadas.add(mj)
-            links[d]["evidencia"].append({
-                "aca": textos[d][int(pi)],
-                "politica": str(medidas.iloc[mj]["text"]),
-                "cos": round(float(sims[pi, mj]), 2),
-            })
-            if len(links[d]["evidencia"]) >= n_evidencia:
-                break
+            sims = prop[d] @ med_emb.T           # (n_prop, n_medidas)
+            coin_raw = float(sims.max(axis=1).mean())
+            ali_raw = float(emb_doc[i] @ pol_doc)
+            meses = (fecha_pol - fechas[d]).days / 30.44
+            temp = max(0.0, 1 - meses / III.ventana_meses) if meses > 0 else 0.0
 
-    payload = {
-        "politicas": POLICIAS_META,
-        "links": links,
-    }
+            ali = _rescale(ali_raw, esc_ali)
+            coin = _rescale(coin_raw, esc_coin)
+            link = {
+                "politica": policy_id,
+                "meses": round(meses, 1),
+                "alineacion": round(ali, 3),
+                "coincidencia": round(coin, 3),
+                "temporalidad": round(temp, 3),
+                "iii": round((ali + coin + temp) / 3, 3),
+                "evidencia": [],
+            }
+            # Pares de evidencia: la mejor medida por propuesta, sin repetir medida.
+            mejor_med_por_prop = sims.argmax(axis=1)
+            orden = np.argsort(-sims.max(axis=1))
+            usadas: set[int] = set()
+            for pi in orden:
+                mj = int(mejor_med_por_prop[pi])
+                if mj in usadas or sims[pi, mj] < umbral:
+                    continue
+                usadas.add(mj)
+                link["evidencia"].append({
+                    "aca": textos[d][int(pi)],
+                    "politica": str(medidas.iloc[mj]["text"]),
+                    "cos": round(float(sims[pi, mj]), 2),
+                })
+                if len(link["evidencia"]) >= n_evidencia:
+                    break
+            links.setdefault(d, {})[policy_id] = link
+        logger.info("III publicación×política calculado para %s (%d medidas)",
+                    policy_id, len(medidas))
+
+    payload = {"politicas": POLICIAS_META, "links": links}
     out = PROCESSED_DIR / "policy_links.json"
     out.write_text(json.dumps(payload, ensure_ascii=False, indent=1),
                    encoding="utf-8")
-    top = sorted(links.items(), key=lambda kv: -kv[1]["iii"])[:5]
-    logger.info("III publicación×política (%s): %s", policy_id,
-                ", ".join(f"{d[:30]}={v['iii']:.2f}" for d, v in top))
     return payload

@@ -111,5 +111,7 @@ Vistas disponibles:
   `LLM_PROVIDER=anthropic` + `ANTHROPIC_API_KEY` (o `gemini`/`openai` + su key)
   extrae con un LLM (prompts compartidos, caché por documento, fallback a
   heurística); ver `docs/validacion_extraccion.md`.
-- ⏳ III sobre políticas públicas reales (requiere corpus de políticas).
+- ✅ **III sobre políticas públicas reales** (en curso): 2 políticas oficiales vinculadas
+  (NDC 2025-2035 y ENIA 2024-2027) con medidas verificadas, escala empírica del
+  corpus y evidencia textual por par; corpus de políticas en expansión.
 - ⏳ Calibración empírica de pesos y ventana temporal.

@@ -6,542 +6,1123 @@
    "fecha": "2025-11-14",
    "tipo": "NDC ante la CMNUCC",
    "pdf": "CND-2025-2035_NDC_CostaRica_MINAE.pdf",
+   "metodo": "medidas extraídas con IA y verificadas literalmente",
+   "umbral_evidencia": 0.55
+  },
+  "ENIA-2024-2027": {
+   "nombre": "Estrategia Nacional de Inteligencia Artificial 2024-2027",
+   "institucion": "MICITT",
+   "fecha": "2024-10-24",
+   "tipo": "Estrategia nacional (v2.6)",
+   "pdf": "ENIA_2024-2027_Estrategia_Nacional_IA.pdf",
+   "metodo": "medidas extraídas con heurística local y verificadas literalmente",
    "umbral_evidencia": 0.55
   }
  },
  "links": {
   "10 propuestas para mayor bienestar": {
-   "politica": "CND-2025-2035",
-   "meses": 48.4,
-   "alineacion": 0.663,
-   "coincidencia": 0.765,
-   "temporalidad": 0.0,
-   "iii": 0.476,
-   "evidencia": [
-    {
-     "aca": "Aumentar el porcentaje de mujeres graduadas de ingenierías y tecnologías.",
-     "politica": "que señala “a) Incluya una perspectiva de género en las políticas y planes de acción nacionales sobre el cambio climático y la reducción del riesgo de desastres y vele por la participación significativa de las mujeres en la formulación y la aplicación de esas políticas;” (CEDAW, 2023).",
-     "cos": 0.7
-    },
-    {
-     "aca": "Priorizar el mantenimiento de los activos existentes Históricamente, nos hemos enfocamos en ěÁ\u0003ĆĢÁŖúŖŅÁÚĆĪĢ\u0003àä\u0003łŅĩűäÚőĩŉ͡ \u0003ŉĆĢ\u0003łěÁĢĆƈÚÁŅ\u0003ěĩ\u0003 que sucederá con ellos años después.",
-     "politica": "La generación de estudios y políticas públicas requieren inversión que será cubierta por el estado, para generar los productos que darán las condiciones habilitantes del incremento en el uso del transporte público.",
-     "cos": 0.67
-    },
-    {
-     "aca": "la creación de instituciones y políticas explícitas para la acción ambiental y climática, y para la prevención de riesgos y atención de emergencias; e) su posicionamiento como líder en temas ambientales y climáticos, y su participación en múltiples convenciones y convenios internacioĢÁěäŉ͡ \u0003ű\u0003ùʹ\u0003ěÁ\u0003ĆĢŪäŉőĆúÁÚĆĪĢ\u0003ÚĆäĢőĈƈÚÁ\u0003äĢ\u0003àĆŉÚĆłěĆĢÁŉ\u0003 asociadas, entre muchas otras iniciativas.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.66
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 48.4,
+    "alineacion": 0.663,
+    "coincidencia": 0.765,
+    "temporalidad": 0.0,
+    "iii": 0.476,
+    "evidencia": [
+     {
+      "aca": "Aumentar el porcentaje de mujeres graduadas de ingenierías y tecnologías.",
+      "politica": "que señala “a) Incluya una perspectiva de género en las políticas y planes de acción nacionales sobre el cambio climático y la reducción del riesgo de desastres y vele por la participación significativa de las mujeres en la formulación y la aplicación de esas políticas;” (CEDAW, 2023).",
+      "cos": 0.7
+     },
+     {
+      "aca": "Priorizar el mantenimiento de los activos existentes Históricamente, nos hemos enfocamos en ěÁ\u0003ĆĢÁŖúŖŅÁÚĆĪĢ\u0003àä\u0003łŅĩűäÚőĩŉ͡ \u0003ŉĆĢ\u0003łěÁĢĆƈÚÁŅ\u0003ěĩ\u0003 que sucederá con ellos años después.",
+      "politica": "La generación de estudios y políticas públicas requieren inversión que será cubierta por el estado, para generar los productos que darán las condiciones habilitantes del incremento en el uso del transporte público.",
+      "cos": 0.67
+     },
+     {
+      "aca": "la creación de instituciones y políticas explícitas para la acción ambiental y climática, y para la prevención de riesgos y atención de emergencias; e) su posicionamiento como líder en temas ambientales y climáticos, y su participación en múltiples convenciones y convenios internacioĢÁěäŉ͡ \u0003ű\u0003ùʹ\u0003ěÁ\u0003ĆĢŪäŉőĆúÁÚĆĪĢ\u0003ÚĆäĢőĈƈÚÁ\u0003äĢ\u0003àĆŉÚĆłěĆĢÁŉ\u0003 asociadas, entre muchas otras iniciativas.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.66
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 35.7,
+    "alineacion": 0.722,
+    "coincidencia": 0.755,
+    "temporalidad": 0.008,
+    "iii": 0.495,
+    "evidencia": [
+     {
+      "aca": "Aumentar el porcentaje de mujeres graduadas de ingenierías y tecnologías.",
+      "politica": "Se deben implementar medidas específicas para garantizar que las mujeres y otros grupos de género no sean discriminados y tengan igual acceso a las oportunidades y beneficios de la IA. Además, promover",
+      "cos": 0.77
+     },
+     {
+      "aca": "Costa Rica debería medir el costo social de tales aranceles y los precios excesivos que por ellos pagan los consumidores. Existen otras barreras no arancelarias que han impactado en la industria de la construcción y de fármacos, muchas veces mediante regulaciones que están pensadas para frenar la entrada de competidores extranjeros.",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.68
+     },
+     {
+      "aca": "Reformar los planes de estudio en todos los ciclos educativos e integrar la enseñanza de destrezas para la vida y de MATIC, para asegurar que las nuevas cohortes estudianiles estén preparadas para enfrentar con éxito los trabajos del futuro.",
+      "politica": "El MEP no solo debe liderar la integración de herramientas de IA en el sistema educativo, sino también capacitar al personal docente para que adquieran las competencias necesarias para maximizar el uso de estas tecnologías.",
+      "cos": 0.65
+     }
+    ]
+   }
   },
   "20_Politica-fiscal-en-Costa-Rica-2021": {
-   "politica": "CND-2025-2035",
-   "meses": 36.5,
-   "alineacion": 0.412,
-   "coincidencia": 0.779,
-   "temporalidad": 0.0,
-   "iii": 0.397,
-   "evidencia": [
-    {
-     "aca": "Todo esto es fundamental a través de un claro proceso de rendición de cuentas al público por medio de conferencias de prensas y presentaciones al Congreso que permitan aumentar la credibilidad de la política fiscal.",
-     "politica": "Comunicar este estado de situación de forma clara y transparente facilita el apoyo político y social. Cumplir la meta es posible, pero solo si se",
-     "cos": 0.64
-    },
-    {
-     "aca": "TRES RECOMENDACIONES DE POLÍTICA ECONÓMICA En esta sección se puntualizan tres recomendaciones de política económica enfocadas en el mediano plazo para mejorar la sostenibilidad de las finanzas públicas: Reforzar la institucionalidad fiscal con el objetivo de mejorar la credibilidad de la política fiscal La política monetaria se ha caracterizado por mejorar la credibilidad a través de una mayor independencia en su gestión, no obstante, la política fiscal es sensible a los ciclos políticos por lo que se deben diseñar mecanismos para mejorar su reputación.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.64
-    },
-    {
-     "aca": "Dicho lo anterior, es necesario unificar la gestión de la Tesorería Nacional y la Dirección de Crédito Público para la elaboración de una estrategia de deuda de mediano plazo que tome en cuenta todos los riesgos macrofiscales.",
-     "politica": "De cara a la gestión, la prioridad operativa es concentrar esfuerzos en el conjunto de contribuciones con mayor rendimiento marginal, reducir cuellos de botella y garantizar que los flujos financieros (incluidos los provenientes de mercados de carbono) lleguen a tiempo.",
-     "cos": 0.6
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 36.5,
+    "alineacion": 0.412,
+    "coincidencia": 0.779,
+    "temporalidad": 0.0,
+    "iii": 0.397,
+    "evidencia": [
+     {
+      "aca": "Todo esto es fundamental a través de un claro proceso de rendición de cuentas al público por medio de conferencias de prensas y presentaciones al Congreso que permitan aumentar la credibilidad de la política fiscal.",
+      "politica": "Comunicar este estado de situación de forma clara y transparente facilita el apoyo político y social. Cumplir la meta es posible, pero solo si se",
+      "cos": 0.64
+     },
+     {
+      "aca": "TRES RECOMENDACIONES DE POLÍTICA ECONÓMICA En esta sección se puntualizan tres recomendaciones de política económica enfocadas en el mediano plazo para mejorar la sostenibilidad de las finanzas públicas: Reforzar la institucionalidad fiscal con el objetivo de mejorar la credibilidad de la política fiscal La política monetaria se ha caracterizado por mejorar la credibilidad a través de una mayor independencia en su gestión, no obstante, la política fiscal es sensible a los ciclos políticos por lo que se deben diseñar mecanismos para mejorar su reputación.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.64
+     },
+     {
+      "aca": "Dicho lo anterior, es necesario unificar la gestión de la Tesorería Nacional y la Dirección de Crédito Público para la elaboración de una estrategia de deuda de mediano plazo que tome en cuenta todos los riesgos macrofiscales.",
+      "politica": "De cara a la gestión, la prioridad operativa es concentrar esfuerzos en el conjunto de contribuciones con mayor rendimiento marginal, reducir cuellos de botella y garantizar que los flujos financieros (incluidos los provenientes de mercados de carbono) lleguen a tiempo.",
+      "cos": 0.6
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 23.8,
+    "alineacion": 0.321,
+    "coincidencia": 0.722,
+    "temporalidad": 0.339,
+    "iii": 0.461,
+    "evidencia": [
+     {
+      "aca": "Por esa razón, el escenario de base de crecimiento del PIB de Costa Rica debe acompañarse de choques en la producción con el fin de sensibilizar los posibles escenarios alternativos que históricamente afectan las proyecciones de crecimiento.",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.7
+     }
+    ]
+   }
   },
   "brechas-capital-humano-profesional": {
-   "politica": "CND-2025-2035",
-   "meses": 19.9,
-   "alineacion": 0.334,
-   "coincidencia": 0.712,
-   "temporalidad": 0.448,
-   "iii": 0.498,
-   "evidencia": [
-    {
-     "aca": "Para ello, es fundamental que las diferentes instituciones de educación superior, así como las autoridades nacionales, cuenten con esta información para que puedan efectuar ajustes que posibiliten un mayor desarrollo de formaciones estratégicas, mediante mayor apertura de cupos, créditos estudiantiles con tasas diferenciales y mejor orientación a los estudiantes de último año de colegio sobre las profesiones de mayor demanda en el país.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.58
-    },
-    {
-     "aca": "Divulgar los resultados entre instituciones clave: se torna primordial que entre las diferentes instituciones encargadas de desarrollar profesionales en el país se cuente con información precisa para una toma de decisiones que responda al desarrollo de aquellas formaciones de profesionales que, según la evidencia encontrada, se consideran como estratégicas por su elevada demanda.",
-     "politica": "2. Comprobar su viabilidad institucional y regulatoria.",
-     "cos": 0.56
-    },
-    {
-     "aca": "Academia de Centroamérica 48 • Adoptar una política migratoria selectiva en áreas formativas estratégicas: para ayudar a solventar las brechas entre la oferta y la demanda de profesionales en el corto plazo, es importante reformar la política migratoria de forma tal que se facilite la atracción de capital humano con grados de máster y doctorado en áreas claves.",
-     "politica": "• Política pública de reforma para adjudicar concesiones por zonas geográficas, no rutas",
-     "cos": 0.55
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 19.9,
+    "alineacion": 0.334,
+    "coincidencia": 0.712,
+    "temporalidad": 0.448,
+    "iii": 0.498,
+    "evidencia": [
+     {
+      "aca": "Para ello, es fundamental que las diferentes instituciones de educación superior, así como las autoridades nacionales, cuenten con esta información para que puedan efectuar ajustes que posibiliten un mayor desarrollo de formaciones estratégicas, mediante mayor apertura de cupos, créditos estudiantiles con tasas diferenciales y mejor orientación a los estudiantes de último año de colegio sobre las profesiones de mayor demanda en el país.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.58
+     },
+     {
+      "aca": "Divulgar los resultados entre instituciones clave: se torna primordial que entre las diferentes instituciones encargadas de desarrollar profesionales en el país se cuente con información precisa para una toma de decisiones que responda al desarrollo de aquellas formaciones de profesionales que, según la evidencia encontrada, se consideran como estratégicas por su elevada demanda.",
+      "politica": "2. Comprobar su viabilidad institucional y regulatoria.",
+      "cos": 0.56
+     },
+     {
+      "aca": "Academia de Centroamérica 48 • Adoptar una política migratoria selectiva en áreas formativas estratégicas: para ayudar a solventar las brechas entre la oferta y la demanda de profesionales en el corto plazo, es importante reformar la política migratoria de forma tal que se facilite la atracción de capital humano con grados de máster y doctorado en áreas claves.",
+      "politica": "• Política pública de reforma para adjudicar concesiones por zonas geográficas, no rutas",
+      "cos": 0.55
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 7.2,
+    "alineacion": 0.583,
+    "coincidencia": 0.752,
+    "temporalidad": 0.8,
+    "iii": 0.712,
+    "evidencia": [
+     {
+      "aca": "Por todo lo anterior, dado el contraste entre la oferta y la demanda de capital humano profesional en las empresas del Régimen de Zonas Francas en Costa Rica, resulta oportuno y necesario que el país promueva el desarrollo de formaciones en Ingeniería, Ciencia y Tecnología.",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.72
+     },
+     {
+      "aca": "En ese sentido, si se ampliara esta base de datos para incorporar a todas las personas graduadas en Costa Rica, no solo en formaciones de Ciencia, Ingeniería y Tecnología, se puede conocer con mayor precisión la oferta de profesionales disponibles para atender los requerimientos tanto de las empresas del Régimen de Zonas Francas como del resto de empresas en el país.",
+      "politica": "En el ámbito internacional, Costa Rica se propone participar activamente en la adopción de marcos éticos y sostenibles para la IA, promoviendo la equidad en el acceso a estas tecnologías a nivel global.",
+      "cos": 0.64
+     },
+     {
+      "aca": "De la mano con el punto anterior, es preciso que con las diferentes instituciones encargadas de atracción de IED y del desarrollo de capital humano se creen sinergias que permitan compilar la información que se precisa para una evaluación de brechas laborales de forma más precisa y anualmente.",
+      "politica": "No obstante, el país enfrenta desafíos críticos que deben ser abordados con rigurosidad para garantizar un desarrollo de la IA que sea ético, seguro y socialmente beneficioso. Entre estos desafíos se destacan la",
+      "cos": 0.6
+     }
+    ]
+   }
   },
   "Cargas-sobre-el-trabajo-parafiscalidad-y-seguridad-social": {
-   "politica": "CND-2025-2035",
-   "meses": 33.2,
-   "alineacion": 0.323,
-   "coincidencia": 0.765,
-   "temporalidad": 0.077,
-   "iii": 0.388,
-   "evidencia": [
-    {
-     "aca": "Una opción por explorar es mantener tasas tributarias moderadas sobre bases más amplias eliminando exenciones, deducciones, tratamientos especiales sobre ciertos tributos personales y corporativos, mayores controles sobre la evasión, mayor simplicidad y eficiencia en la recaudación. La posibilidad de aumentar los impuestos no es amplia, por lo que los esfuerzos deben concentrarse en asegurar la máxima recaudación.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.69
-    },
-    {
-     "aca": "Estos factores deben ser identificados y analizados a fin de introducir las medidas correctivas que eliminen o reduzcan posibles barreras de entrada a la formalidad por parte de trabajadores y empresas.",
-     "politica": "1. Identificar medidas ya dictaminadas o en ejecución susceptibles de escalamiento.",
-     "cos": 0.62
-    },
-    {
-     "aca": "Para su buen funcionamiento es importante asegurar un buen diseño de los mismos para evitar posibles efectos indeseados. Uno de estos efectos es que pueden alentar el no crecimiento de empresas para permanecer en este régimen más favorable (Cárdenas et.",
-     "politica": "Cumplir la meta es posible, pero solo si se implementa el portafolio completo, se protegen los proyectos críticos y se asegura la integridad de cada tonelada reducida o removida.",
-     "cos": 0.61
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 33.2,
+    "alineacion": 0.323,
+    "coincidencia": 0.765,
+    "temporalidad": 0.077,
+    "iii": 0.388,
+    "evidencia": [
+     {
+      "aca": "Una opción por explorar es mantener tasas tributarias moderadas sobre bases más amplias eliminando exenciones, deducciones, tratamientos especiales sobre ciertos tributos personales y corporativos, mayores controles sobre la evasión, mayor simplicidad y eficiencia en la recaudación. La posibilidad de aumentar los impuestos no es amplia, por lo que los esfuerzos deben concentrarse en asegurar la máxima recaudación.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.69
+     },
+     {
+      "aca": "Estos factores deben ser identificados y analizados a fin de introducir las medidas correctivas que eliminen o reduzcan posibles barreras de entrada a la formalidad por parte de trabajadores y empresas.",
+      "politica": "1. Identificar medidas ya dictaminadas o en ejecución susceptibles de escalamiento.",
+      "cos": 0.62
+     },
+     {
+      "aca": "Para su buen funcionamiento es importante asegurar un buen diseño de los mismos para evitar posibles efectos indeseados. Uno de estos efectos es que pueden alentar el no crecimiento de empresas para permanecer en este régimen más favorable (Cárdenas et.",
+      "politica": "Cumplir la meta es posible, pero solo si se implementa el portafolio completo, se protegen los proyectos críticos y se asegura la integridad de cada tonelada reducida o removida.",
+      "cos": 0.61
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 20.6,
+    "alineacion": 0.459,
+    "coincidencia": 0.709,
+    "temporalidad": 0.429,
+    "iii": 0.532,
+    "evidencia": [
+     {
+      "aca": "Una opción por explorar es mantener tasas tributarias moderadas sobre bases más amplias eliminando exenciones, deducciones, tratamientos especiales sobre ciertos tributos personales y corporativos, mayores controles sobre la evasión, mayor simplicidad y eficiencia en la recaudación. La posibilidad de aumentar los impuestos no es amplia, por lo que los esfuerzos deben concentrarse en asegurar la máxima recaudación.",
+      "politica": "Medidas de mitigación Para cada nivel de riesgo identificado, se deben implementar las siguientes medidas de mitigación:",
+      "cos": 0.74
+     },
+     {
+      "aca": "Sobre los programas financiados por estas entidades, varios estudios han recomendado realizar análisis de costos y beneficios, dentro de una cultura de seguimiento y evaluación de resultados (Trejos, 2006; Banco Mundial, 2015).",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.66
+     },
+     {
+      "aca": "Para su buen funcionamiento es importante asegurar un buen diseño de los mismos para evitar posibles efectos indeseados. Uno de estos efectos es que pueden alentar el no crecimiento de empresas para permanecer en este régimen más favorable (Cárdenas et.",
+      "politica": "Para garantizar la seguridad y la ciberseguridad, es imprescindible implementar mecanismos que permitan la supervisión, intervención y, si es necesario, la desactivación segura de los sistemas que presenten comportamientos no deseados o potencialmente dañinos. Esto incluye la capacidad para reparar o",
+      "cos": 0.62
+     }
+    ]
+   }
   },
   "CGV_Encadenamientos_Derrames": {
-   "politica": "CND-2025-2035",
-   "meses": 39.8,
-   "alineacion": 0.507,
-   "coincidencia": 0.811,
-   "temporalidad": 0.0,
-   "iii": 0.439,
-   "evidencia": [
-    {
-     "aca": "las autoridades políticas discutan con las EMN qué tipos de proveedores requieren y qué incentivos puede ofrecer el país a esos proveedores, sean externos o locales",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.74
-    },
-    {
-     "aca": "Ante esto, la necesidad de consolidar redes de proveedores con un enfoque colaborativo y de retroalimentación dentro del clúster se ve como una condición necesaria para posicionar la oferta local.",
-     "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
-     "cos": 0.66
-    },
-    {
-     "aca": "De ahí que la oferta de capital humano debe crecer en cantidad y calidad.",
-     "politica": "• Política pública de reforma para adjudicar concesiones por zonas geográficas, no rutas",
-     "cos": 0.63
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 39.8,
+    "alineacion": 0.507,
+    "coincidencia": 0.811,
+    "temporalidad": 0.0,
+    "iii": 0.439,
+    "evidencia": [
+     {
+      "aca": "las autoridades políticas discutan con las EMN qué tipos de proveedores requieren y qué incentivos puede ofrecer el país a esos proveedores, sean externos o locales",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.74
+     },
+     {
+      "aca": "Ante esto, la necesidad de consolidar redes de proveedores con un enfoque colaborativo y de retroalimentación dentro del clúster se ve como una condición necesaria para posicionar la oferta local.",
+      "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
+      "cos": 0.66
+     },
+     {
+      "aca": "De ahí que la oferta de capital humano debe crecer en cantidad y calidad.",
+      "politica": "• Política pública de reforma para adjudicar concesiones por zonas geográficas, no rutas",
+      "cos": 0.63
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 27.2,
+    "alineacion": 0.73,
+    "coincidencia": 0.801,
+    "temporalidad": 0.245,
+    "iii": 0.592,
+    "evidencia": [
+     {
+      "aca": "Una conclusión importante en ambas cadenas de valor es que, a diferencia de la triada institucional (COMEX-CINDE-PROCOMER) para la atracción de IED, Costa Rica no cuenta con una apropiada institucionalidad para mejorar el clima de negocios y promover efectivamente el desarrollo de proveedores locales de capital nacional. Esto impide aprovechar de manera eficiente la totalidad de los beneficios de la IED, como si lo han logrado otros países del Sudeste Asiático y Europa.",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.77
+     },
+     {
+      "aca": "Este marco institucional (descrito en el capítulo 5), debe crear las condiciones para diseñar, implementar, monitorear y evaluar las políticas públicas de apoyo a los encadenamientos productivos, acorde con las recomendaciones de la Organización para la Cooperación y el Desarrollo Económicos (OCDE).",
+      "politica": "Estos marcos deben ser globales en su alcance pero adaptables a contextos nacionales, permitiendo que cada país ajuste las regulaciones de acuerdo con sus necesidades y valores específicos. La adopción de estándares",
+      "cos": 0.64
+     },
+     {
+      "aca": "• En general, el país debe avanzar con la formulación de políticas de desarrollo productivo que mejoren la capacidad de absorción de potenciales proveedores locales (por ejemplo, en tecnología; I+D+i; talento humano; acceso a mercados y promoción de la competencia, entre otras).",
+      "politica": "Además, es necesario mejorar la infraestructura tecnológica y fomentar colaboraciones entre el sector público y privado para superar la falta de talento especializado, impulsando así el desarrollo de IA en el país (Índice Latinoamericano de Inteligencia Artificial, 2023; 2024).",
+      "cos": 0.63
+     }
+    ]
+   }
   },
   "Desempleo, pobreza y desigualdad en Costa Rica durante la pandemia por el COVID-19_Informe completo": {
-   "politica": "CND-2025-2035",
-   "meses": 47.2,
-   "alineacion": 0.468,
-   "coincidencia": 0.688,
-   "temporalidad": 0.0,
-   "iii": 0.385,
-   "evidencia": []
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 47.2,
+    "alineacion": 0.468,
+    "coincidencia": 0.688,
+    "temporalidad": 0.0,
+    "iii": 0.385,
+    "evidencia": []
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 34.5,
+    "alineacion": 0.62,
+    "coincidencia": 0.758,
+    "temporalidad": 0.041,
+    "iii": 0.473,
+    "evidencia": [
+     {
+      "aca": "Proteger a los más vulnerables:",
+      "politica": "Para garantizar la seguridad y la ciberseguridad, es imprescindible implementar mecanismos que permitan la supervisión, intervención y, si es necesario, la desactivación segura de los sistemas que presenten comportamientos no deseados o potencialmente dañinos. Esto incluye la capacidad para reparar o",
+      "cos": 0.64
+     }
+    ]
+   }
   },
   "Despues-de-la-pandemia_una-vision-de-largo-plazo-002": {
-   "politica": "CND-2025-2035",
-   "meses": 33.2,
-   "alineacion": 0.616,
-   "coincidencia": 0.731,
-   "temporalidad": 0.077,
-   "iii": 0.474,
-   "evidencia": [
-    {
-     "aca": "avanzar en cuanto a la igualdad de género",
-     "politica": "que señala “a) Incluya una perspectiva de género en las políticas y planes de acción nacionales sobre el cambio climático y la reducción del riesgo de desastres y vele por la participación significativa de las mujeres en la formulación y la aplicación de esas políticas;” (CEDAW, 2023).",
-     "cos": 0.66
-    },
-    {
-     "aca": "(ii) Aumentar la productividad de la economía nacional en el sector privado y en el público.",
-     "politica": "I. Ciclo Nacional de Ambición como proceso iterativo e inclusivo para monitorear y actualizar metas con justicia social y de transición justa",
-     "cos": 0.66
-    },
-    {
-     "aca": "(iv)\tLa cobertura debe ser permanente. Sin embargo, ante circunstancias excepcionales (catástrofes naturales, pandemias, crisis internacionales, etc.) su aplicación específica bien puede limitarse o condicionarse temporalmente.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.64
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 33.2,
+    "alineacion": 0.616,
+    "coincidencia": 0.731,
+    "temporalidad": 0.077,
+    "iii": 0.474,
+    "evidencia": [
+     {
+      "aca": "avanzar en cuanto a la igualdad de género",
+      "politica": "que señala “a) Incluya una perspectiva de género en las políticas y planes de acción nacionales sobre el cambio climático y la reducción del riesgo de desastres y vele por la participación significativa de las mujeres en la formulación y la aplicación de esas políticas;” (CEDAW, 2023).",
+      "cos": 0.66
+     },
+     {
+      "aca": "(ii) Aumentar la productividad de la economía nacional en el sector privado y en el público.",
+      "politica": "I. Ciclo Nacional de Ambición como proceso iterativo e inclusivo para monitorear y actualizar metas con justicia social y de transición justa",
+      "cos": 0.66
+     },
+     {
+      "aca": "(iv)\tLa cobertura debe ser permanente. Sin embargo, ante circunstancias excepcionales (catástrofes naturales, pandemias, crisis internacionales, etc.) su aplicación específica bien puede limitarse o condicionarse temporalmente.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.64
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 20.6,
+    "alineacion": 0.731,
+    "coincidencia": 0.699,
+    "temporalidad": 0.429,
+    "iii": 0.62,
+    "evidencia": [
+     {
+      "aca": "avanzar en cuanto a la igualdad de género",
+      "politica": "Se deben implementar medidas específicas para garantizar que las mujeres y otros grupos de género no sean discriminados y tengan igual acceso a las oportunidades y beneficios de la IA. Además, promover",
+      "cos": 0.74
+     },
+     {
+      "aca": "A la vez, el monto del ahorro externo debe representar el 4,0% del PIB, en vez de 3,4% del PIB tal como ha sucedido en los años 2010-2025.",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.71
+     },
+     {
+      "aca": "proteger a la población adulta mayor (ingreso mínimo vital)",
+      "politica": "Estos programas deben ser promovidos en centros comunitarios y a través de iniciativas públicas, asegurando que los adultos mayores no solo tengan acceso a la tecnología, sino que también se sientan cómodos y seguros al usarla, (Cinalioglu et al., 2023).",
+      "cos": 0.66
+     }
+    ]
+   }
   },
   "Empleo-y-la-desigualdad-salarial-Academia": {
-   "politica": "CND-2025-2035",
-   "meses": 4.2,
-   "alineacion": 0.116,
-   "coincidencia": 0.864,
-   "temporalidad": 0.883,
-   "iii": 0.621,
-   "evidencia": [
-    {
-     "aca": "Implementar campañas para erradicar estereotipos de género, en el ámbito educativo, laboral y en los medios de comunicación, fomentando un cambio cultural que favorezca la igualdad de oportunidades. Fortalecer la recopilación y análisis de datos desagregados por género, garantizando que la formulación de políticas públicas esté basada en evidencia y permita un monitoreo continuo de los avances en equidad.",
-     "politica": "que señala “a) Incluya una perspectiva de género en las políticas y planes de acción nacionales sobre el cambio climático y la reducción del riesgo de desastres y vele por la participación significativa de las mujeres en la formulación y la aplicación de esas políticas;” (CEDAW, 2023).",
-     "cos": 0.73
-    },
-    {
-     "aca": "Reforzar la normativa de seguridad y protección laboral, con especial atención a sectores con alta informalidad y vulnerabilidad, como el trabajo doméstico, garantizando condiciones laborales dignas. Incentivar la adopción de políticas empresariales de igualdad de género, promoviendo la equidad en los procesos de contratación, promoción y remuneración dentro del sector privado y público.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.65
-    },
-    {
-     "aca": "Diseñar estrategias para reducir la informalidad laboral femenina, garantizando mayor estabilidad en el empleo, acceso a la seguridad social y protección ante riesgos laborales. Ampliar la cobertura y accesibilidad de servicios de cuidado infantil para facilitar la inserción laboral de las mujeres y reducir las barreras que limitan su participación en el mercado de trabajo.",
-     "politica": "4. Consolidar condiciones habilitantes como la transición justa, la participación efectiva, el uso de datos desagregados, acciones afirmativas y salvaguardas sociales, en coherencia con los artículos 7.5, 11 y 12 del Acuerdo de París y la Decisión 3/CP.25 sobre género.",
-     "cos": 0.61
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 4.2,
+    "alineacion": 0.116,
+    "coincidencia": 0.864,
+    "temporalidad": 0.883,
+    "iii": 0.621,
+    "evidencia": [
+     {
+      "aca": "Implementar campañas para erradicar estereotipos de género, en el ámbito educativo, laboral y en los medios de comunicación, fomentando un cambio cultural que favorezca la igualdad de oportunidades. Fortalecer la recopilación y análisis de datos desagregados por género, garantizando que la formulación de políticas públicas esté basada en evidencia y permita un monitoreo continuo de los avances en equidad.",
+      "politica": "que señala “a) Incluya una perspectiva de género en las políticas y planes de acción nacionales sobre el cambio climático y la reducción del riesgo de desastres y vele por la participación significativa de las mujeres en la formulación y la aplicación de esas políticas;” (CEDAW, 2023).",
+      "cos": 0.73
+     },
+     {
+      "aca": "Reforzar la normativa de seguridad y protección laboral, con especial atención a sectores con alta informalidad y vulnerabilidad, como el trabajo doméstico, garantizando condiciones laborales dignas. Incentivar la adopción de políticas empresariales de igualdad de género, promoviendo la equidad en los procesos de contratación, promoción y remuneración dentro del sector privado y público.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.65
+     },
+     {
+      "aca": "Diseñar estrategias para reducir la informalidad laboral femenina, garantizando mayor estabilidad en el empleo, acceso a la seguridad social y protección ante riesgos laborales. Ampliar la cobertura y accesibilidad de servicios de cuidado infantil para facilitar la inserción laboral de las mujeres y reducir las barreras que limitan su participación en el mercado de trabajo.",
+      "politica": "4. Consolidar condiciones habilitantes como la transición justa, la participación efectiva, el uso de datos desagregados, acciones afirmativas y salvaguardas sociales, en coherencia con los artículos 7.5, 11 y 12 del Acuerdo de París y la Decisión 3/CP.25 sobre género.",
+      "cos": 0.61
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": -8.5,
+    "alineacion": 0.479,
+    "coincidencia": 0.931,
+    "temporalidad": 0.0,
+    "iii": 0.47,
+    "evidencia": [
+     {
+      "aca": "Implementar campañas para erradicar estereotipos de género, en el ámbito educativo, laboral y en los medios de comunicación, fomentando un cambio cultural que favorezca la igualdad de oportunidades. Fortalecer la recopilación y análisis de datos desagregados por género, garantizando que la formulación de políticas públicas esté basada en evidencia y permita un monitoreo continuo de los avances en equidad.",
+      "politica": "Se deben implementar medidas específicas para garantizar que las mujeres y otros grupos de género no sean discriminados y tengan igual acceso a las oportunidades y beneficios de la IA. Además, promover",
+      "cos": 0.77
+     },
+     {
+      "aca": "Ampliar la cobertura y accesibilidad de servicios de cuidado infantil para facilitar la inserción laboral de las mujeres y reducir las barreras que limitan su participación en el mercado de trabajo. Implementar esquemas de trabajo flexible, incluyendo opciones como teletrabajo y horarios adaptables, para promover la conciliación entre la vida laboral y familiar.",
+      "politica": "Estos programas deben ser accesibles, inclusivos y adaptados a las necesidades de diferentes grupos demográficos, incluyendo niñez y adolescencia, La IA también puede mejorar el acceso a servicios públicos esenciales, como la atención médica y la asistencia social, en comunidades desfavorecidas.",
+      "cos": 0.57
+     }
+    ]
+   }
   },
   "en-busca-de-una-productividad-inclusiva": {
-   "politica": "CND-2025-2035",
-   "meses": 18.0,
-   "alineacion": 0.245,
-   "coincidencia": 0.758,
-   "temporalidad": 0.501,
-   "iii": 0.501,
-   "evidencia": [
-    {
-     "aca": "Al fomentar la productividad en los sectores con mayor capacidad de creación de empleos conviene tener en cuenta la importancia de promover el uso de tecnologías (en especial, las digitales) que complementen al trabajador y no que lo desplacen.",
-     "politica": "La generación de estudios y políticas públicas requieren inversión que será cubierta por el estado, para generar los productos que darán las condiciones habilitantes del incremento en el uso del transporte público.",
-     "cos": 0.66
-    },
-    {
-     "aca": "Es necesario realizar estudios rigurosos que permitan estimar la magnitud del impacto sobre la productividad laboral de las reformas estructurales asociadas con la inserción cada vez mayor de empresas nacionales en los mercados internacionales de bienes y servicios más sofisticados; la mayor atracción de inversión extranjera directa en sectores de alta tecnología; el crecimiento continuo de encadenamientos productivos entre empresas multinacionales y empresas proveedoras locales; y la liberalización del mercado de telecomunicaciones y seguros.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.64
-    },
-    {
-     "aca": "Comprender las razones de estos resultados va más allá del alcance del presente estudio, sin embargo, en futuras investigaciones convendría discutir el rol de las políticas de desarrollo productivo (PDP) para impulsar tanto la productividad laboral, principalmente entre actividades tradicionales, como la generación de empleo.",
-     "politica": "1. Identificar medidas ya dictaminadas o en ejecución susceptibles de escalamiento.",
-     "cos": 0.62
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 18.0,
+    "alineacion": 0.245,
+    "coincidencia": 0.758,
+    "temporalidad": 0.501,
+    "iii": 0.501,
+    "evidencia": [
+     {
+      "aca": "Al fomentar la productividad en los sectores con mayor capacidad de creación de empleos conviene tener en cuenta la importancia de promover el uso de tecnologías (en especial, las digitales) que complementen al trabajador y no que lo desplacen.",
+      "politica": "La generación de estudios y políticas públicas requieren inversión que será cubierta por el estado, para generar los productos que darán las condiciones habilitantes del incremento en el uso del transporte público.",
+      "cos": 0.66
+     },
+     {
+      "aca": "Es necesario realizar estudios rigurosos que permitan estimar la magnitud del impacto sobre la productividad laboral de las reformas estructurales asociadas con la inserción cada vez mayor de empresas nacionales en los mercados internacionales de bienes y servicios más sofisticados; la mayor atracción de inversión extranjera directa en sectores de alta tecnología; el crecimiento continuo de encadenamientos productivos entre empresas multinacionales y empresas proveedoras locales; y la liberalización del mercado de telecomunicaciones y seguros.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.64
+     },
+     {
+      "aca": "Comprender las razones de estos resultados va más allá del alcance del presente estudio, sin embargo, en futuras investigaciones convendría discutir el rol de las políticas de desarrollo productivo (PDP) para impulsar tanto la productividad laboral, principalmente entre actividades tradicionales, como la generación de empleo.",
+      "politica": "1. Identificar medidas ya dictaminadas o en ejecución susceptibles de escalamiento.",
+      "cos": 0.62
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 5.3,
+    "alineacion": 0.362,
+    "coincidencia": 0.81,
+    "temporalidad": 0.853,
+    "iii": 0.675,
+    "evidencia": [
+     {
+      "aca": "Es necesario llevar a cabo estudios sectoriales para comprender las causas del desacoplamiento productividad-salarios. La profundización sobre el análisis del desacoplamiento entre el crecimiento de la productividad laboral y el crecimiento de los salarios reales deberá intentar identificar qué factores específicos de cada actividad económica explican dicha situación y plantear recomendaciones de política sólidas.",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.77
+     },
+     {
+      "aca": "Para ello, conviene discutir la lista de recomendaciones puntuales que en este campo plantean Monge-González, Crespi y Beverenotti (2020). Es importante fomentar el uso de tecnologías que complementen al trabajador.",
+      "politica": "Como lo establece la Comisión Europea en su propuesta de Reglamento de IA, la tecnología debe ser una herramienta para “mejorar la calidad de vida de las personas, fortalecer la inclusión social y reducir las desigualdades” (European Commission, 2021).",
+      "cos": 0.67
+     },
+     {
+      "aca": "Comprender las razones de estos resultados va más allá del alcance del presente estudio, sin embargo, en futuras investigaciones convendría discutir el rol de las políticas de desarrollo productivo (PDP) para impulsar tanto la productividad laboral, principalmente entre actividades tradicionales, como la generación de empleo.",
+      "politica": "Estas auditorías deben ser sistemáticas y aplicarse tanto en la etapa de desarrollo como de uso de la IA, asegurando que los modelos de datos sean representativos y justos (Buolamwini y Gebru, 2018).",
+      "cos": 0.59
+     }
+    ]
+   }
   },
   "Estudio sobre la implementación de la nueva ley del INA": {
-   "politica": "CND-2025-2035",
-   "meses": 42.9,
-   "alineacion": 0.399,
-   "coincidencia": 0.724,
-   "temporalidad": 0.0,
-   "iii": 0.374,
-   "evidencia": [
-    {
-     "aca": "Ŋ La reglamentación del nuevo marco normativo y la puesta en marcha de los nuevos instrumentos que ese marco puso a disposición de la institución, que se encontraba en marcha en la fecha en que este informe fue escrito.",
-     "politica": "actualizaciones del marco normativo (7(a)–(b)",
-     "cos": 0.7
-    },
-    {
-     "aca": "El potencial de la reforma es inmenso, particularmente si se transforma la relación del INA con el sector productivo, mediante la articulación explícita con la Política Nacional de Clústeres y la transformación de Comités de Enlace, que en la actualidad funcionan como foros para intercambio de información, en “mesas de trabajo” para la toma de decisiones.",
-     "politica": "Se integra para promover procesos transformadores, con enfoque inclusivo y de largo plazo, como ente consultivo y de seguimiento, coordinado por la Dirección de Cambio Climático, establece participación del Sector Público y Privado, garantizando el análisis participativo y la transparencia en la toma de decisiones.",
-     "cos": 0.65
-    },
-    {
-     "aca": "En materia de creación de cargos de confianza, estos deberán obedecer a criterios de razonabilidad y proporcionalidad técnicamente justificados, de acuerdo con los requerimientos institucionales.",
-     "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
-     "cos": 0.64
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 42.9,
+    "alineacion": 0.399,
+    "coincidencia": 0.724,
+    "temporalidad": 0.0,
+    "iii": 0.374,
+    "evidencia": [
+     {
+      "aca": "Ŋ La reglamentación del nuevo marco normativo y la puesta en marcha de los nuevos instrumentos que ese marco puso a disposición de la institución, que se encontraba en marcha en la fecha en que este informe fue escrito.",
+      "politica": "actualizaciones del marco normativo (7(a)–(b)",
+      "cos": 0.7
+     },
+     {
+      "aca": "El potencial de la reforma es inmenso, particularmente si se transforma la relación del INA con el sector productivo, mediante la articulación explícita con la Política Nacional de Clústeres y la transformación de Comités de Enlace, que en la actualidad funcionan como foros para intercambio de información, en “mesas de trabajo” para la toma de decisiones.",
+      "politica": "Se integra para promover procesos transformadores, con enfoque inclusivo y de largo plazo, como ente consultivo y de seguimiento, coordinado por la Dirección de Cambio Climático, establece participación del Sector Público y Privado, garantizando el análisis participativo y la transparencia en la toma de decisiones.",
+      "cos": 0.65
+     },
+     {
+      "aca": "En materia de creación de cargos de confianza, estos deberán obedecer a criterios de razonabilidad y proporcionalidad técnicamente justificados, de acuerdo con los requerimientos institucionales.",
+      "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
+      "cos": 0.64
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 30.2,
+    "alineacion": 0.68,
+    "coincidencia": 0.69,
+    "temporalidad": 0.16,
+    "iii": 0.51,
+    "evidencia": [
+     {
+      "aca": "En materia de creación de cargos de confianza, estos deberán obedecer a criterios de razonabilidad y proporcionalidad técnicamente justificados, de acuerdo con los requerimientos institucionales.",
+      "politica": "Estos sistemas deben cumplir con requisitos de transparencia y rendición de cuentas, y deben ser sujetos a revisiones periódicas.",
+      "cos": 0.64
+     },
+     {
+      "aca": "Quizá debería pensarse en un modelo de “homologación”, complementario al de acreditación, para que centros o programas de amplio reconocimiento en las industrias relevantes se puedan dar de alta como oferentes de SCFP acreditados y con aval técnico a solicitud de la industria relevante, sin necesidad de gestiones directas del centro o de representación legal local.",
+      "politica": "Sin embargo, para que la IA cumpla este papel inclusivo, es necesario implementar acciones específicas que aseguren su accesibilidad y adopción en todos los sectores de la sociedad.",
+      "cos": 0.6
+     },
+     {
+      "aca": "El potencial de la reforma es inmenso, particularmente si se transforma la relación del INA con el sector productivo, mediante la articulación explícita con la Política Nacional de Clústeres y la transformación de Comités de Enlace, que en la actualidad funcionan como foros para intercambio de información, en “mesas de trabajo” para la toma de decisiones.",
+      "politica": "Además, es necesario mejorar la infraestructura tecnológica y fomentar colaboraciones entre el sector público y privado para superar la falta de talento especializado, impulsando así el desarrollo de IA en el país (Índice Latinoamericano de Inteligencia Artificial, 2023; 2024).",
+      "cos": 0.6
+     }
+    ]
+   }
   },
   "ESTUDIOKAS_IA": {
-   "politica": "CND-2025-2035",
-   "meses": 11.1,
-   "alineacion": 0.214,
-   "coincidencia": 0.65,
-   "temporalidad": 0.692,
-   "iii": 0.518,
-   "evidencia": []
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 11.1,
+    "alineacion": 0.214,
+    "coincidencia": 0.65,
+    "temporalidad": 0.692,
+    "iii": 0.518,
+    "evidencia": []
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": -1.6,
+    "alineacion": 0.885,
+    "coincidencia": 0.907,
+    "temporalidad": 0.0,
+    "iii": 0.597,
+    "evidencia": [
+     {
+      "aca": "Además, la IA generativa puede ayudar a los profesores a preparar y corregir exámenes, liberando tiempo para actividades más creativas y pedagógicas.",
+      "politica": "El MEP no solo debe liderar la integración de herramientas de IA en el sistema educativo, sino también capacitar al personal docente para que adquieran las competencias necesarias para maximizar el uso de estas tecnologías.",
+      "cos": 0.68
+     },
+     {
+      "aca": "En el experimento, se implementó el uso de una herramienta digital que, mediante inteligencia artiﬁcial, ofrecía retroalimentación en vivo a los estudiantes de secundaria que Accesibilidad y brecha digital Vinculado a lo anterior, se requiere un impulso aún mayor al despliegue de redes de telecomunicaciones en el país, que lleguen a hogares, escuelas y empresas.",
+      "politica": "La alfabetización digital no solo debe enfocarse en el uso básico de las tecnologías, sino también en la comprensión de los riesgos y oportunidades asociados con la IA, promoviendo un uso informado y consciente de estas herramientas, (Van Deursen et. al, 2017).",
+      "cos": 0.65
+     },
+     {
+      "aca": "La inversión en infraestructura digital y en políticas que favorezcan la investigación y el desarrollo (I+D) serán fundamentales para atraer empresas tecnológicas y capital extranjero. Un frente que se abre es el de la industria de semiconductores.",
+      "politica": "Además, es necesario mejorar la infraestructura tecnológica y fomentar colaboraciones entre el sector público y privado para superar la falta de talento especializado, impulsando así el desarrollo de IA en el país (Índice Latinoamericano de Inteligencia Artificial, 2023; 2024).",
+      "cos": 0.64
+     }
+    ]
+   }
   },
   "Fortaleciendo-el-Ecosistema-Emprendedor-de-Costa-Rica-": {
-   "politica": "CND-2025-2035",
-   "meses": 32.5,
-   "alineacion": 0.577,
-   "coincidencia": 0.827,
-   "temporalidad": 0.097,
-   "iii": 0.501,
-   "evidencia": [
-    {
-     "aca": "El país requiere esfuerzos por integrar y coordinar mejor esas políticas",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.84
-    },
-    {
-     "aca": "11 • En los casos analizados, si bien destacan algunas particularidades, es notoria la forma en que se diseñaron las regulaciones para los nuevos emprendimientos y las MIPYMES, ya que, a partir del marco normativo, el regulador debe tomar en cuenta el impacto de las propuestas de políticas o programas sobre las empresas, incorporando un análisis de impacto o de costo-efectividad de tales políticas.",
-     "politica": "1. Identificar medidas ya dictaminadas o en ejecución susceptibles de escalamiento.",
-     "cos": 0.73
-    },
-    {
-     "aca": "• En este sentido, el Modelo de Gestión Avanzada (MGA) establecido por Euskalit en el País Vasco es un ejemplo de gestión replicable en otras latitudes.",
-     "politica": "Se integra para promover procesos transformadores, con enfoque inclusivo y de largo plazo, como ente consultivo y de seguimiento, coordinado por la Dirección de Cambio Climático, establece participación del Sector Público y Privado, garantizando el análisis participativo y la transparencia en la toma de decisiones.",
-     "cos": 0.65
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 32.5,
+    "alineacion": 0.577,
+    "coincidencia": 0.827,
+    "temporalidad": 0.097,
+    "iii": 0.501,
+    "evidencia": [
+     {
+      "aca": "El país requiere esfuerzos por integrar y coordinar mejor esas políticas",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.84
+     },
+     {
+      "aca": "11 • En los casos analizados, si bien destacan algunas particularidades, es notoria la forma en que se diseñaron las regulaciones para los nuevos emprendimientos y las MIPYMES, ya que, a partir del marco normativo, el regulador debe tomar en cuenta el impacto de las propuestas de políticas o programas sobre las empresas, incorporando un análisis de impacto o de costo-efectividad de tales políticas.",
+      "politica": "1. Identificar medidas ya dictaminadas o en ejecución susceptibles de escalamiento.",
+      "cos": 0.73
+     },
+     {
+      "aca": "• En este sentido, el Modelo de Gestión Avanzada (MGA) establecido por Euskalit en el País Vasco es un ejemplo de gestión replicable en otras latitudes.",
+      "politica": "Se integra para promover procesos transformadores, con enfoque inclusivo y de largo plazo, como ente consultivo y de seguimiento, coordinado por la Dirección de Cambio Climático, establece participación del Sector Público y Privado, garantizando el análisis participativo y la transparencia en la toma de decisiones.",
+      "cos": 0.65
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 19.8,
+    "alineacion": 0.773,
+    "coincidencia": 0.816,
+    "temporalidad": 0.45,
+    "iii": 0.68,
+    "evidencia": [
+     {
+      "aca": "El país requiere esfuerzos por integrar y coordinar mejor esas políticas",
+      "politica": "Estos marcos deben ser globales en su alcance pero adaptables a contextos nacionales, permitiendo que cada país ajuste las regulaciones de acuerdo con sus necesidades y valores específicos. La adopción de estándares",
+      "cos": 0.73
+     },
+     {
+      "aca": "Los tiempos y la coordinación son cruciales: la línea base debe recolectarse antes de que la intervención comience, el monitoreo del programa es necesario para saber qué sucedió y cuándo, y los datos de línea de seguimiento y el análisis puede requerirse en momentos críticos para informar decisiones de política.",
+      "politica": "modelo; ii) “verificación y validación”; iii) “despliegue”;",
+      "cos": 0.7
+     },
+     {
+      "aca": "(i) Coordinación y fortalecimiento interinstitucional: • Se debe tener claridad sobre las opciones prácticas que ofrecen las leyes y reglamentos de Costa Rica relacionadas con el apoyo al desarrollo empresarial y, específicamente, con el clima para el emprendimiento y la innovación.",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.69
+     }
+    ]
+   }
   },
   "Hacia políticas públicas a favor de la competencia y la protección del consumidor": {
-   "politica": "CND-2025-2035",
-   "meses": 39.8,
-   "alineacion": 0.49,
-   "coincidencia": 0.836,
-   "temporalidad": 0.0,
-   "iii": 0.442,
-   "evidencia": [
-    {
-     "aca": "• Replanteamiento del modelo actual de concesión para sustituirlo por uno en que los activos sean propiedad del Estado, como el modelo de administración interesada. • Reformas en los parámetros de gobernanza de las empresas públicas de servicios.",
-     "politica": "2. Comprobar su viabilidad institucional y regulatoria.",
-     "cos": 0.7
-    },
-    {
-     "aca": "• Promoción en la nueva ley del desarrollo de protocolos de conducta de adhesión voluntaria, que pudieran servir incluso de precursores de potenciales reformas futuras. Academia de Centroamérica 9 El consumidor frente a la regulación de los servicios públicos De acuerdo con la ley, la Autoridad Reguladora de los Servicios Púbicos (ARESEP) regula y fija las tarifas de servicios públicos esenciales como electricidad, transporte público, agua y otros.",
-     "politica": "actualizaciones del marco normativo (7(a)–(b)",
-     "cos": 0.68
-    },
-    {
-     "aca": "• Introducción de la posibilidad de desregulación de precios en algunos sectores que se aproximen naturalmente a la competencia. • Introducción en la legislación de medidas para prevenir la captura regulatoria, incluyendo cambiar la forma en que se nombran los reguladores.",
-     "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
-     "cos": 0.66
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 39.8,
+    "alineacion": 0.49,
+    "coincidencia": 0.836,
+    "temporalidad": 0.0,
+    "iii": 0.442,
+    "evidencia": [
+     {
+      "aca": "• Replanteamiento del modelo actual de concesión para sustituirlo por uno en que los activos sean propiedad del Estado, como el modelo de administración interesada. • Reformas en los parámetros de gobernanza de las empresas públicas de servicios.",
+      "politica": "2. Comprobar su viabilidad institucional y regulatoria.",
+      "cos": 0.7
+     },
+     {
+      "aca": "• Promoción en la nueva ley del desarrollo de protocolos de conducta de adhesión voluntaria, que pudieran servir incluso de precursores de potenciales reformas futuras. Academia de Centroamérica 9 El consumidor frente a la regulación de los servicios públicos De acuerdo con la ley, la Autoridad Reguladora de los Servicios Púbicos (ARESEP) regula y fija las tarifas de servicios públicos esenciales como electricidad, transporte público, agua y otros.",
+      "politica": "actualizaciones del marco normativo (7(a)–(b)",
+      "cos": 0.68
+     },
+     {
+      "aca": "• Introducción de la posibilidad de desregulación de precios en algunos sectores que se aproximen naturalmente a la competencia. • Introducción en la legislación de medidas para prevenir la captura regulatoria, incluyendo cambiar la forma en que se nombran los reguladores.",
+      "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
+      "cos": 0.66
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 27.2,
+    "alineacion": 0.674,
+    "coincidencia": 0.776,
+    "temporalidad": 0.245,
+    "iii": 0.565,
+    "evidencia": [
+     {
+      "aca": "• Adopción de mecanismos de alerta oportunos para que la política de seguridad de los productos de consumo sea efectiva, incluyendo mayor capacitación y coordinación interinstitucional para una fiscalización más efectiva y gestión más eficiente de los recursos públicos. • Avances en el establecimiento de sistemas de recopilación de datos sobre lesiones que involucren productos de consumo y mejoras en la comunicación para el efectivo retiro de productos del mercado cuando se justifique.",
+      "politica": "Seguridad, ciberseguridad y protección de la información La IA debe desarrollarse y aplicarse de manera cibersegura, protegiendo a las personas y al país. Es",
+      "cos": 0.73
+     },
+     {
+      "aca": "Impulso al desarrollo de la capacidad de la DAC de detectar esas prácticas, mejorar la cooperación con homólogos internacionales y sector privado y analizar la posibilidad de incorporar mayores sanciones.",
+      "politica": "Para garantizar la seguridad y la ciberseguridad, es imprescindible implementar mecanismos que permitan la supervisión, intervención y, si es necesario, la desactivación segura de los sistemas que presenten comportamientos no deseados o potencialmente dañinos. Esto incluye la capacidad para reparar o",
+      "cos": 0.7
+     },
+     {
+      "aca": "• Fortalecimiento de los mecanismos privados de autorregulación, que podrían convertirse en un excelente mecanismo para solucionar disputas, especialmente en casos de poca complejidad y en los que el daño causado no sea significativo. Política del consumidor en la agenda de adhesión a la OCDE Desde hace más de una década, Costa Rica comenzó a trabajar para adherirse a la OCDE.",
+      "politica": "Medidas de mitigación Para cada nivel de riesgo identificado, se deben implementar las siguientes medidas de mitigación:",
+      "cos": 0.69
+     }
+    ]
+   }
   },
   "Impactos-economicos-y-sociales-de-la-fijacion-de-topes-maximos-a-las-tasas-de-interes-en-costa-rica-1": {
-   "politica": "CND-2025-2035",
-   "meses": 5.1,
-   "alineacion": 0.228,
-   "coincidencia": 0.718,
-   "temporalidad": 0.859,
-   "iii": 0.601,
-   "evidencia": [
-    {
-     "aca": "Los gobiernos deben estar dispuestos a adaptar y basar la política en un análisis exhaustivo de la estructura del mercado, con la promoción de la competencia y la eliminación de barreras de entrada innecesarias, como la burocracia excesiva, como objetivo. 5.1 Estructura del mercado 17 La evidencia sugiere que aprender haciendo es un factor clave para aumentar la eficiencia y, por lo tanto, reducir los gastos generales y, por lo tanto, las tasas de interés.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.77
-    },
-    {
-     "aca": "Esta es una cuestión regulatoria subjetiva, y el objetivo de un marco de políticas debería ser garantizar suficiente contestabilidad para mantener las ganancias bajo control antes de que surja la necesidad de intervención.",
-     "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
-     "cos": 0.71
-    },
-    {
-     "aca": "Para reducir las tasas de manera sostenible, es probable que los gobiernos deban actuar de manera más sistémica, abordando problemas en la información del mercado y la estructura del mercado y en el lado de la demanda y, en última instancia, apoyando un nivel más profundo de reforma del sector financiero.",
-     "politica": "De cara a la gestión, la prioridad operativa es concentrar esfuerzos en el conjunto de contribuciones con mayor rendimiento marginal, reducir cuellos de botella y garantizar que los flujos financieros (incluidos los provenientes de mercados de carbono) lleguen a tiempo.",
-     "cos": 0.67
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 5.1,
+    "alineacion": 0.228,
+    "coincidencia": 0.718,
+    "temporalidad": 0.859,
+    "iii": 0.601,
+    "evidencia": [
+     {
+      "aca": "Los gobiernos deben estar dispuestos a adaptar y basar la política en un análisis exhaustivo de la estructura del mercado, con la promoción de la competencia y la eliminación de barreras de entrada innecesarias, como la burocracia excesiva, como objetivo. 5.1 Estructura del mercado 17 La evidencia sugiere que aprender haciendo es un factor clave para aumentar la eficiencia y, por lo tanto, reducir los gastos generales y, por lo tanto, las tasas de interés.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.77
+     },
+     {
+      "aca": "Esta es una cuestión regulatoria subjetiva, y el objetivo de un marco de políticas debería ser garantizar suficiente contestabilidad para mantener las ganancias bajo control antes de que surja la necesidad de intervención.",
+      "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
+      "cos": 0.71
+     },
+     {
+      "aca": "Para reducir las tasas de manera sostenible, es probable que los gobiernos deban actuar de manera más sistémica, abordando problemas en la información del mercado y la estructura del mercado y en el lado de la demanda y, en última instancia, apoyando un nivel más profundo de reforma del sector financiero.",
+      "politica": "De cara a la gestión, la prioridad operativa es concentrar esfuerzos en el conjunto de contribuciones con mayor rendimiento marginal, reducir cuellos de botella y garantizar que los flujos financieros (incluidos los provenientes de mercados de carbono) lleguen a tiempo.",
+      "cos": 0.67
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": -7.6,
+    "alineacion": 0.422,
+    "coincidencia": 0.621,
+    "temporalidad": 0.0,
+    "iii": 0.348,
+    "evidencia": [
+     {
+      "aca": "Esta es una cuestión regulatoria subjetiva, y el objetivo de un marco de políticas debería ser garantizar suficiente contestabilidad para mantener las ganancias bajo control antes de que surja la necesidad de intervención.",
+      "politica": "Para garantizar la seguridad y la ciberseguridad, es imprescindible implementar mecanismos que permitan la supervisión, intervención y, si es necesario, la desactivación segura de los sistemas que presenten comportamientos no deseados o potencialmente dañinos. Esto incluye la capacidad para reparar o",
+      "cos": 0.67
+     },
+     {
+      "aca": "Los gobiernos deben estar dispuestos a adaptar y basar la política en un análisis exhaustivo de la estructura del mercado, con la promoción de la competencia y la eliminación de barreras de entrada innecesarias, como la burocracia excesiva, como objetivo. 5.1 Estructura del mercado 17 La evidencia sugiere que aprender haciendo es un factor clave para aumentar la eficiencia y, por lo tanto, reducir los gastos generales y, por lo tanto, las tasas de interés.",
+      "politica": "Estos marcos deben ser globales en su alcance pero adaptables a contextos nacionales, permitiendo que cada país ajuste las regulaciones de acuerdo con sus necesidades y valores específicos. La adopción de estándares",
+      "cos": 0.66
+     },
+     {
+      "aca": "Esta obligación de información no solo se limita a entregársela al consumidor a través de sus datos de contacto, sino que además esta debe estar disponible de manera permanente al público en la página de Internet del proveedor de servicios de crédito, y en la línea de atención al cliente o consumidor.",
+      "politica": "Además, los datos personales deben ser manejados con el más alto nivel de seguridad, utilizando tecnologías como el cifrado avanzado para evitar accesos no autorizados y posibles filtraciones.",
+      "cos": 0.6
+     }
+    ]
+   }
   },
   "Incentivos-y-obstaculos-para-la-implementacion-del-Hidrogeno-Verde-en-Costa-Rica": {
-   "politica": "CND-2025-2035",
-   "meses": 19.3,
-   "alineacion": 0.861,
-   "coincidencia": 0.788,
-   "temporalidad": 0.463,
-   "iii": 0.704,
-   "evidencia": [
-    {
-     "aca": "Por lo tanto, la mejor forma de promover las tecnologías de hidrógeno verde es concentrándose en el sector transporte como el primer vector de negocios que incentive la economía del hidrógeno.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.74
-    },
-    {
-     "aca": "Fondo verde para el clima repuesta de Naciones Unidas ante la emergencia Se evaluarán estos y otros documentos con más detenimiento para llegar a una recomendación que permita apoyar la implementación real de proyectos de hidrógeno verde que realmente afecten la matriz energética no renovable.",
-     "politica": "proyectos, movilizaremos inversión privada y cooperación; cuando corresponda, usaremos mecanismos de mercado con integridad ambiental.",
-     "cos": 0.65
-    },
-    {
-     "aca": "Se propone una hoja de ruta que sugiere enfocarse inicialmente en el transporte público, respaldado por fondos no reembolsables para superar barreras tecnológicas. La implementación exitosa requiere una transición del sector público hacia proyectos tangibles, con el liderazgo del MINAE en la ejecución de la estrategia nacional de hidrógeno.",
-     "politica": "• Política de Incentivo al Transporte Público, que contemple subvención del transporte público, regularización servicios especiales, abordaje transporte informal, multimodal, pago electrónico, restricción vehicular, infraestructura exclusiva para el transporte público",
-     "cos": 0.63
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 19.3,
+    "alineacion": 0.861,
+    "coincidencia": 0.788,
+    "temporalidad": 0.463,
+    "iii": 0.704,
+    "evidencia": [
+     {
+      "aca": "Por lo tanto, la mejor forma de promover las tecnologías de hidrógeno verde es concentrándose en el sector transporte como el primer vector de negocios que incentive la economía del hidrógeno.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.74
+     },
+     {
+      "aca": "Fondo verde para el clima repuesta de Naciones Unidas ante la emergencia Se evaluarán estos y otros documentos con más detenimiento para llegar a una recomendación que permita apoyar la implementación real de proyectos de hidrógeno verde que realmente afecten la matriz energética no renovable.",
+      "politica": "proyectos, movilizaremos inversión privada y cooperación; cuando corresponda, usaremos mecanismos de mercado con integridad ambiental.",
+      "cos": 0.65
+     },
+     {
+      "aca": "Se propone una hoja de ruta que sugiere enfocarse inicialmente en el transporte público, respaldado por fondos no reembolsables para superar barreras tecnológicas. La implementación exitosa requiere una transición del sector público hacia proyectos tangibles, con el liderazgo del MINAE en la ejecución de la estrategia nacional de hidrógeno.",
+      "politica": "• Política de Incentivo al Transporte Público, que contemple subvención del transporte público, regularización servicios especiales, abordaje transporte informal, multimodal, pago electrónico, restricción vehicular, infraestructura exclusiva para el transporte público",
+      "cos": 0.63
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 6.6,
+    "alineacion": 0.608,
+    "coincidencia": 0.681,
+    "temporalidad": 0.816,
+    "iii": 0.702,
+    "evidencia": [
+     {
+      "aca": "Establecer una tarifa privilegiada por un periodo de tiempo limitado para que los inversionistas puedan generar planes a corto y mediano plazo. 3.",
+      "politica": "Promover la I+D+i La investigación, el desarrollo y la innovación (I+D+i) en el campo de la IA deben ser fomentados de manera responsable, asegurando que los avances tecnológicos beneficien equitativamente a toda la sociedad, protegiendo siempre la vida humana.",
+      "cos": 0.67
+     },
+     {
+      "aca": "Durante la investigación realizada para este estudio, no se ha encontrado evidencia de que Costa Rica haya aplicado a esta facilidad financiera internacional, por lo que es posible que la mejor forma de iniciar con proyectos de impacto real sea apoyándose en el Fondo Verde para el Clima (GCF).",
+      "politica": "Estos marcos deben ser globales en su alcance pero adaptables a contextos nacionales, permitiendo que cada país ajuste las regulaciones de acuerdo con sus necesidades y valores específicos. La adopción de estándares",
+      "cos": 0.64
+     },
+     {
+      "aca": "La implementación exitosa requiere una transición del sector público hacia proyectos tangibles, con el liderazgo del MINAE en la ejecución de la estrategia nacional de hidrógeno. Además, se destaca la necesidad de colaboración entre entidades como MICITT, RECOPE, CTP, ARESEP, INA y el sistema financiero para investigar tecnologías, cambiar la flota de autobuses y crear vehículos financieros innovadores.",
+      "politica": "Transversales: La ANGD debe liderar el desarrollo y administración de proyectos de IA en el ámbito público, asegurando que los servicios ofrecidos sean seguros, eficientes y estandarizados. Esto incluye la creación de",
+      "cos": 0.62
+     }
+    ]
+   }
   },
   "La-reforma-del-sistema-bancario-en-Costa-Rica.-Acontecimientos-en-las-ultimas-dos-decadas": {
-   "politica": "CND-2025-2035",
-   "meses": 56.9,
-   "alineacion": 0.362,
-   "coincidencia": 0.769,
-   "temporalidad": 0.0,
-   "iii": 0.377,
-   "evidencia": [
-    {
-     "aca": "Precisamente de su seno se plantearon propuestas importantes desde los primeros años de este siglo, para recoger preocupaciones añejas5 sobre la necesidad de la supervisión consolidada, la importancia de avanzar en la nivelación del terreno de juego mediante la creación de un fondo de garantía de depósitos para los intermediarios financieros privados, así como la normativa legal adecuada para la resolución de bancos en problemas.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.64
-    },
-    {
-     "aca": "• Desarrollar un sistema de coberturas cambiarias para permitir a los agentes económicos proteger su actividad productiva principal de variaciones cambiarias. • Avanzar en el novedoso campo de la regulación y supervisión macroprudencial, como enseñanza derivada de la Gran Recesión de 2008-2009, para fortalecer la protección de la estabilidad del sistema financiero.",
-     "politica": "preparación de carteras bancables con debida diligencia; activación de instrumentos financieros (incluidas APP y blended finance) y de mercados de carbono con integridad; fortalecimiento de",
-     "cos": 0.62
-    },
-    {
-     "aca": "2) Un aspecto adicional de transparencia sugerido es el poner a disposición del público los informes periódicos a las autoridades gubernamentales, las actas de las sesiones de junta directiva y documentos conexos, y los informes técnicos internos, incluidas las metodologías utilizadas.",
-     "politica": "Transparencia total: reportaremos avances y resultados, si algo no funciona, se corrige.",
-     "cos": 0.62
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 56.9,
+    "alineacion": 0.362,
+    "coincidencia": 0.769,
+    "temporalidad": 0.0,
+    "iii": 0.377,
+    "evidencia": [
+     {
+      "aca": "Precisamente de su seno se plantearon propuestas importantes desde los primeros años de este siglo, para recoger preocupaciones añejas5 sobre la necesidad de la supervisión consolidada, la importancia de avanzar en la nivelación del terreno de juego mediante la creación de un fondo de garantía de depósitos para los intermediarios financieros privados, así como la normativa legal adecuada para la resolución de bancos en problemas.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.64
+     },
+     {
+      "aca": "• Desarrollar un sistema de coberturas cambiarias para permitir a los agentes económicos proteger su actividad productiva principal de variaciones cambiarias. • Avanzar en el novedoso campo de la regulación y supervisión macroprudencial, como enseñanza derivada de la Gran Recesión de 2008-2009, para fortalecer la protección de la estabilidad del sistema financiero.",
+      "politica": "preparación de carteras bancables con debida diligencia; activación de instrumentos financieros (incluidas APP y blended finance) y de mercados de carbono con integridad; fortalecimiento de",
+      "cos": 0.62
+     },
+     {
+      "aca": "2) Un aspecto adicional de transparencia sugerido es el poner a disposición del público los informes periódicos a las autoridades gubernamentales, las actas de las sesiones de junta directiva y documentos conexos, y los informes técnicos internos, incluidas las metodologías utilizadas.",
+      "politica": "Transparencia total: reportaremos avances y resultados, si algo no funciona, se corrige.",
+      "cos": 0.62
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 44.2,
+    "alineacion": 0.399,
+    "coincidencia": 0.611,
+    "temporalidad": 0.0,
+    "iii": 0.337,
+    "evidencia": [
+     {
+      "aca": "2) Un aspecto adicional de transparencia sugerido es el poner a disposición del público los informes periódicos a las autoridades gubernamentales, las actas de las sesiones de junta directiva y documentos conexos, y los informes técnicos internos, incluidas las metodologías utilizadas.",
+      "politica": "Estos sistemas deben cumplir con requisitos de transparencia y rendición de cuentas, y deben ser sujetos a revisiones periódicas.",
+      "cos": 0.61
+     }
+    ]
+   }
   },
   "Promoción-de-la-competencia-en-beneficio-del-consumidor_avances-y-retos-en-Costa-Rica": {
-   "politica": "CND-2025-2035",
-   "meses": 52.6,
-   "alineacion": 0.476,
-   "coincidencia": 0.712,
-   "temporalidad": 0.0,
-   "iii": 0.396,
-   "evidencia": [
-    {
-     "aca": "Ley de la Autoridad Reguladora de los Servicios Públicos La Ley de la Autoridad Reguladora de los Servicios Públicos (ARESEP) (Ley 7593, 1996) le otorga a esa entidad amplios poderes de regulación sobre las empresas prestadoras de servicios públicos, incluyendo: • Regularlas y fiscalizarlas contable, financiera y técnicamente. • Realizar inspecciones técnicas de las propiedades, plantas y equipos destinados a prestar el servicio público, cuando lo estime conveniente para verificar la calidad, confiabilidad, continuidad, los costos, precios y las tarifas del servicio público.",
-     "politica": "2. Comprobar su viabilidad institucional y regulatoria.",
-     "cos": 0.65
-    },
-    {
-     "aca": "• Realizar inspecciones técnicas de las propiedades, plantas y equipos destinados a prestar el servicio público, cuando lo estime conveniente para verificar la calidad, confiabilidad, continuidad, los costos, precios y las tarifas del servicio público. • Velar por el cumplimiento, por parte de dichas empresas, de las obligaciones en materia tributaria, el pago de las cargas sociales, y el cumplimiento de las leyes laborales.",
-     "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
-     "cos": 0.63
-    },
-    {
-     "aca": "dar a la COPROCOM un marco institucional más sólido que aumente su independencia y sus recursos financieros y humanos",
-     "politica": "(incluidas APP y blended finance) y de mercados de carbono con integridad; fortalecimiento de capacidades y gobernanza; y mecanismos de comunicación pública que sostengan el apoyo social.",
-     "cos": 0.59
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 52.6,
+    "alineacion": 0.476,
+    "coincidencia": 0.712,
+    "temporalidad": 0.0,
+    "iii": 0.396,
+    "evidencia": [
+     {
+      "aca": "Ley de la Autoridad Reguladora de los Servicios Públicos La Ley de la Autoridad Reguladora de los Servicios Públicos (ARESEP) (Ley 7593, 1996) le otorga a esa entidad amplios poderes de regulación sobre las empresas prestadoras de servicios públicos, incluyendo: • Regularlas y fiscalizarlas contable, financiera y técnicamente. • Realizar inspecciones técnicas de las propiedades, plantas y equipos destinados a prestar el servicio público, cuando lo estime conveniente para verificar la calidad, confiabilidad, continuidad, los costos, precios y las tarifas del servicio público.",
+      "politica": "2. Comprobar su viabilidad institucional y regulatoria.",
+      "cos": 0.65
+     },
+     {
+      "aca": "• Realizar inspecciones técnicas de las propiedades, plantas y equipos destinados a prestar el servicio público, cuando lo estime conveniente para verificar la calidad, confiabilidad, continuidad, los costos, precios y las tarifas del servicio público. • Velar por el cumplimiento, por parte de dichas empresas, de las obligaciones en materia tributaria, el pago de las cargas sociales, y el cumplimiento de las leyes laborales.",
+      "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
+      "cos": 0.63
+     },
+     {
+      "aca": "dar a la COPROCOM un marco institucional más sólido que aumente su independencia y sus recursos financieros y humanos",
+      "politica": "(incluidas APP y blended finance) y de mercados de carbono con integridad; fortalecimiento de capacidades y gobernanza; y mecanismos de comunicación pública que sostengan el apoyo social.",
+      "cos": 0.59
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 39.9,
+    "alineacion": 0.559,
+    "coincidencia": 0.674,
+    "temporalidad": 0.0,
+    "iii": 0.411,
+    "evidencia": [
+     {
+      "aca": "Por ello, para organismos con recursos limitados se recomienda usualmente optar por el modelo integrado, pero adoptando internamente determinadas medidas para alcanzar una mayor independencia en la toma de decisiones.",
+      "politica": "Sin embargo, para que la IA cumpla este papel inclusivo, es necesario implementar acciones específicas que aseguren su accesibilidad y adopción en todos los sectores de la sociedad.",
+      "cos": 0.63
+     },
+     {
+      "aca": "Los programas voluntarios de cumplimiento que satisfagan ciertos requisitos se considerarán un atenuante al valorar las sanciones que puede imponer la autoridad como parte de la valoración del criterio de intencionalidad.\b • Inmunidad y reducción de multas.",
+      "politica": "Para garantizar la seguridad y la ciberseguridad, es imprescindible implementar mecanismos que permitan la supervisión, intervención y, si es necesario, la desactivación segura de los sistemas que presenten comportamientos no deseados o potencialmente dañinos. Esto incluye la capacidad para reparar o",
+      "cos": 0.61
+     },
+     {
+      "aca": "Además, se agregan supuestos en los cuales puede terminarse anticipadamente una investigación, ya sea con o sin aceptación de los cargos.\b • Nuevos procedimientos de investigación.",
+      "politica": "Por ejemplo, en el ámbito de la salud, cualquier diagnóstico asistido por IA debe ser revisado y aprobado por un profesional médico antes de informar al paciente. En el sector",
+      "cos": 0.58
+     }
+    ]
+   }
   },
   "Propuestas-para-un-mejor-futuro": {
-   "politica": "CND-2025-2035",
-   "meses": 27.9,
-   "alineacion": 0.716,
-   "coincidencia": 0.831,
-   "temporalidad": 0.224,
-   "iii": 0.59,
-   "evidencia": [
-    {
-     "aca": "No menos importante, dicha institucionalidad debe poder crear los mecanismos de monitoreo, evaluación y rendición de cuentas, que permitan corregir el rumbo, cuando ello se amerite, a través del tiempo.",
-     "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
-     "cos": 0.79
-    },
-    {
-     "aca": "Menciona la necesidad de plantear medidas SECTOR PROPUESTAS PARA UN MEJOR FUTURO • 17 de dinamización de la actividad económica, la generación de empleos y el fortalecimiento de encadenamientos.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.71
-    },
-    {
-     "aca": "Una vez identificadas, se deben coordinar acciones entre las instituciones agropecuarias del sector público y la academia para adoptar los elementos de conocimiento y tecnología necesarios que impulsen su desarrollo.",
-     "politica": "Cumplir la meta es posible, pero solo si se implementa el portafolio completo, se protegen los proyectos críticos y se asegura la integridad de cada tonelada reducida o removida.",
-     "cos": 0.6
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 27.9,
+    "alineacion": 0.716,
+    "coincidencia": 0.831,
+    "temporalidad": 0.224,
+    "iii": 0.59,
+    "evidencia": [
+     {
+      "aca": "No menos importante, dicha institucionalidad debe poder crear los mecanismos de monitoreo, evaluación y rendición de cuentas, que permitan corregir el rumbo, cuando ello se amerite, a través del tiempo.",
+      "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
+      "cos": 0.79
+     },
+     {
+      "aca": "Menciona la necesidad de plantear medidas SECTOR PROPUESTAS PARA UN MEJOR FUTURO • 17 de dinamización de la actividad económica, la generación de empleos y el fortalecimiento de encadenamientos.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.71
+     },
+     {
+      "aca": "Una vez identificadas, se deben coordinar acciones entre las instituciones agropecuarias del sector público y la academia para adoptar los elementos de conocimiento y tecnología necesarios que impulsen su desarrollo.",
+      "politica": "Cumplir la meta es posible, pero solo si se implementa el portafolio completo, se protegen los proyectos críticos y se asegura la integridad de cada tonelada reducida o removida.",
+      "cos": 0.6
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 15.2,
+    "alineacion": 0.852,
+    "coincidencia": 0.799,
+    "temporalidad": 0.577,
+    "iii": 0.743,
+    "evidencia": [
+     {
+      "aca": "No menos importante, dicha institucionalidad debe poder crear los mecanismos de monitoreo, evaluación y rendición de cuentas, que permitan corregir el rumbo, cuando ello se amerite, a través del tiempo.",
+      "politica": "Para garantizar la seguridad y la ciberseguridad, es imprescindible implementar mecanismos que permitan la supervisión, intervención y, si es necesario, la desactivación segura de los sistemas que presenten comportamientos no deseados o potencialmente dañinos. Esto incluye la capacidad para reparar o",
+      "cos": 0.7
+     },
+     {
+      "aca": "Una prioridad particularmente importante, frente a la emergencia de barreras, el proteccionismo y las fragmentaciones regionales, es contribuir al fortalecimiento de un modelo de multilateralismo amplio, que respete la igualdad entre actores nacionales, reduzca las barreras a los intercambios comerciales, financieros y culturales, y sea capaz de generar una adecuada gobernanza de desafíos universales sin fronteras, como los mencionados en el segundo párrafo de esta sección.",
+      "politica": "Estos marcos deben ser globales en su alcance pero adaptables a contextos nacionales, permitiendo que cada país ajuste las regulaciones de acuerdo con sus necesidades y valores específicos. La adopción de estándares",
+      "cos": 0.67
+     },
+     {
+      "aca": "Costa Rica lo ha hecho de manera casuística; es necesario que se convierta en una variable estratégica y que se incorpore como variable sistemática del accionar externo. 4.",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.67
+     }
+    ]
+   }
   },
   "Reciclaje de activos públicos": {
-   "politica": "CND-2025-2035",
-   "meses": 44.6,
-   "alineacion": 0.795,
-   "coincidencia": 0.878,
-   "temporalidad": 0.0,
-   "iii": 0.558,
-   "evidencia": [
-    {
-     "aca": "Promover un marco regulatorio coherente, previsible y eficiente vii.\tGestionar amenazas contra la integridad de procesos",
-     "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
-     "cos": 0.79
-    },
-    {
-     "aca": "Así, por ejemplo, aplicando la optimización de activos a los proyectos de transporte financiados con créditos internacionales (ver Figura 7) se podría recuperar parte de los recursos invertidos y, una vez monetizados, canalizarlos hacia otras necesidades de las comunidades cercanas al proyecto como infraestructura en salud, el sistema de agua potable, el tratamiento de aguas residuales, centros educativos, entre otros. Uno de los países más exitosos en la aplicación de este modelo es Australia, donde los montos monetizados superan los US$30.000 millones (ver Recuadro 1).",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.71
-    },
-    {
-     "aca": "Garantizar una participación transparente de las partes interesadas v.",
-     "politica": "Comunicar este estado de situación de forma clara y transparente facilita el apoyo político y social. Cumplir la meta es posible, pero solo si se",
-     "cos": 0.68
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 44.6,
+    "alineacion": 0.795,
+    "coincidencia": 0.878,
+    "temporalidad": 0.0,
+    "iii": 0.558,
+    "evidencia": [
+     {
+      "aca": "Promover un marco regulatorio coherente, previsible y eficiente vii.\tGestionar amenazas contra la integridad de procesos",
+      "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
+      "cos": 0.79
+     },
+     {
+      "aca": "Así, por ejemplo, aplicando la optimización de activos a los proyectos de transporte financiados con créditos internacionales (ver Figura 7) se podría recuperar parte de los recursos invertidos y, una vez monetizados, canalizarlos hacia otras necesidades de las comunidades cercanas al proyecto como infraestructura en salud, el sistema de agua potable, el tratamiento de aguas residuales, centros educativos, entre otros. Uno de los países más exitosos en la aplicación de este modelo es Australia, donde los montos monetizados superan los US$30.000 millones (ver Recuadro 1).",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.71
+     },
+     {
+      "aca": "Garantizar una participación transparente de las partes interesadas v.",
+      "politica": "Comunicar este estado de situación de forma clara y transparente facilita el apoyo político y social. Cumplir la meta es posible, pero solo si se",
+      "cos": 0.68
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 31.9,
+    "alineacion": 0.64,
+    "coincidencia": 0.801,
+    "temporalidad": 0.113,
+    "iii": 0.518,
+    "evidencia": [
+     {
+      "aca": "También se considera valioso explorar potenciales sinergias entre el sector infraestructura e instituciones como la Coalición Costarricense de Iniciativas de Desarrollo (CINDE) y la Promotora de Comercio Exterior (PROCOMER). Esto permitiría el reposicionamiento de Costa Rica como destino de inversión para la industria de las APP y, por ende, la adopción de las mejores prácticas internacionales y la promoción de procesos licitatorios altamente competitivos.",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.76
+     },
+     {
+      "aca": "Promover un marco regulatorio coherente, previsible y eficiente vii.\tGestionar amenazas contra la integridad de procesos viii.\tPromover la toma de decisiones basada en datos ix.\tGarantizar que el activo desempeña su función durante toda su vida útil",
+      "politica": "Para garantizar la seguridad y la ciberseguridad, es imprescindible implementar mecanismos que permitan la supervisión, intervención y, si es necesario, la desactivación segura de los sistemas que presenten comportamientos no deseados o potencialmente dañinos. Esto incluye la capacidad para reparar o",
+      "cos": 0.74
+     },
+     {
+      "aca": "Leyes y reglamentos 36 9 Academia de Centroamérica RESUMEN EJECUTIVO En este contexto, las mejores prácticas internacionales apuntan hacia la implementación de esquemas de alianza público-privada (APP) que permitan atraer, del sector privado, nuevos recursos financieros y la capacidad de gestión para una mayor eficiencia y calidad de los servicios públicos.",
+      "politica": "Estos marcos deben ser globales en su alcance pero adaptables a contextos nacionales, permitiendo que cada país ajuste las regulaciones de acuerdo con sus necesidades y valores específicos. La adopción de estándares",
+      "cos": 0.67
+     }
+    ]
+   }
   },
   "Regulacion-a-las-comisiones-de-tarjetas-de-pago": {
-   "politica": "CND-2025-2035",
-   "meses": 35.5,
-   "alineacion": 0.186,
-   "coincidencia": 0.693,
-   "temporalidad": 0.014,
-   "iii": 0.298,
-   "evidencia": [
-    {
-     "aca": "Reconocer que los sistemas de pagos son mercados bilaterales en los cuales un lado (usualmente los comerciantes), por lo general, subsidia al otro, lo cual aumenta la efectividad del sistema; • No determinar las comisiones a partir de análisis comparativos, especialmente con respecto a países que cuentan con controles de precios; y • No imponer control de precios sobre tarjetas internacionales.",
-     "politica": "preparación de carteras bancables con debida diligencia; activación de instrumentos financieros (incluidas APP y blended finance) y de mercados de carbono con integridad; fortalecimiento de",
-     "cos": 0.55
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 35.5,
+    "alineacion": 0.186,
+    "coincidencia": 0.693,
+    "temporalidad": 0.014,
+    "iii": 0.298,
+    "evidencia": [
+     {
+      "aca": "Reconocer que los sistemas de pagos son mercados bilaterales en los cuales un lado (usualmente los comerciantes), por lo general, subsidia al otro, lo cual aumenta la efectividad del sistema; • No determinar las comisiones a partir de análisis comparativos, especialmente con respecto a países que cuentan con controles de precios; y • No imponer control de precios sobre tarjetas internacionales.",
+      "politica": "preparación de carteras bancables con debida diligencia; activación de instrumentos financieros (incluidas APP y blended finance) y de mercados de carbono con integridad; fortalecimiento de",
+      "cos": 0.55
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 22.8,
+    "alineacion": 0.289,
+    "coincidencia": 0.624,
+    "temporalidad": 0.366,
+    "iii": 0.426,
+    "evidencia": [
+     {
+      "aca": "REGULACIÓN A LAS COMISIONES DE TARJETAS DE PAGO: mejores prácticas internacionales y lecciones para Costa Rica 6 Con base en la evidencia disponible, las mejores prácticas internacionales conllevan: • En lo posible, permitir que el mercado determine las comisiones de intercambio y de adquirencia",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.6
+     }
+    ]
+   }
   },
   "Retos-y-propuestas-para-el-Sistema-Nacional-de-Salud_Informe-Completo": {
-   "politica": "CND-2025-2035",
-   "meses": 38.3,
-   "alineacion": 0.37,
-   "coincidencia": 0.715,
-   "temporalidad": 0.0,
-   "iii": 0.362,
-   "evidencia": [
-    {
-     "aca": "Séptimo, maximizar las oportunidades que brinda la investigación e innovación, tomando en consideración los siguientes aspectos: dimensión de la oportunidad de negocio, impacto sobre la plataforma actual de servicios, nuevas oportunidades a partir de la 10 plataforma de conocimiento intensivo y base tecnológica, y prototipos de alta definición. En el capítulo 5 se informa brevemente sobre modelos exitosos de acceso a la salud a nivel internacional.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.65
-    },
-    {
-     "aca": "se requiere de una organización de dicho sector que debe plantearse desde la integración real del mismo en las instancias decisorias de la salud, tanto a nivel central (Comisión Intersectorial de Salud), como propiciar una organización estructurada del sector (Cámara de Salud u otras instancias organizativas) para lograr la debida comunicación y objetivos",
-     "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
-     "cos": 0.61
-    },
-    {
-     "aca": "• El desarrollo de los elementos necesarios para el monitoreo remoto de clínicas sincrónicas o asincrónicas59., como por ejemplo, el desarrollo de las políticas, regulaciones, protocolos y requerimientos tanto del tipo de complejidad a tratar como de la disponibilidad de dispositivos tecnológicos en los hogares o equipos portátiles institucionales, así como los elementos tecnológicos requeridos (plataforma tecnológica, acceso etc.). • La ubicación del paciente y los requerimientos de insumos y tecnología según el centro de atención sea institucional o en el hogar.",
-     "politica": "• Construcción paso en Hospital de Alajuela",
-     "cos": 0.59
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 38.3,
+    "alineacion": 0.37,
+    "coincidencia": 0.715,
+    "temporalidad": 0.0,
+    "iii": 0.362,
+    "evidencia": [
+     {
+      "aca": "Séptimo, maximizar las oportunidades que brinda la investigación e innovación, tomando en consideración los siguientes aspectos: dimensión de la oportunidad de negocio, impacto sobre la plataforma actual de servicios, nuevas oportunidades a partir de la 10 plataforma de conocimiento intensivo y base tecnológica, y prototipos de alta definición. En el capítulo 5 se informa brevemente sobre modelos exitosos de acceso a la salud a nivel internacional.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.65
+     },
+     {
+      "aca": "se requiere de una organización de dicho sector que debe plantearse desde la integración real del mismo en las instancias decisorias de la salud, tanto a nivel central (Comisión Intersectorial de Salud), como propiciar una organización estructurada del sector (Cámara de Salud u otras instancias organizativas) para lograr la debida comunicación y objetivos",
+      "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
+      "cos": 0.61
+     },
+     {
+      "aca": "• El desarrollo de los elementos necesarios para el monitoreo remoto de clínicas sincrónicas o asincrónicas59., como por ejemplo, el desarrollo de las políticas, regulaciones, protocolos y requerimientos tanto del tipo de complejidad a tratar como de la disponibilidad de dispositivos tecnológicos en los hogares o equipos portátiles institucionales, así como los elementos tecnológicos requeridos (plataforma tecnológica, acceso etc.). • La ubicación del paciente y los requerimientos de insumos y tecnología según el centro de atención sea institucional o en el hogar.",
+      "politica": "• Construcción paso en Hospital de Alajuela",
+      "cos": 0.59
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 25.6,
+    "alineacion": 0.64,
+    "coincidencia": 0.811,
+    "temporalidad": 0.289,
+    "iii": 0.58,
+    "evidencia": [
+     {
+      "aca": "Séptimo, maximizar las oportunidades que brinda la investigación e innovación, tomando en consideración los siguientes aspectos: dimensión de la oportunidad de negocio, impacto sobre la plataforma actual de servicios, nuevas oportunidades a partir de la 10 plataforma de conocimiento intensivo y base tecnológica, y prototipos de alta definición. En el capítulo 5 se informa brevemente sobre modelos exitosos de acceso a la salud a nivel internacional.",
+      "politica": "No obstante, el país enfrenta desafíos críticos que deben ser abordados con rigurosidad para garantizar un desarrollo de la IA que sea ético, seguro y socialmente beneficioso. Entre estos desafíos se destacan la",
+      "cos": 0.68
+     },
+     {
+      "aca": "Es fundamental que dichas relaciones sean debidamente elaboradas y supervisadas.",
+      "politica": "Es fundamental ofrecer detalles claros sobre las fuentes de datos y los procesos que llevan a las decisiones automatizadas, para que las personas puedan entender y, si es necesario, impugnar estos resultados. Este",
+      "cos": 0.64
+     },
+     {
+      "aca": "En lo más específico, fortalecer los servicios de salud se asocia con, entre otras cosas, el ordenamiento de las funciones al interior del SNS, la centralización de la información clave, el monitoreo adecuado de la calidad de los servicios ofrecidos a la población y una mayor integración de la atención primaria, secundaria y terciaria.",
+      "politica": "Por ejemplo, en el ámbito de la salud, cualquier diagnóstico asistido por IA debe ser revisado y aprobado por un profesional médico antes de informar al paciente. En el sector",
+      "cos": 0.63
+     }
+    ]
+   }
   },
   "SFC_7": {
-   "politica": "CND-2025-2035",
-   "meses": -0.9,
-   "alineacion": 0.433,
-   "coincidencia": 0.827,
-   "temporalidad": 0.0,
-   "iii": 0.42,
-   "evidencia": [
-    {
-     "aca": "Sin embargo, sí se requiere un esquema más robusto, independiente, transparente y basado en criterios técnicos verificables que asegure que los nombramientos respondan al perfil que demanda la gestión prudencial y no a consideraciones políticas o internas de cada institución.",
-     "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
-     "cos": 0.68
-    },
-    {
-     "aca": "Hacia adelante será necesario profundizar en el análisis del resto del ecosistema financiero como la intermediación bursátil, los fondos de inversión, los seguros y los fondos de pensiones, segmentos que también condicionan la estabilidad y el desarrollo del sistema en su conjunto.",
-     "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
-     "cos": 0.64
-    },
-    {
-     "aca": "Asimismo, es clave consolidar una coordinación más fluida entre el CONASSIF, el BCCR y el Fondo de Garantía de Depósitos, así como reforzar la comunicación con el público para el manejo de la confianza en momentos de intervención.",
-     "politica": "(incluidas APP y blended finance) y de mercados de carbono con integridad; fortalecimiento de capacidades y gobernanza; y mecanismos de comunicación pública que sostengan el apoyo social.",
-     "cos": 0.59
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": -0.9,
+    "alineacion": 0.433,
+    "coincidencia": 0.827,
+    "temporalidad": 0.0,
+    "iii": 0.42,
+    "evidencia": [
+     {
+      "aca": "Sin embargo, sí se requiere un esquema más robusto, independiente, transparente y basado en criterios técnicos verificables que asegure que los nombramientos respondan al perfil que demanda la gestión prudencial y no a consideraciones políticas o internas de cada institución.",
+      "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
+      "cos": 0.68
+     },
+     {
+      "aca": "Hacia adelante será necesario profundizar en el análisis del resto del ecosistema financiero como la intermediación bursátil, los fondos de inversión, los seguros y los fondos de pensiones, segmentos que también condicionan la estabilidad y el desarrollo del sistema en su conjunto.",
+      "politica": "Se proponen arreglos institucionales y financieros que habiliten inversiones en infraestructura resiliente, gestión del riesgo, protección de ecosistemas y servicios, acceso al agua y seguridad alimentaria, integrando información climática y mecanismos de alerta temprana. La articulación con políticas nacionales —Plan Nacional de",
+      "cos": 0.64
+     },
+     {
+      "aca": "Asimismo, es clave consolidar una coordinación más fluida entre el CONASSIF, el BCCR y el Fondo de Garantía de Depósitos, así como reforzar la comunicación con el público para el manejo de la confianza en momentos de intervención.",
+      "politica": "(incluidas APP y blended finance) y de mercados de carbono con integridad; fortalecimiento de capacidades y gobernanza; y mecanismos de comunicación pública que sostengan el apoyo social.",
+      "cos": 0.59
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": -13.5,
+    "alineacion": 0.617,
+    "coincidencia": 0.778,
+    "temporalidad": 0.0,
+    "iii": 0.465,
+    "evidencia": [
+     {
+      "aca": "En el caso de Costa Rica, es conveniente revisar si el 37. Working Paper No. 859. 38. Haubrich y Young (2019) EVOLUCIÓN, DESAFÍOS Y PERSPECTIVAS 2014-2024 73 | nivel actual de suficiencia patrimonial se encuentra dentro de un rango óptimo o si, por el contrario, existe un “exceso de cautela” que puede estar limitando tanto el crédito como la rentabilidad del sistema.",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.68
+     },
+     {
+      "aca": "Sin embargo, sí se requiere un esquema más robusto, independiente, transparente y basado en criterios técnicos verificables que asegure que los nombramientos respondan al perfil que demanda la gestión prudencial y no a consideraciones políticas o internas de cada institución.",
+      "politica": "En el sector judicial, los algoritmos que asisten en la toma de decisiones deben ser transparentes y estar sujetos a revisión por parte de jueces y otros oficiales de justicia para garantizar que las decisiones finales sean justas y equitativas.",
+      "cos": 0.62
+     }
+    ]
+   }
   },
   "Transitando-a-la-circularidad": {
-   "politica": "CND-2025-2035",
-   "meses": 34.4,
-   "alineacion": 0.739,
-   "coincidencia": 0.757,
-   "temporalidad": 0.045,
-   "iii": 0.514,
-   "evidencia": [
-    {
-     "aca": "Recomendación: consolidar los sistemas de información según lo indicado anteriormente.",
-     "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
-     "cos": 0.63
-    },
-    {
-     "aca": "la comunicación y concientización asertiva a la población, la definición de competencias institucionales y el cambio de paradigma desde una economía lineal hacia una economía circular (sostenibilidad).",
-     "politica": "capacidades y gobernanza; y mecanismos de comunicación pública que sostengan el apoyo social.",
-     "cos": 0.62
-    },
-    {
-     "aca": "• Establece la obligación de generadores y gestores en el manejo de la prevención y remediación de la contaminación y será el Ministerio de Salud el que deberá emitir la declaración de suelos contaminados. • Define infracciones administrativas y sanciones, un mecanismo de inspección y delitos ante el incumplimiento de la ley.",
-     "politica": "2. Comprobar su viabilidad institucional y regulatoria.",
-     "cos": 0.6
-    }
-   ]
+   "CND-2025-2035": {
+    "politica": "CND-2025-2035",
+    "meses": 34.4,
+    "alineacion": 0.739,
+    "coincidencia": 0.757,
+    "temporalidad": 0.045,
+    "iii": 0.514,
+    "evidencia": [
+     {
+      "aca": "Recomendación: consolidar los sistemas de información según lo indicado anteriormente.",
+      "politica": "se requieren habilitadores normativos, coordinación institucional y una ejecución disciplinada por sectores, con seguimiento transparente para evitar retrocesos",
+      "cos": 0.63
+     },
+     {
+      "aca": "la comunicación y concientización asertiva a la población, la definición de competencias institucionales y el cambio de paradigma desde una economía lineal hacia una economía circular (sostenibilidad).",
+      "politica": "capacidades y gobernanza; y mecanismos de comunicación pública que sostengan el apoyo social.",
+      "cos": 0.62
+     },
+     {
+      "aca": "• Establece la obligación de generadores y gestores en el manejo de la prevención y remediación de la contaminación y será el Ministerio de Salud el que deberá emitir la declaración de suelos contaminados. • Define infracciones administrativas y sanciones, un mecanismo de inspección y delitos ante el incumplimiento de la ley.",
+      "politica": "2. Comprobar su viabilidad institucional y regulatoria.",
+      "cos": 0.6
+     }
+    ]
+   },
+   "ENIA-2024-2027": {
+    "politica": "ENIA-2024-2027",
+    "meses": 21.7,
+    "alineacion": 0.394,
+    "coincidencia": 0.74,
+    "temporalidad": 0.398,
+    "iii": 0.51,
+    "evidencia": [
+     {
+      "aca": "Recomendación: mantener los estándares normativos y ampliarlos, en lo posible, a compromisos internacionales asumidos (o por asumir) por parte del país.",
+      "politica": "Estos marcos deben ser globales en su alcance pero adaptables a contextos nacionales, permitiendo que cada país ajuste las regulaciones de acuerdo con sus necesidades y valores específicos. La adopción de estándares",
+      "cos": 0.81
+     },
+     {
+      "aca": "De lo expuesto anteriormente, se deriva la necesidad de analizar los datos precisos de Costa Rica, con el fin de contar con una base sólida para realizar recomendaciones que permitan fortalecer las políticas públicas, en áreas como: la meta de recolección del 100% de los desechos",
+      "politica": "Teniendo en cuenta las oportunidades, Costa Rica debe enfrentar riesgos como la posible sustitución de empleos debido a la automatización, la protección de datos sensibles y la creciente amenaza de ciberataques a infraestructuras críticas. Además, la percepción de",
+      "cos": 0.68
+     },
+     {
+      "aca": "Recomendación: incorporar en los sistemas integrales de gestión de la información los datos relacionados con el manejo de residuos hospitalarios, así como los agentes de recolección de los mismos, y los mecanismos de registro.",
+      "politica": "Además, se debe fortalecer la integridad de la información desarrollando marcos de acceso a los datos que sean seguros, sostenibles y que respeten la privacidad.",
+      "cos": 0.68
+     }
+    ]
+   }
   }
  }
 }

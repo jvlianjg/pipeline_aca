@@ -153,20 +153,20 @@ def api_proposals(doc_id):
 
 @app.route("/api/policy-link/<path:doc_id>")
 def api_policy_link(doc_id):
-    """Vínculo real publicación×política (componentes e evidencia textual)."""
+    """Vínculos reales publicación×política, ordenados por III (desc)."""
     path = PROCESSED_DIR / "policy_links.json"
     if not path.exists():
-        return jsonify(None)
+        return jsonify([])
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
-        return jsonify(None)
-    link = data.get("links", {}).get(doc_id)
-    if link is not None:
-        meta = data.get("politicas", {}).get(link.get("politica", ""), {})
-        if meta:
-            link = {**meta, **link}
-    return jsonify(link)
+        return jsonify([])
+    por_pol = data.get("links", {}).get(doc_id, {})
+    out = []
+    for pid, link in sorted(por_pol.items(), key=lambda kv: -kv[1].get("iii", 0)):
+        meta = data.get("politicas", {}).get(pid, {})
+        out.append({**meta, **link})
+    return jsonify(out)
 
 
 @app.route("/api/ranking")

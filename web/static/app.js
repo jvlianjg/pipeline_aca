@@ -290,10 +290,10 @@ async function viewAnalisis() {
     detail.innerHTML = loading;
     const props = await api(`proposals/${encodeURIComponent(d.doc_id)}`);
     if (token !== detailToken) return;  // el usuario ya seleccionó otra publicación
-    let plink = null;
+    let plinks = [];
     try {
-      plink = await api(`policy-link/${encodeURIComponent(d.doc_id)}`);
-    } catch { /* sin vínculo político todavía */ }
+      plinks = (await api(`policy-link/${encodeURIComponent(d.doc_id)}`)) || [];
+    } catch { /* sin vínculos políticos todavía */ }
 
     const n = ranking.length;
     const ali = rowMean(mAli, d.doc_id);
@@ -366,33 +366,32 @@ async function viewAnalisis() {
       return card;
     })();
 
-    /* Coincidencia REAL con política (piloto NDC). */
-    const policyCard = plink ? el("div", { class: "md-card" },
+    /* Coincidencias REALES con políticas (una tarjeta por política). */
+    const policyCard = (pl) => el("div", { class: "md-card" },
       el("h3", { class: "md-card__h" }, "Coincidencia de Política ",
         el("span", { class: "badge badge--real" }, "real")),
       el("div", { class: "policy-item" },
-        el("p", { class: "policy-item__name" }, plink.nombre || plink.politica),
+        el("p", { class: "policy-item__name" }, pl.nombre || pl.politica),
         el("p", { class: "muted policy-item__meta" },
-          `${plink.institucion} · ${plink.tipo} · ${fmtDate(plink.fecha)}`)),
-      metric("Alineación temática (escala del corpus)", plink.alineacion, C.primary, pct(plink.alineacion, 0)),
-      metric("Coincidencia de propuestas", plink.coincidencia, C.teal, pct(plink.coincidencia, 0)),
-      metric("Temporalidad (36 meses)", plink.temporalidad, C.secondary,
-        plink.temporalidad === 0 ? "fuera de ventana" : `${plink.meses} meses`),
+          `${pl.institucion} · ${pl.tipo} · ${fmtDate(pl.fecha)}`)),
+      metric("Alineación temática (escala del corpus)", pl.alineacion, C.primary, pct(pl.alineacion, 0)),
+      metric("Coincidencia de propuestas", pl.coincidencia, C.teal, pct(pl.coincidencia, 0)),
+      metric("Temporalidad (36 meses)", pl.temporalidad, C.secondary,
+        pl.temporalidad === 0 ? "fuera de ventana" : `${pl.meses} meses`),
       el("div", { class: "score-final" },
         el("div", { class: "score-final__row" },
           el("span", {}, "III publicación × política"),
-          el("span", { class: "score-final__value" }, pct(plink.iii, 1))),
+          el("span", { class: "score-final__value" }, pct(pl.iii, 1))),
         el("p", { class: "muted score-final__note" },
-          "Alineación y coincidencia reescaladas con los extremos empíricos del " +
-          "corpus de publicaciones (v1.1); temporalidad asimétrica.")),
-      ...(plink.evidencia && plink.evidencia.length ? [el("div", { class: "evidence" },
+          `${pl.metodo}. Alineación y coincidencia reescaladas con los extremos ` +
+          "empíricos del corpus (v1.1); temporalidad asimétrica.")),
+      ...(pl.evidencia && pl.evidencia.length ? [el("div", { class: "evidence" },
         el("p", { class: "evidence__label" }, "Evidencia textual (real)"),
-        ...plink.evidencia.slice(0, 2).map((e) => el("div", { style: "margin:.55rem 0" },
+        ...pl.evidencia.slice(0, 2).map((e) => el("div", { style: "margin:.55rem 0" },
           el("p", { class: "evidence__text" }, `ACA: «${e.aca}»`),
           el("p", { class: "evidence__text" }, `Política: «${e.politica}»`),
           el("p", { class: "muted", style: "font-size:.72rem;margin:.15rem 0 0" },
-            `coincidencia semántica ${e.cos}`))))] : []))
-      : null;
+            `coincidencia semántica ${e.cos}`))))] : []));
 
     /* Ficha de la publicación (datos reales). */
     const cards = [
@@ -421,7 +420,7 @@ async function viewAnalisis() {
 
       revCard,
 
-      ...(policyCard ? [policyCard] : []),
+      ...plinks.map(policyCard),
     ];
 
     /* Coincidencias de política (mock, con su badge). */
